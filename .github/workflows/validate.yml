@@ -1,0 +1,25 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate schema and vocabularies
+        run: python3 scripts/validate.py
+      - name: Rebuild master and check it is committed
+        run: |
+          python3 scripts/build_master.py
+          if ! git diff --quiet dist/indicators.csv; then
+            echo "::error::dist/indicators.csv is out of date. Run scripts/build_master.py and commit."
+            git --no-pager diff --stat dist/indicators.csv
+            exit 1
+          fi
