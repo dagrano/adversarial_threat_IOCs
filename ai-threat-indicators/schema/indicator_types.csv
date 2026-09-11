@@ -1,0 +1,25 @@
+value,description
+domain,Fully-qualified domain name (defang with [.])
+url,Full URL (defang scheme/host)
+ipv4,IPv4 address (defang with [.])
+ipv6,IPv6 address
+sha256,SHA-256 file hash
+sha1,SHA-1 file hash
+md5,MD5 file hash
+email,Email address (defang with [.])
+filename,Malicious/associated filename or executable
+onion_domain,Tor hidden-service .onion address
+crypto_wallet,Cryptocurrency wallet address
+malware,Named malware family / tool
+tool,Named open-source or commodity tool used by the actor
+persona,Fake identity / persona / front company name
+social_account,Social media handle or account identifier
+telegram,Telegram channel/bot/group/user identifier
+github,GitHub account or repository
+android_package_name,Android app package identifier (com.example.app)
+ios_app_id,Apple App Store application identifier
+forum,Criminal/underground forum
+radio,Broadcast/radio asset used by an influence operation
+asset_count,Reported count of assets (e.g. "37 Accounts") from a source table
+behavior,Behavioral indicator / free-text observation from a source table
+ttp,Tactic/technique/procedure (see ttp_framework)

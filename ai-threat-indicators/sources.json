@@ -1,0 +1,38 @@
+{
+  "_comment": "Manifest of known threat reports from the three AI providers. status: ingested = normalized into data/; pending = published but not yet extracted. The monthly check compares live provider listings against this file.",
+  "providers": {
+    "anthropic": {
+      "listing_urls": [
+        "https://www.anthropic.com/news",
+        "https://www.anthropic.com/transparency"
+      ],
+      "reports": [
+        {"date": "2025-03-01", "title": "Detecting and Countering Malicious Uses of Claude: March 2025", "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025", "status": "ingested"},
+        {"date": "2025-08-27", "title": "Detecting and countering misuse of AI: August 2025", "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025", "status": "ingested"},
+        {"date": "2026-09-10", "title": "Detecting and countering misuse of AI: September 2026", "url": "https://www.anthropic.com/threat-intelligence-report-september-2026", "status": "ingested"}
+      ]
+    },
+    "openai": {
+      "listing_urls": [
+        "https://openai.com/global-affairs/",
+        "https://openai.com/index/disrupting-malicious-ai-uses/"
+      ],
+      "reports": [
+        {"date": "2024-02-14", "title": "Disrupting malicious uses of AI by state-affiliated threat actors", "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors/", "status": "pending"},
+        {"date": "2024-05-30", "title": "AI and covert influence operations: latest trends (May 2024)", "url": "https://openai.com/index/disrupting-deceptive-uses-of-AI-by-covert-influence-operations/", "status": "pending"},
+        {"date": "2024-10-09", "title": "Influence and cyber operations: an update (October 2024)", "url": "https://openai.com/index/influence-and-cyber-operations-an-update/", "status": "pending"},
+        {"date": "2025-02-21", "title": "Disrupting malicious uses of AI: February 2025", "url": "https://openai.com/global-affairs/disrupting-malicious-uses-of-our-models/", "status": "pending"},
+        {"date": "2025-06-05", "title": "Disrupting malicious uses of AI: June 2025", "url": "https://cdn.openai.com/threat-intelligence-reports/5f73af09-a3a3-4a55-992e-069237681620/disrupting-malicious-uses-of-ai-june-2025.pdf", "status": "ingested"},
+        {"date": "2025-10-07", "title": "Disrupting malicious uses of AI: October 2025", "url": "https://cdn.openai.com/threat-intelligence-reports/7d662b68-952f-4dfd-a2f2-fe55b041cc4a/disrupting-malicious-uses-of-ai-october-2025.pdf", "status": "ingested"}
+      ]
+    },
+    "meta": {
+      "listing_urls": [
+        "https://api.github.com/repos/facebook/threat-research/git/trees/main?recursive=1"
+      ],
+      "reports": [
+        {"date": "various", "title": "facebook/threat-research repository (full CSV history)", "url": "https://github.com/facebook/threat-research", "status": "ingested", "note": "All 68 CSV files normalized via scripts/normalize_meta.py"}
+      ]
+    }
+  }
+}

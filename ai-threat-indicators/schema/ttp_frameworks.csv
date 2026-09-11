@@ -1,0 +1,5 @@
+value,description
+mitre_attack,MITRE ATT&CK (enterprise/mobile) technique reference
+mitre_atlas,MITRE ATLAS (adversarial threats to AI systems) technique reference
+meta_kill_chain,Meta Online Operations Kill Chain phase/technique
+none,No framework mapping (free-text or not applicable)
