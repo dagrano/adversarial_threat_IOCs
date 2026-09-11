@@ -1,0 +1,8 @@
+value,description
+nation_state,State or state-affiliated actor (APT, government-linked)
+cybercriminal,Financially motivated criminal actor
+influence_operation,Coordinated inauthentic behavior / information operation
+fraud,Scam / fraud operation (task scams, romance scams, employment fraud)
+hacktivist,Ideologically motivated actor
+threat_actor,Generic/unclassified threat actor
+unknown,Not stated by the source

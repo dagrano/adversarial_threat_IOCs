@@ -1,0 +1,36 @@
+AI-Provider Threat Indicator Corpus
+====================================
+
+This repository aggregates and normalizes threat indicators published by
+third parties. The corpus structure, schema, and scripts are licensed under
+the MIT License (see LICENSE). The underlying indicators are the work of their
+respective publishers and are redistributed here for defensive security
+research, with per-row attribution via the `source_url` column.
+
+Attributions
+------------
+
+Meta Platforms, Inc.
+  Source: https://github.com/facebook/threat-research  (MIT License)
+  Copyright (c) Meta Platforms, Inc. and its affiliates.
+  Data from that repository is redistributed under the MIT License. This
+  copyright notice is retained in accordance with its terms. Meta notes that
+  the sharing of these operations' links, or engaging with them, is by itself
+  insufficient to attribute accounts to a campaign without corroborating
+  evidence.
+
+Anthropic
+  Source: "Detecting and Countering Malicious Uses of Claude" / "Detecting and
+  countering misuse of AI" report series (https://www.anthropic.com).
+  Indicators are factual data extracted from Anthropic's published reports and
+  attributed via source_url. Report text remains Anthropic's copyright.
+
+OpenAI
+  Source: "Disrupting malicious uses of AI" report series
+  (https://openai.com). Indicators are factual data extracted from OpenAI's
+  published reports and attributed via source_url. Report text remains
+  OpenAI's copyright.
+
+Nothing in this repository asserts ownership over the underlying facts or the
+source publishers' reports. Indicators are provided for research and defensive
+use and should be independently verified before operational enforcement.
