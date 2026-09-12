@@ -2,6 +2,8 @@ value,status,description
 meta,active,Meta Adversarial Threat Reports + facebook/threat-research repo
 openai,active,OpenAI "Disrupting malicious uses of AI" report series
 anthropic,active,Anthropic threat intelligence / misuse report series
-google,planned,"Google / Mandiant / TAG threat reporting (not yet ingested)"
-tiktok,planned,"TikTok covert-influence-operation reporting (not yet ingested)"
+google,active,"Google Threat Intelligence Group (GTIG / TAG / Mandiant) AI-misuse reporting"
+tiktok,active,"TikTok Covert Influence Operations transparency disclosures"
+x,active,"X (Twitter) state-linked information operations archive (account-level, historical)"
+mandiant,planned,"Mandiant classic APT IOC catalog (mandiant/iocs + blog appendices) - not yet ingested"
 osint,planned,"Vetted open-source / security-vendor investigations (not yet ingested)"

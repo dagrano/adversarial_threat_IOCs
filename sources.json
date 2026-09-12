@@ -1,5 +1,5 @@
 {
-  "_comment": "Manifest of known threat reports from the three AI providers. status: ingested = normalized into data/; pending = published but not yet extracted. The monthly check compares live provider listings against this file.",
+  "_comment": "Manifest of known threat reports per provider. status: ingested = normalized into data/; pending = published but not yet extracted. The monthly check compares live provider listings against this file.",
   "providers": {
     "anthropic": {
       "listing_urls": [
@@ -32,6 +32,36 @@
       ],
       "reports": [
         {"date": "various", "title": "facebook/threat-research repository (full CSV history)", "url": "https://github.com/facebook/threat-research", "status": "ingested", "note": "All 68 CSV files normalized via scripts/normalize_meta.py"}
+      ]
+    },
+    "google": {
+      "listing_urls": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/"
+      ],
+      "reports": [
+        {"date": "2025-01-29", "title": "Adversarial Misuse of Generative AI (GTIG)", "url": "https://services.google.com/fh/files/misc/adversarial-misuse-generative-ai.pdf", "status": "ingested"},
+        {"date": "2026-02-12", "title": "GTIG AI Threat Tracker", "url": "https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use", "status": "ingested"}
+      ]
+    },
+    "tiktok": {
+      "listing_urls": [
+        "https://www.tiktok.com/transparency/en/covert-influence-operations",
+        "https://newsroom.tiktok.com/en-us"
+      ],
+      "reports": [
+        {"date": "2024-05-23", "title": "TikTok Covert Influence Operations disclosure (Jan-Apr 2024)", "url": "https://newsroom.tiktok.com/en-us/strengthening-our-approach-to-countering-influence-attempts", "status": "partial", "note": "Aggregate + named examples only; per-network detail is in TikTok's JS transparency center and needs manual/rendered extraction."}
+      ]
+    },
+    "x": {
+      "listing_urls": [
+        "https://transparency.twitter.com/en/reports/moderation-research.html"
+      ],
+      "reports": [
+        {"date": "2018-10-17", "title": "X/Twitter state-linked IO archive (Oct 2018)", "url": "https://blog.x.com/en_us/topics/company/2019/information-ops-on-twitter", "status": "ingested", "note": "Account-level attribution only; no tweet content"},
+        {"date": "2019-06-13", "title": "X/Twitter state-linked IO archive (Jun 2019)", "url": "https://blog.x.com/en_us/topics/company/2019/information-ops-on-twitter", "status": "ingested"},
+        {"date": "2019-09-20", "title": "X/Twitter state-linked IO archive (Aug-Sep 2019)", "url": "https://blog.x.com/en_us/topics/company/2019/info-ops-disclosure-data-september-2019", "status": "ingested"},
+        {"date": "2020-06-11", "title": "X/Twitter state-linked IO archive (2020)", "url": "https://blog.x.com/en_us/topics/company/2020/disclosing-removed-networks-to-our-archive-of-state-linked-information", "status": "ingested"},
+        {"date": "2021-12-02", "title": "X/Twitter state-linked IO archive (Dec 2021)", "url": "https://blog.x.com/en_us/topics/company/2021/disclosing-state-linked-information-operations-we-ve-removed", "status": "ingested", "note": "Post-2021 disclosures effectively discontinued; earlier 2020/2021 batches may still be added"}
       ]
     }
   }
