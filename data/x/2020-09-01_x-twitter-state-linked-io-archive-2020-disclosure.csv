@@ -1,0 +1,2 @@
+actor,actor_type,source_provider,source_report,report_date,source_url,indicator_type,indicator_value,country,target_country,target_sector,ttp,ttp_framework,confidence,description,date_added
+Russia IO network (5 accounts),influence_operation,x,X/Twitter state-linked IO archive (2020 disclosure),2020-09-01,https://blog.x.com/en_us/topics/company/2020/disclosing-removed-networks-to-our-archive-of-state-linked-information,asset_count,5 accounts,Russia,,,,none,,,2026-09-12

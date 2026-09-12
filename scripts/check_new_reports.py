@@ -98,8 +98,11 @@ def main():
     with open(os.path.join(ROOT, "sources.json"), encoding="utf-8") as fh:
         src = json.load(fh)["providers"]
     check_meta()
-    check_lab("anthropic", src["anthropic"])
-    check_lab("openai", src["openai"])
+    # every provider except meta (which has its own GitHub-tree check)
+    for name, data in src.items():
+        if name == "meta":
+            continue
+        check_lab(name, data)
     print("\nDone. Ingest anything new, update sources.json status, "
           "then run build_master.py + validate.py.")
 
