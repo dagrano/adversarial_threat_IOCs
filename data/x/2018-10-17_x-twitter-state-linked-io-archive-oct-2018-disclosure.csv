@@ -1,0 +1,3 @@
+actor,actor_type,source_provider,source_report,report_date,source_url,indicator_type,indicator_value,country,target_country,target_sector,ttp,ttp_framework,confidence,description,date_added
+Internet Research Agency (IRA),influence_operation,x,X/Twitter state-linked IO archive (Oct 2018 disclosure),2018-10-17,https://blog.x.com/en_us/topics/company/2019/information-ops-on-twitter,asset_count,3841 accounts,Russia,,,,none,,Original Oct 2018 archive; figure widely cited,2026-09-12
+Iran IO network,influence_operation,x,X/Twitter state-linked IO archive (Oct 2018 disclosure),2018-10-17,https://blog.x.com/en_us/topics/company/2019/information-ops-on-twitter,asset_count,770 accounts,Iran,,,,none,,Original Oct 2018 archive; figure widely cited,2026-09-12
