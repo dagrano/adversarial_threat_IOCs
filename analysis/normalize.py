@@ -31,6 +31,25 @@ CLASS = {
 
 _SCHEME = re.compile(r"^[a-z][a-z0-9+.\-]*://", re.I)
 
+import os as _os
+
+
+def load_stoplist(path=None):
+    """Benign shared platform hosts (analysis/stoplist.txt) — not attributable
+    infrastructure. Used by overlap.py and linked_ops.py to drop noise."""
+    path = path or _os.path.join(_os.path.dirname(_os.path.abspath(__file__)),
+                                 "stoplist.txt")
+    hosts = set()
+    if _os.path.exists(path):
+        for line in open(path, encoding="utf-8"):
+            line = line.strip()
+            if line and not line.startswith("#"):
+                hosts.add(line.lower())
+    return hosts
+
+
+STOPLIST = load_stoplist()
+
 
 def refang(s: str) -> str:
     """Undo common defanging so values compare equal to their live form."""

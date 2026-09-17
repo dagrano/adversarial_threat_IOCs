@@ -3,14 +3,14 @@ SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,7719,15,954
 LABEL:tiktok-cio-takedowns-15-operations-jan-apr,"Tiktok Cio Takedowns (15 Operations, Jan-Apr )",,6002,,
 LABEL:china-based-cib-network,China Based Cib Network,China,5455,57,145
 LABEL:iran-io-sets,Iran Io ( Sets),Iran,4779,,
-LABEL:prc-hong-kong-network,Prc/Hong Kong Network,,4301,,
+LABEL:prc-hong-kong-network,Prc/Hong Kong Network,China,4301,,
 LABEL:uae-network-qatar-yemen-targeting,Uae Network (Qatar/Yemen Targeting),United Arab Emirates,4248,,
 IRA,Internet Research Agency,Russia,3861,,
-LABEL:uyghur-narrative-network,Uyghur-Narrative Network,,2048,,
+LABEL:uyghur-narrative-network,Uyghur-Narrative Network,China,2048,,
 LABEL:ukraine-based-cib-network,Ukraine Based Cib Network,Ukraine,1731,2,5
 LABEL:moldova-madagascar-targeting-cib-network,Moldova & Madagascar Targeting Cib Network,Moldova,1327,1,80
 LABEL:iran-based-cib-network,Iran Based Cib Network,Iran,1247,9,49
-LABEL:pais-alliance-network,Pais Alliance Network,,1019,,
+LABEL:pais-alliance-network,Pais Alliance Network,Ecuador,1019,,
 LABEL:thailand-io-network,Thailand Io Network,Thailand,926,,
 LABEL:iran-io-network,Iran Io Network,Iran,874,,
 LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,398,10,399
@@ -18,23 +18,23 @@ LABEL:romania-based-cib-network,Romania Based Cib Network,Romania,660,,14
 LABEL:israel-based-cib-network,Israel Based Cib Network,Israel,542,1,11
 LABEL:cuba-io-network,Cuba Io Network,Cuba,526,,
 LABEL:myanmar-based-cib-network,Myanmar Based Cib Network,Myanmar,381,19,88
-LABEL:pro-museveni-network,Pro-Museveni Network,,418,,
+LABEL:pro-museveni-network,Pro-Museveni Network,Uganda,418,,
 LABEL:t-rkiye-based-cib-network,Türkiye-Based Cib Network,Turkey,126,109,86
 LABEL:togo-burkina-faso-based-cib-network,Togo Burkina Faso-Based Cib Network,Togo,171,,142
-LABEL:government-narrative-network,Government-Narrative Network,,277,,
-LABEL:government-support-network,Government-Support Network,,276,,
+LABEL:government-narrative-network,Government-Narrative Network,Venezuela,277,,
+LABEL:government-support-network,Government-Support Network,Mexico,276,,
 LABEL:dotdev-uae-egypt,Dotdev (Uae & Egypt),United Arab Emirates,271,,
-LABEL:fichuatanzania-targeting-network,Fichuatanzania-Targeting Network,,268,,
-LABEL:partido-popular-network,Partido Popular Network,,259,,
+LABEL:fichuatanzania-targeting-network,Fichuatanzania-Targeting Network,Tanzania,268,,
+LABEL:partido-popular-network,Partido Popular Network,Spain,259,,
 LABEL:vietnam-based-cib-network,Vietnam Based Cib Network,Vietnam,161,,65
 LABEL:croatia-based-cib-network,Croatia Based Cib Network,Croatia,111,,39
 LABEL:bangladesh-based-cib-network,Bangladesh Based Cib Network,Bangladesh,50,,98
-LABEL:catalan-independence-network,Catalan Independence Network,,130,,
-LABEL:us-based-cib-network,Us-Based Cib Network,,99,12,16
+LABEL:catalan-independence-network,Catalan Independence Network,Spain,130,,
+LABEL:us-based-cib-network,Us-Based Cib Network,United States,99,12,16
 LABEL:georgia-based-cib-network,Georgia-Based Cib Network,Georgia,84,9,27
 LABEL:poland-based-cib-network,Poland Based Cib Network,Poland,56,23,36
-LABEL:changyu-culture-network,Changyu Culture Network,,112,,
-LABEL:venezuela-us-based-cib-network,Venezuela Us-Based Cib Network,Venezuela,21,,88
+LABEL:changyu-culture-network,Changyu Culture Network,China,112,,
+LABEL:venezuela-us-based-cib-network,Venezuela Us-Based Cib Network,United States,21,,88
 LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,46,8,29
 LABEL:ghana-based-cib-network,Ghana Based Cib Network,Ghana,75,,1
 LABEL:t-rkiye-iran-based-cib-network,Türkiye Iran-Based Cib Network,Iran,29,,21
@@ -43,7 +43,7 @@ LABEL:pakistan-based-cib-network,Pakistan Based Cib Network,Pakistan,37,,8
 LABEL:belarus-based-cib-network,Belarus Based Cib Network,Belarus,25,,12
 LABEL:lebanon-based-cib-network,Lebanon Based Cib Network,Lebanon,21,,15
 LABEL:venezuela-commercial-network,Venezuela Commercial Network,Venezuela,33,,
-LABEL:saudi-io-network,Saudi Io Network,,33,,
+LABEL:saudi-io-network,Saudi Io Network,Saudi Arabia,33,,
 LABEL:benin-based-cib-network,Benin Based Cib Network,Benin,16,,6
-LABEL:saudi-state-media-accounts,Saudi State-Media Accounts,,6,,
+LABEL:saudi-state-media-accounts,Saudi State-Media Accounts,Saudi Arabia,6,,
 LABEL:russia-io-network-accounts,Russia Io Network ( Accounts),Russia,5,,

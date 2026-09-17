@@ -52,10 +52,13 @@ def build():
             pm = parse_metric(r["indicator_value"])
             if pm:
                 mn, mu = pm
+        # origin country: resolved from actor string, else the corpus's own
+        # country column (authoritative for the row), else blank.
+        country = a["country"] or r.get("country", "").strip()
         row = dict(r)
         row.update(ind_class=c["class"], ind_key=c["key"], ind_host=c["host"],
                    actor_id=a["canonical_id"], actor_name=a["canonical_name"],
-                   actor_country=a["country"], actor_is_named=a["is_named"],
+                   actor_country=country, actor_is_named=a["is_named"],
                    metric_n=mn, metric_unit=mu)
         out.append(row)
     os.makedirs(OUT_DIR, exist_ok=True)

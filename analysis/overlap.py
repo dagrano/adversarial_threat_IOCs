@@ -25,6 +25,7 @@ from itertools import combinations
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from build_index import load_index  # noqa: E402
+from normalize import STOPLIST  # noqa: E402
 
 OUT = os.path.join(HERE, "out")
 STRONG = {"ip", "hash", "netloc", "wallet", "package"}
@@ -44,6 +45,8 @@ def main():
         cls = r["ind_class"]
         if cls in SKIP or not r["ind_key"]:
             continue
+        if cls == "netloc" and r["ind_key"] in STOPLIST:
+            continue  # benign shared platform, not a meaningful overlap
         g = groups[(cls, r["ind_key"])]
         g["providers"].add(r["source_provider"])
         g["actors"].add((r["actor_id"], r["actor_name"]))

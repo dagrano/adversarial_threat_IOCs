@@ -1,0 +1,14 @@
+ind_class,ind_key,n_actors,reason
+netloc,youtube.com,14,stoplist
+netloc,twitter.com,13,stoplist
+netloc,t.me,12,stoplist
+netloc,tiktok.com,12,stoplist
+netloc,x.com,7,stoplist
+netloc,change.org,4,stoplist
+netloc,reddit.com,3,stoplist
+netloc,medium.com,3,stoplist
+netloc,linktr.ee,3,stoplist
+netloc,sites.google.com,2,stoplist
+netloc,tinyurl.com,2,stoplist
+netloc,bit.ly,2,stoplist
+netloc,vk.com,2,stoplist
