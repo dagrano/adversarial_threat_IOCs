@@ -1,0 +1,23 @@
+{
+  "rows": 11601,
+  "indicator_classes": {
+    "netloc": 9708,
+    "text": 1022,
+    "package": 402,
+    "metric": 183,
+    "hash": 111,
+    "ip": 70,
+    "handle": 59,
+    "malware": 23,
+    "tool": 11,
+    "filename": 7,
+    "persona": 4,
+    "other": 1
+  },
+  "rows_with_named_actor": 7143,
+  "canonical_actors": 129,
+  "named_actors": 14,
+  "actors_in_multiple_providers": 3,
+  "hard_overlap_keys": 330,
+  "cross_provider_overlap_keys": 1
+}

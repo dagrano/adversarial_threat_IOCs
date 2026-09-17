@@ -1,0 +1,35 @@
+canonical_id,canonical_name,country,alias,confidence,notes
+DOPPELGANGER,Doppelganger,Russia,doppelganger,high,"Russian IO network; appears in Meta + Google"
+DOPPELGANGER,Doppelganger,Russia,doppelgänger,high,accented spelling
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,spamouflage,high,"PRC IO network"
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,dragonbridge,high,Google's name for Spamouflage
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,dragon bridge,medium,spacing variant
+COPYCOP,CopyCop,Russia,copycop,high,"Pro-Russia inauthentic news network"
+STORM-2035,Storm-2035,Iran,storm-2035,high,Iranian IO (OpenAI/Microsoft naming)
+STORM-2035,Storm-2035,Iran,storm 2035,medium,spacing variant
+CONTAGIOUS-INTERVIEW,Contagious Interview,North Korea,contagious interview,high,DPRK operation
+CONTAGIOUS-INTERVIEW,Contagious Interview,North Korea,famous chollima,high,alias
+CONTAGIOUS-INTERVIEW,Contagious Interview,North Korea,unc5342,high,Mandiant cluster
+CONTAGIOUS-INTERVIEW,Contagious Interview,North Korea,dev#popper,medium,alias
+APT41,APT41,China,apt41,high,"a.k.a. Winnti / Barium / Wicked Panda"
+APT41,APT41,China,winnti,medium,alias
+APT41,APT41,China,barium,medium,alias
+APT41,APT41,China,wicked panda,medium,alias
+APT42,APT42,Iran,apt42,high,"a.k.a. Mint Sandstorm / Charming Kitten (overlap)"
+APT42,APT42,Iran,mint sandstorm,medium,alias
+APT43,APT43,North Korea,apt43,high,"a.k.a. Kimsuky"
+APT43,APT43,North Korea,kimsuky,medium,alias
+APT31,APT31,China,apt31,high,"a.k.a. Zirconium / Judgment Panda"
+APT31,APT31,China,zirconium,medium,alias
+APT15,Vixen Panda (APT15),China,vixen panda,high,from OpenAI report
+APT15,Vixen Panda (APT15),China,apt15,high,alias
+APT15,Vixen Panda (APT15),China,ke3chang,medium,alias
+APT5,Keyhole Panda (APT5),China,keyhole panda,high,from OpenAI report
+APT5,Keyhole Panda (APT5),China,apt5,high,alias
+BAHAMUT,Bahamut,,bahamut,high,attribution debated
+PATCHWORK,Patchwork,India,patchwork,high,"a.k.a. Dropping Elephant"
+PATCHWORK,Patchwork,India,dropping elephant,medium,alias
+IRA,Internet Research Agency,Russia,internet research agency,high,"Prigozhin-linked; historical"
+IRA,Internet Research Agency,Russia,ira-linked,medium,X archive labels
+IRA,Internet Research Agency,Russia,prigozhin,medium,"Prigozhin-associated entities"
+KRYMSKYBRIDGE,KrymskyBridge,Russia,krymskybridge,high,Google GTIG naming
