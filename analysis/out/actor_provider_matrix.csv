@@ -1,0 +1,130 @@
+actor_id,actor_name,is_named,country,n_providers,providers,n_rows
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,2,google|meta,530
+DOPPELGANGER,Doppelganger,True,Russia,2,google|meta,6496
+IRA,Internet Research Agency,True,Russia,2,google|x,4
+LABEL:iot-credential-scraping-actor,Iot Credential Scraping Actor,False,,1,anthropic,1
+LABEL:multi-client-influence-network,Multi-Client Influence Network,False,,1,anthropic,1
+LABEL:novice-malware-developer,Novice Malware Developer,False,,1,anthropic,1
+LABEL:recruitment-fraud-actor,Recruitment Fraud Actor,False,,1,anthropic,1
+LABEL:ai-powered-carding-store,Ai-Powered Carding Store,False,,1,anthropic,1
+LABEL:chinese-apt-vietnam-infrastructure,Chinese Apt (Vietnam Infrastructure),False,Vietnam,1,anthropic,1
+CONTAGIOUS-INTERVIEW,Contagious Interview,True,North Korea,1,anthropic,5
+LABEL:dprk-it-worker-fraud,Dprk It Worker Fraud,False,North Korea,1,anthropic,2
+LABEL:gtg,Gtg,False,,1,anthropic,1
+LABEL:gtg-5004,Gtg-5004,False,,1,anthropic,3
+LABEL:mcp-stealer-log-analysis-actor,Mcp Stealer-Log Analysis Actor,False,,1,anthropic,2
+LABEL:romance-scam-bot-operator,Romance-Scam Bot Operator,False,,1,anthropic,2
+LABEL:russian-speaking-malware-developer,Russian-Speaking Malware Developer,False,,1,anthropic,1
+LABEL:synthetic-identity-services,Synthetic Identity Services,False,,1,anthropic,1
+LABEL:gtg-04001,Gtg-04001,False,,1,anthropic,4
+LABEL:gtg-10007,Gtg-10007,False,,1,anthropic,1
+LABEL:gtg-20006,Gtg-20006,False,,1,anthropic,65
+LABEL:gtg-24015,Gtg-24015,False,,1,anthropic,12
+LABEL:gtg-50014-shinyhunters-aliases-meowsha-frkoo-bla,"Gtg-50014 (Shinyhunters; Aliases Meowsha, Frkoo, Blazespider)",False,,1,anthropic,41
+LABEL:gtg-50020,Gtg-50020,False,,1,anthropic,9
+LABEL:gtg-50021-alias-kl1zy,Gtg-50021 (Alias Kl1Zy),False,,1,anthropic,8
+LABEL:gtg-50029,Gtg-50029,False,,1,anthropic,23
+LABEL:gtg-54002-lkm-company,Gtg-54002 (Lkm Company),False,,1,anthropic,29
+LABEL:gtg-84005-bbs-bilisim-teknolojileri,Gtg-84005 (Bbs Bilisim Teknolojileri),False,,1,anthropic,23
+APT41,APT41,True,China,1,google,2
+APT42,APT42,True,Iran,1,google,2
+APT43,APT43,True,North Korea,1,google,1
+COPYCOP,CopyCop,True,Russia,1,google,1
+LABEL:dprk-apt-actors-groups,Dprk Apt Actors ( Groups),False,North Korea,1,google,1
+LABEL:dprk-it-workers,Dprk It Workers,False,North Korea,1,google,4
+LABEL:fraudgpt-wormgpt,Fraudgpt / Wormgpt,False,,1,google,3
+LABEL:iranian-apt-actors-10-groups,Iranian Apt Actors (10+ Groups),False,,1,google,1
+LABEL:iranian-io-actors-groups,Iranian Io Actors ( Groups),False,,1,google,1
+KRYMSKYBRIDGE,KrymskyBridge,True,Russia,1,google,1
+LABEL:prc-apt-actors-20-groups,Prc Apt Actors (20+ Groups),False,,1,google,1
+LABEL:russian-apt-actors-groups,Russian Apt Actors ( Groups),False,,1,google,1
+APT31,APT31,True,China,1,google,1
+LABEL:gtig-tracked-ai-enabled-malware,Gtig-Tracked Ai-Enabled Malware,False,,1,google,7
+LABEL:gtig-tracked-io-actors,Gtig-Tracked Io Actors,False,,1,google,1
+LABEL:temp-hex,Temp.Hex,False,,1,google,1
+LABEL:unc2970,Unc2970,False,,1,google,1
+LABEL:unc5356,Unc5356,False,,1,google,6
+LABEL:unc6418,Unc6418,False,,1,google,1
+LABEL:unc795,Unc795,False,,1,google,1
+LABEL:12-bangladesh-and-vietnam,12 Bangladesh And Vietnam,False,Vietnam,1,meta,10
+LABEL:03-china,03 China,False,China,1,meta,26
+LABEL:04-palestine,04 Palestine,False,Palestine,1,meta,243
+LABEL:07-iran,07 Iran,False,Iran,1,meta,187
+LABEL:11-action-against-hackers-in-pakistan-and-syria,11 Action Against Hackers In Pakistan And Syria,False,Pakistan,1,meta,49
+LABEL:12-taking-action-against-surveillance-for-hire,12 Taking Action Against Surveillance For Hire,False,,1,meta,313
+LABEL:04-metas-adversarial-threat-report,04 Metas Adversarial Threat Report,False,,1,meta,79
+LABEL:08-metas-adversarial-threat-report,08 Metas Adversarial Threat Report,False,,1,meta,52
+LABEL:09-china-and-russia,09 China And Russia,False,China,1,meta,350
+LABEL:malicious-mobile-apps,Malicious Mobile Apps,False,,1,meta,402
+BAHAMUT,Bahamut,True,,1,meta,37
+LABEL:china-based-cib-network,China Based Cib Network,False,China,1,meta,255
+LABEL:georgia-based-cib-network,Georgia-Based Cib Network,False,Georgia,1,meta,16
+LABEL:iran-based-cib-network,Iran Based Cib Network,False,Iran,1,meta,177
+LABEL:pakistan-apt,Pakistan Apt,False,Pakistan,1,meta,62
+PATCHWORK,Patchwork,True,India,1,meta,60
+LABEL:togo-burkina-faso-based-cib-network,Togo Burkina Faso-Based Cib Network,False,Togo,1,meta,43
+LABEL:venezuela-us-based-cib-network,Venezuela Us-Based Cib Network,False,Venezuela,1,meta,30
+LABEL:t-rkiye-iran-based-cib-network,Türkiye Iran-Based Cib Network,False,Iran,1,meta,40
+LABEL:t-rkiye-based-cib-network,Türkiye-Based Cib Network,False,Turkey,1,meta,73
+LABEL:05-malware-iocs,05 Malware Iocs,False,,1,meta,1062
+LABEL:iran-based-ib-cluster,Iran-Based Ib Cluster,False,Iran,1,meta,11
+LABEL:iran-based-recidivist-cib-cluster,Iran-Based Recidivist Cib Cluster,False,Iran,1,meta,9
+LABEL:russia-based-cib-network,Russia Based Cib Network,False,Russia,1,meta,216
+LABEL:myanmar-based-cib-network,Myanmar Based Cib Network,False,Myanmar,1,meta,26
+LABEL:pakistan-based-espionage-network,Pakistan Based Espionage Network,False,Pakistan,1,meta,44
+LABEL:ukraine-based-cib-network,Ukraine Based Cib Network,False,Ukraine,1,meta,13
+LABEL:bangladesh-based-cib-network,Bangladesh Based Cib Network,False,Bangladesh,1,meta,47
+LABEL:croatia-based-cib-network,Croatia Based Cib Network,False,Croatia,1,meta,23
+LABEL:israel-based-cib-network,Israel Based Cib Network,False,Israel,1,meta,25
+LABEL:moldova-madagascar-targeting-cib-network,Moldova & Madagascar Targeting Cib Network,False,Moldova,1,meta,6
+LABEL:us-based-cib-network,Us-Based Cib Network,False,,1,meta,29
+LABEL:vietnam-based-cib-network,Vietnam Based Cib Network,False,Vietnam,1,meta,37
+LABEL:lebanon-based-cib-network,Lebanon Based Cib Network,False,Lebanon,1,meta,20
+LABEL:moldova-based-cib-network,Moldova Based Cib Network,False,Moldova,1,meta,57
+LABEL:benin-based-cib-network,Benin Based Cib Network,False,Benin,1,meta,12
+LABEL:ghana-based-cib-network,Ghana Based Cib Network,False,Ghana,1,meta,19
+LABEL:romania-based-cib-network,Romania Based Cib Network,False,Romania,1,meta,23
+LABEL:belarus-based-cib-network,Belarus Based Cib Network,False,Belarus,1,meta,16
+LABEL:poland-based-cib-network,Poland Based Cib Network,False,Poland,1,meta,10
+LABEL:pakistan-based-cib-network,Pakistan Based Cib Network,False,Pakistan,1,meta,17
+LABEL:dprk-it-worker-scheme,Dprk It Worker Scheme,False,North Korea,1,openai,1
+LABEL:helgoland-bite,Helgoland Bite,False,,1,openai,4
+LABEL:high-five-comm-sense-inc,High Five (Comm&Sense Inc),False,,1,openai,1
+STORM-2035,Storm-2035,True,Iran,1,openai,2
+LABEL:scopecreep,Scopecreep,False,,1,openai,5
+LABEL:sneer-review,Sneer Review,False,,1,openai,2
+LABEL:uncle-spam,Uncle Spam,False,,1,openai,3
+LABEL:vague-focus-vag-group-front,Vague Focus (Vag Group Front),False,,1,openai,4
+APT5,Keyhole Panda (APT5),True,China,1,openai,1
+LABEL:wrong-number,Wrong Number,False,,1,openai,3
+LABEL:cambodia-myanmar-nigeria-scam-networks,Cambodia / Myanmar / Nigeria Scam Networks,False,Cambodia,1,openai,1
+LABEL:korean-language-operators-likely-dprk-unconfirme,"Korean-Language Operators (Likely Dprk, Unconfirmed)",False,North Korea,1,openai,3
+LABEL:nine-emdash-line,Nine-Emdash Line,False,,1,openai,3
+LABEL:prc-government-linked-authoritarian-tooling,Prc Government-Linked Authoritarian Tooling,False,,1,openai,1
+LABEL:russian-language-malware-tooling-developer,Russian-Language Malware Tooling Developer,False,,1,openai,1
+LABEL:stop-news,Stop News,False,,1,openai,4
+LABEL:uta0388-unk-droppitch,Uta0388 / Unk_Droppitch,False,,1,openai,5
+LABEL:indonesia-targeting-network,Indonesia-Targeting Network,False,Indonesia,1,tiktok,1
+LABEL:tiktok-cio-takedowns-15-operations-jan-apr,"Tiktok Cio Takedowns (15 Operations, Jan-Apr )",False,,1,tiktok,1
+LABEL:uk-targeting-network,Uk-Targeting Network,False,,1,tiktok,1
+LABEL:iran-io-network,Iran Io Network,False,Iran,1,x,2
+LABEL:catalan-independence-network,Catalan Independence Network,False,,1,x,1
+LABEL:iran-io-sets,Iran Io ( Sets),False,Iran,1,x,1
+LABEL:venezuela-commercial-network,Venezuela Commercial Network,False,Venezuela,1,x,1
+LABEL:prc-hong-kong-network,Prc/Hong Kong Network,False,,1,x,1
+LABEL:dotdev-uae-egypt,Dotdev (Uae & Egypt),False,United Arab Emirates,1,x,1
+LABEL:pais-alliance-network,Pais Alliance Network,False,,1,x,1
+LABEL:partido-popular-network,Partido Popular Network,False,,1,x,1
+LABEL:saudi-state-media-accounts,Saudi State-Media Accounts,False,,1,x,1
+LABEL:uae-network-qatar-yemen-targeting,Uae Network (Qatar/Yemen Targeting),False,United Arab Emirates,1,x,1
+LABEL:cuba-io-network,Cuba Io Network,False,Cuba,1,x,1
+LABEL:saudi-io-network,Saudi Io Network,False,,1,x,1
+LABEL:thailand-io-network,Thailand Io Network,False,Thailand,1,x,1
+LABEL:russia-io-network-accounts,Russia Io Network ( Accounts),False,Russia,1,x,1
+LABEL:changyu-culture-network,Changyu Culture Network,False,,1,x,1
+LABEL:fichuatanzania-targeting-network,Fichuatanzania-Targeting Network,False,,1,x,1
+LABEL:government-narrative-network,Government-Narrative Network,False,,1,x,1
+LABEL:government-support-network,Government-Support Network,False,,1,x,1
+LABEL:libya-syria-operation,Libya/Syria Operation,False,Syria,1,x,1
+LABEL:pro-museveni-network,Pro-Museveni Network,False,,1,x,1
+LABEL:uyghur-narrative-network,Uyghur-Narrative Network,False,,1,x,1
