@@ -62,8 +62,9 @@ python3 analysis/timeline.py        # first/last seen per actor / country
   shared by Meta and OpenAI.)
 - **`linked_ops.py`** — bipartite actor↔indicator graph; `bridges` are indicators
   tying multiple actors, `components` are actor clusters joined by shared infra.
-  Exports `out/linked_ops.graphml` for Gephi/Cytoscape. (A STIX exporter can be
-  added here later.)
+  Exports `out/linked_ops.graphml` for Gephi/Cytoscape. Benign platform hubs are
+  excluded before clustering (see below) and listed in `out/linked_ops_hubs.csv`.
+  (A STIX exporter can be added here later.)
 - **`impact.py`** — reach metrics from `asset_count` rows plus numbers parsed out
   of `description` (followers, ad spend, accounts/pages/groups), summed by actor
   and origin country. Coverage is sparse — totals are lower bounds, not
@@ -72,6 +73,33 @@ python3 analysis/timeline.py        # first/last seen per actor / country
   More providers = more corroborated.
 - **`timeline.py`** — first/last seen, span, and provider count per actor and
   country. Separates persistent operations from one-offs.
+
+## Dashboard
+
+```bash
+python3 analysis/build_dashboard.py     # -> out/dashboard.html (self-contained)
+```
+
+One offline HTML file with all data embedded (no external requests): overview
+tiles, a country×provider corroboration heatmap, account-reach bars, the shared-
+indicator table, linked-op clusters, and the named-actor timeline. Light/dark
+aware, opens by double-click or serves from GitHub Pages.
+
+## Hub / stop-list filter
+
+`stoplist.txt` lists benign shared platforms (youtube.com, t.me, tiktok.com, …).
+Both `overlap.py` and `linked_ops.py` drop these — an indicator on the stoplist,
+or (for clustering) one shared by ≥ `DEGREE_CAP` actors, is treated as a hub, not
+attributable infrastructure, so it can't over-merge unrelated networks. Edit
+`stoplist.txt` to tune. Without it, one shared `sites.google.com` collapses a
+dozen unrelated operations into one cluster.
+
+## Country resolution
+
+`actor_country` is filled from (1) the resolved named actor, else (2) the
+corpus's own `country` column for that row, else (3) a country name found in the
+actor string (incl. US/UK abbreviations). This keeps the impact "(unknown)"
+bucket small.
 
 ## Notes
 

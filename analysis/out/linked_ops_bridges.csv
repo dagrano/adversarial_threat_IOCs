@@ -1,14 +1,4 @@
 ind_class,ind_key,n_actors,actors,n_providers,providers
-netloc,youtube.com,14,Bangladesh Based Cib Network ; China Based Cib Network ; Iran Based Cib Network ; Iran-Based Ib Cluster ; Iran-Based Recidivist Cib Cluster ; Israel Based Cib Network ; Lebanon Based Cib Network ; Moldova Based Cib Network ; Myanmar Based Cib Network ; Pakistan Based Cib Network ; Romania Based Cib Network ; Russia Based Cib Network ; Türkiye-Based Cib Network ; Vietnam Based Cib Network,1,meta
-netloc,twitter.com,13,Bangladesh Based Cib Network ; China Based Cib Network ; Iran Based Cib Network ; Iran-Based Ib Cluster ; Iran-Based Recidivist Cib Cluster ; Lebanon Based Cib Network ; Myanmar Based Cib Network ; Russia Based Cib Network ; Spamouflage / DRAGONBRIDGE ; Türkiye Iran-Based Cib Network ; Türkiye-Based Cib Network ; Venezuela Us-Based Cib Network ; Vietnam Based Cib Network,2,google|meta
-netloc,t.me,12,09 China And Russia ; Bangladesh Based Cib Network ; China Based Cib Network ; Iran Based Cib Network ; Iran-Based Ib Cluster ; Iran-Based Recidivist Cib Cluster ; Moldova & Madagascar Targeting Cib Network ; Moldova Based Cib Network ; Myanmar Based Cib Network ; Russia Based Cib Network ; Türkiye Iran-Based Cib Network ; Vietnam Based Cib Network,1,meta
-netloc,tiktok.com,12,Bangladesh Based Cib Network ; Belarus Based Cib Network ; China Based Cib Network ; Georgia-Based Cib Network ; Iran Based Cib Network ; Lebanon Based Cib Network ; Moldova Based Cib Network ; Romania Based Cib Network ; Russia Based Cib Network ; Spamouflage / DRAGONBRIDGE ; Türkiye-Based Cib Network ; Vietnam Based Cib Network,2,google|meta
-netloc,x.com,7,Belarus Based Cib Network ; Iran Based Cib Network ; Moldova Based Cib Network ; Pakistan Based Cib Network ; Russia Based Cib Network ; Us-Based Cib Network ; Vietnam Based Cib Network,1,meta
-netloc,change.org,4,09 China And Russia ; Moldova & Madagascar Targeting Cib Network ; Russia Based Cib Network ; Vietnam Based Cib Network,1,meta
-netloc,reddit.com,3,China Based Cib Network ; Doppelganger ; Spamouflage / DRAGONBRIDGE,2,google|meta
-netloc,medium.com,3,China Based Cib Network ; Doppelganger ; Spamouflage / DRAGONBRIDGE,2,google|meta
-netloc,linktr.ee,3,Iran-Based Ib Cluster ; Lebanon Based Cib Network ; Türkiye Iran-Based Cib Network,1,meta
-netloc,sites.google.com,2,04 Palestine ; 05 Malware Iocs,1,meta
 netloc,avisindependent.eu,2,09 China And Russia ; Doppelganger,2,google|meta
 netloc,bild.pics,2,09 China And Russia ; Doppelganger,2,google|meta
 netloc,rrn.world,2,09 China And Russia ; Doppelganger,2,google|meta
@@ -321,11 +311,8 @@ netloc,warhheintbaunegn.pw,2,09 China And Russia ; Doppelganger,2,google|meta
 netloc,warhheintdaunegn.link,2,09 China And Russia ; Doppelganger,2,google|meta
 netloc,warhheintdaunegn.pw,2,09 China And Russia ; Doppelganger,2,google|meta
 netloc,play.google.com,2,Bahamut ; Patchwork,1,meta
-netloc,tinyurl.com,2,05 Malware Iocs ; Patchwork,1,meta
-netloc,bit.ly,2,05 Malware Iocs ; Patchwork,1,meta
 netloc,rebrand.ly,2,05 Malware Iocs ; Patchwork,1,meta
 netloc,pinterest.com,2,Doppelganger ; Vietnam Based Cib Network,2,google|meta
 netloc,tumblr.com,2,Doppelganger ; Spamouflage / DRAGONBRIDGE,2,google|meta
 netloc,linkedin.com,2,Iran-Based Ib Cluster ; Türkiye Iran-Based Cib Network,1,meta
-netloc,vk.com,2,Moldova Based Cib Network ; Spamouflage / DRAGONBRIDGE,2,google|meta
 netloc,newstop.africa,2,Russia Based Cib Network ; Stop News,2,meta|openai
