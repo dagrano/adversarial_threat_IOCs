@@ -1,0 +1,39 @@
+# Benign shared platforms — excluded as linked-ops "bridges" so they don't
+# over-merge unrelated networks. One host per line (normalized, no scheme/www).
+# Matched against ind_key for netloc-class indicators. Extend as needed.
+youtube.com
+youtu.be
+twitter.com
+x.com
+t.me
+telegram.me
+telegram.org
+tiktok.com
+facebook.com
+fb.com
+instagram.com
+threads.net
+bsky.app
+reddit.com
+medium.com
+blogspot.com
+wordpress.com
+sites.google.com
+docs.google.com
+drive.google.com
+change.org
+linktr.ee
+bit.ly
+tinyurl.com
+0x0.st
+archive.org
+web.archive.org
+github.com
+gitlab.com
+pastebin.com
+discord.com
+discord.gg
+whatsapp.com
+wa.me
+vk.com
+ok.ru

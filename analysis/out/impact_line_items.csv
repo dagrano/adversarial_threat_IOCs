@@ -17,8 +17,8 @@ LABEL:iran-based-cib-network,Iran-Based Cib Network,Iran,meta,accounts,18,18 Ins
 LABEL:togo-burkina-faso-based-cib-network,Togo Burkina Faso-Based Cib Network,Togo,meta,accounts,145,145 accounts
 LABEL:togo-burkina-faso-based-cib-network,Togo Burkina Faso-Based Cib Network,Togo,meta,pages,142,142 Pages
 LABEL:togo-burkina-faso-based-cib-network,Togo Burkina Faso-Based Cib Network,Togo,meta,accounts,26,26 accounts
-LABEL:venezuela-us-based-cib-network,Venezuela Us-Based Cib Network,Venezuela,meta,accounts,21,21 accounts
-LABEL:venezuela-us-based-cib-network,Venezuela Us-Based Cib Network,Venezuela,meta,pages,88,88 Pages
+LABEL:venezuela-us-based-cib-network,Venezuela Us-Based Cib Network,United States,meta,accounts,21,21 accounts
+LABEL:venezuela-us-based-cib-network,Venezuela Us-Based Cib Network,United States,meta,pages,88,88 Pages
 LABEL:t-rkiye-iran-based-cib-network,Türkiye Iran-Based Cib Network,Iran,meta,accounts,22,22 accounts
 LABEL:t-rkiye-iran-based-cib-network,Türkiye Iran-Based Cib Network,Iran,meta,pages,21,21 Pages
 LABEL:t-rkiye-iran-based-cib-network,Türkiye Iran-Based Cib Network,Iran,meta,accounts,7,7 Instagram accounts
@@ -84,10 +84,10 @@ LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,accounts,1
 LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,pages,32,32 Pages
 LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,groups,5,5 Groups
 LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,accounts,3,3 accounts
-LABEL:us-based-cib-network,Us-Based Cib Network,,meta,accounts,96,96 accounts
-LABEL:us-based-cib-network,Us-Based Cib Network,,meta,pages,16,16 Pages
-LABEL:us-based-cib-network,Us-Based Cib Network,,meta,groups,12,12 Groups
-LABEL:us-based-cib-network,Us-Based Cib Network,,meta,accounts,3,3 accounts
+LABEL:us-based-cib-network,Us-Based Cib Network,United States,meta,accounts,96,96 accounts
+LABEL:us-based-cib-network,Us-Based Cib Network,United States,meta,pages,16,16 Pages
+LABEL:us-based-cib-network,Us-Based Cib Network,United States,meta,groups,12,12 Groups
+LABEL:us-based-cib-network,Us-Based Cib Network,United States,meta,accounts,3,3 accounts
 LABEL:vietnam-based-cib-network,Vietnam Based Cib Network,Vietnam,meta,accounts,112,112 accounts
 LABEL:vietnam-based-cib-network,Vietnam Based Cib Network,Vietnam,meta,pages,65,65 Pages
 LABEL:vietnam-based-cib-network,Vietnam Based Cib Network,Vietnam,meta,accounts,49,49 accounts
@@ -160,26 +160,26 @@ LABEL:tiktok-cio-takedowns-15-operations-jan-apr,"Tiktok Cio Takedowns (15 Opera
 LABEL:tiktok-cio-takedowns-15-operations-jan-apr,"Tiktok Cio Takedowns (15 Operations, Jan-Apr )",,tiktok,accounts,3001,"Aggregate: 15 influence operations, 3,001 accounts; majority targeted political "
 IRA,Internet Research Agency,Russia,x,accounts,3841,3841 accounts
 LABEL:iran-io-network,Iran Io Network,Iran,x,accounts,770,770 accounts
-LABEL:catalan-independence-network,Catalan Independence Network,,x,accounts,130,130 accounts
+LABEL:catalan-independence-network,Catalan Independence Network,Spain,x,accounts,130,130 accounts
 IRA,Internet Research Agency,Russia,x,accounts,4,4 accounts
 LABEL:iran-io-sets,Iran Io ( Sets),Iran,x,accounts,4779,4779 accounts
 LABEL:venezuela-commercial-network,Venezuela Commercial Network,Venezuela,x,accounts,33,33 accounts
-LABEL:prc-hong-kong-network,Prc/Hong Kong Network,,x,accounts,4301,4301 accounts
+LABEL:prc-hong-kong-network,Prc/Hong Kong Network,China,x,accounts,4301,4301 accounts
 LABEL:dotdev-uae-egypt,Dotdev (Uae & Egypt),United Arab Emirates,x,accounts,271,271 accounts
-LABEL:pais-alliance-network,Pais Alliance Network,,x,accounts,1019,1019 accounts
-LABEL:partido-popular-network,Partido Popular Network,,x,accounts,259,259 accounts
-LABEL:saudi-state-media-accounts,Saudi State-Media Accounts,,x,accounts,6,6 accounts
+LABEL:pais-alliance-network,Pais Alliance Network,Ecuador,x,accounts,1019,1019 accounts
+LABEL:partido-popular-network,Partido Popular Network,Spain,x,accounts,259,259 accounts
+LABEL:saudi-state-media-accounts,Saudi State-Media Accounts,Saudi Arabia,x,accounts,6,6 accounts
 LABEL:uae-network-qatar-yemen-targeting,Uae Network (Qatar/Yemen Targeting),United Arab Emirates,x,accounts,4248,4248 accounts
 LABEL:cuba-io-network,Cuba Io Network,Cuba,x,accounts,526,526 accounts
 LABEL:iran-io-network,Iran Io Network,Iran,x,accounts,104,104 accounts
-LABEL:saudi-io-network,Saudi Io Network,,x,accounts,33,33 accounts
+LABEL:saudi-io-network,Saudi Io Network,Saudi Arabia,x,accounts,33,33 accounts
 LABEL:thailand-io-network,Thailand Io Network,Thailand,x,accounts,926,926 accounts
 LABEL:russia-io-network-accounts,Russia Io Network ( Accounts),Russia,x,accounts,5,5 accounts
-LABEL:changyu-culture-network,Changyu Culture Network,,x,accounts,112,112 accounts
-LABEL:fichuatanzania-targeting-network,Fichuatanzania-Targeting Network,,x,accounts,268,268 accounts
-LABEL:government-narrative-network,Government-Narrative Network,,x,accounts,277,277 accounts
-LABEL:government-support-network,Government-Support Network,,x,accounts,276,276 accounts
+LABEL:changyu-culture-network,Changyu Culture Network,China,x,accounts,112,112 accounts
+LABEL:fichuatanzania-targeting-network,Fichuatanzania-Targeting Network,Tanzania,x,accounts,268,268 accounts
+LABEL:government-narrative-network,Government-Narrative Network,Venezuela,x,accounts,277,277 accounts
+LABEL:government-support-network,Government-Support Network,Mexico,x,accounts,276,276 accounts
 IRA,Internet Research Agency,Russia,x,accounts,16,16 accounts
 LABEL:libya-syria-operation,Libya/Syria Operation,Syria,x,accounts,50,50 accounts
-LABEL:pro-museveni-network,Pro-Museveni Network,,x,accounts,418,418 accounts
-LABEL:uyghur-narrative-network,Uyghur-Narrative Network,,x,accounts,2048,2048 accounts
+LABEL:pro-museveni-network,Pro-Museveni Network,Uganda,x,accounts,418,418 accounts
+LABEL:uyghur-narrative-network,Uyghur-Narrative Network,China,x,accounts,2048,2048 accounts

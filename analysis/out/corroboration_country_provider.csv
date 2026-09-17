@@ -1,17 +1,20 @@
 origin_country,n_providers,total_rows,anthropic,google,meta,openai,tiktok,x
-Iran,4,431,,2,424,2,,3
-Russia,3,6719,,4,6711,,,4
-China,3,1165,,5,1159,1,,
-North Korea,3,17,7,6,,4,,
+Russia,5,6827,93,5,6711,14,,4
+China,5,1192,3,8,1159,19,,3
+Iran,4,433,,4,424,2,,3
+North Korea,3,18,7,7,,4,,
+Turkey,2,96,23,,73,,,
 Vietnam,2,48,1,,47,,,
-Venezuela,2,31,,,30,,,1
+United Kingdom,2,4,3,,,,1,
 Palestine,1,243,,,243,,,
 Pakistan,1,172,,,172,,,
-Turkey,1,73,,,73,,,
+France,1,93,93,,,,,
 Moldova,1,63,,,63,,,
 India,1,60,,,60,,,
+United States,1,59,,,59,,,
 Bangladesh,1,47,,,47,,,
 Togo,1,43,,,43,,,
+Bahamut,1,37,,,37,,,
 Myanmar,1,26,,,26,,,
 Israel,1,25,,,25,,,
 Croatia,1,23,,,23,,,
@@ -23,9 +26,19 @@ Belarus,1,16,,,16,,,
 Ukraine,1,13,,,13,,,
 Benin,1,12,,,12,,,
 Poland,1,10,,,10,,,
+Russia/Ukraine,1,8,8,,,,,
+Cambodia,1,4,,,,4,,
+Spain,1,2,,,,,,2
+Venezuela,1,2,,,,,,2
 United Arab Emirates,1,2,,,,,,2
-Cambodia,1,1,,,,1,,
+Saudi Arabia,1,2,,,,,,2
+"China, Iran, Russia, Saudi Arabia",1,1,,1,,,,
+Philippines,1,1,,,,1,,
 Indonesia,1,1,,,,,1,
+Ecuador,1,1,,,,,,1
 Cuba,1,1,,,,,,1
 Thailand,1,1,,,,,,1
+Tanzania,1,1,,,,,,1
+Mexico,1,1,,,,,,1
 Syria,1,1,,,,,,1
+Uganda,1,1,,,,,,1

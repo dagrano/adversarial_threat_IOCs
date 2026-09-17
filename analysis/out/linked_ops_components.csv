@@ -1,3 +1,5 @@
 component_id,n_actors,actors,n_providers,providers,n_bridge_indicators
-C1,24,09 China And Russia ; Bangladesh Based Cib Network ; Belarus Based Cib Network ; China Based Cib Network ; Doppelganger ; Georgia-Based Cib Network ; Iran Based Cib Network ; Iran-Based Ib Cluster ; Iran-Based Recidivist Cib Cluster ; Israel Based Cib Network ; Lebanon Based Cib Network ; Moldova & Madagascar Targeting Cib Network ; Moldova Based Cib Network ; Myanmar Based Cib Network ; Pakistan Based Cib Network ; Romania Based Cib Network ; Russia Based Cib Network ; Spamouflage / DRAGONBRIDGE ; Stop News ; Türkiye Iran-Based Cib Network ; Türkiye-Based Cib Network ; Us-Based Cib Network ; Venezuela Us-Based Cib Network ; Vietnam Based Cib Network,3,google|meta|openai,325
-C2,4,04 Palestine ; 05 Malware Iocs ; Bahamut ; Patchwork,1,meta,5
+C1,4,09 China And Russia ; Doppelganger ; Spamouflage / DRAGONBRIDGE ; Vietnam Based Cib Network,2,google|meta,313
+C2,3,05 Malware Iocs ; Bahamut ; Patchwork,1,meta,2
+C3,2,Iran-Based Ib Cluster ; Türkiye Iran-Based Cib Network,1,meta,1
+C4,2,Russia Based Cib Network ; Stop News,2,meta|openai,1

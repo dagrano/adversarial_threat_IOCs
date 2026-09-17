@@ -1,6 +1,6 @@
 actor,country,first_seen,last_seen,span_days,n_reports,n_providers,providers
 Internet Research Agency,Russia,2018-10-17,2025-01-29,2296,4,2,google|x
-Bahamut,,2023-01-01,2023-01-01,0,1,1,meta
+Bahamut,Bahamut,2023-01-01,2023-01-01,0,1,1,meta
 Patchwork,India,2023-01-01,2023-01-01,0,1,1,meta
 Spamouflage / DRAGONBRIDGE,China,2023-04-01,2025-01-29,669,2,2,google|meta
 Doppelganger,Russia,2023-04-01,2025-01-29,669,2,2,google|meta

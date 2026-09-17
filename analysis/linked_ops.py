@@ -24,9 +24,22 @@ from xml.sax.saxutils import escape
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from build_index import load_index  # noqa: E402
+from normalize import STOPLIST  # noqa: E402
 
 OUT = os.path.join(HERE, "out")
 HARD = {"netloc", "ip", "hash", "handle", "package", "wallet"}
+
+# An indicator shared by this many or more distinct actors is treated as a hub
+# (a benign shared platform or common service), not attributable infrastructure,
+# and excluded from clustering so it can't over-merge unrelated networks.
+DEGREE_CAP = 6
+
+
+def is_hub(cls, key, n_actors):
+    """A bridge is dropped if it's a stoplisted host or shared too widely."""
+    if cls == "netloc" and key in STOPLIST:
+        return True
+    return n_actors >= DEGREE_CAP
 
 
 class UF:
@@ -59,8 +72,19 @@ def main():
         w = csv.writer(fh); w.writerow(["actor_id", "ind_class", "ind_key"])
         for e in sorted(edges): w.writerow(e)
 
-    # bridges: indicators tying >1 actor together
-    bridges = {k: v for k, v in key_actors.items() if len(v) > 1}
+    # bridges: indicators tying >1 actor together, minus hubs (stoplisted hosts
+    # and indicators shared so widely they're not attributable infrastructure)
+    shared = {k: v for k, v in key_actors.items() if len(v) > 1}
+    bridges = {k: v for k, v in shared.items() if not is_hub(k[0], k[1], len(v))}
+    hubs = {k: v for k, v in shared.items() if is_hub(k[0], k[1], len(v))}
+    with open(os.path.join(OUT, "linked_ops_hubs.csv"), "w", newline="",
+              encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["ind_class", "ind_key", "n_actors", "reason"])
+        for (cls, key), acts in sorted(hubs.items(), key=lambda kv: -len(kv[1])):
+            reason = "stoplist" if (cls == "netloc" and key in STOPLIST) \
+                else f"degree>={DEGREE_CAP}"
+            w.writerow([cls, key, len(acts), reason])
     with open(os.path.join(OUT, "linked_ops_bridges.csv"), "w", newline="",
               encoding="utf-8") as fh:
         w = csv.writer(fh)
@@ -124,9 +148,11 @@ def main():
     multi = [(root, acts) for root, acts in comp.items() if len(acts) > 1]
     xprov = [a for _, a in multi
              if len(set().union(*(actor_prov[x] for x in a))) > 1]
-    print(f"linked-ops: {len(bridges)} bridge indicators, "
-          f"{len(multi)} actor clusters ({len(xprov)} span >1 provider)")
-    print("  -> out/linked_ops_{edges,bridges,components}.csv, linked_ops.graphml")
+    print(f"linked-ops: {len(bridges)} bridge indicators "
+          f"({len(hubs)} hubs excluded), {len(multi)} actor clusters "
+          f"({len(xprov)} span >1 provider)")
+    print("  -> out/linked_ops_{edges,bridges,components,hubs}.csv, "
+          "linked_ops.graphml")
     for root, acts in sorted(multi, key=lambda kv: -len(kv[1]))[:5]:
         provs = set().union(*(actor_prov[a] for a in acts))
         names = sorted(actor_name[a] for a in acts)

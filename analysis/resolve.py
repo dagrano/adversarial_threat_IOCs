@@ -55,6 +55,11 @@ _ALIASES, _META, _ORDER = load_aliases()
 
 def _country_in(s: str) -> str:
     low = _norm(s)
+    # explicit abbreviations first (US-based, U.K., USA)
+    if re.search(r"\bu\.?s\.?a?\b", low) or "united states" in low:
+        return "United States"
+    if re.search(r"\bu\.?k\.?\b", low):
+        return "United Kingdom"
     for c in COUNTRIES:
         if re.search(r"\b" + re.escape(c.lower()) + r"\b", low):
             return _CANON_COUNTRY.get(c.lower(), c)
