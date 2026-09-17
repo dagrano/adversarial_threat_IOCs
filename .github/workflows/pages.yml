@@ -1,0 +1,55 @@
+name: dashboard
+
+# Rebuilds the analysis dashboard and publishes it to GitHub Pages on every
+# push to main. The live URL is https://<owner>.github.io/<repo>/ once Pages is
+# enabled (Settings -> Pages -> Build and deployment -> Source: GitHub Actions).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rebuild corpus, analysis, and dashboard
+        run: |
+          python3 scripts/build_master.py
+          python3 analysis/build_index.py
+          for s in foundation_report overlap linked_ops impact corroboration timeline; do
+            python3 analysis/$s.py
+          done
+          python3 analysis/build_dashboard.py
+      - name: Assemble site
+        run: |
+          mkdir -p _site/reports
+          cp analysis/out/dashboard.html _site/index.html
+          # ship the CSV/JSON reports for download alongside the dashboard
+          cp analysis/out/*.csv analysis/out/*.json _site/reports/ 2>/dev/null || true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
