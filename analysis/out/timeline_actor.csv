@@ -1,0 +1,15 @@
+actor,country,first_seen,last_seen,span_days,n_reports,n_providers,providers
+Internet Research Agency,Russia,2018-10-17,2025-01-29,2296,4,2,google|x
+Bahamut,,2023-01-01,2023-01-01,0,1,1,meta
+Patchwork,India,2023-01-01,2023-01-01,0,1,1,meta
+Spamouflage / DRAGONBRIDGE,China,2023-04-01,2025-01-29,669,2,2,google|meta
+Doppelganger,Russia,2023-04-01,2025-01-29,669,2,2,google|meta
+APT41,China,2025-01-29,2026-02-12,379,2,1,google
+APT42,Iran,2025-01-29,2026-02-12,379,2,1,google
+APT43,North Korea,2025-01-29,2025-01-29,0,1,1,google
+CopyCop,Russia,2025-01-29,2025-01-29,0,1,1,google
+KrymskyBridge,Russia,2025-01-29,2025-01-29,0,1,1,google
+Storm-2035,Iran,2025-06-05,2025-06-05,0,1,1,openai
+Keyhole Panda (APT5),China,2025-06-05,2025-06-05,0,1,1,openai
+Contagious Interview,North Korea,2025-08-27,2025-08-27,0,1,1,anthropic
+APT31,China,2026-02-12,2026-02-12,0,1,1,google
