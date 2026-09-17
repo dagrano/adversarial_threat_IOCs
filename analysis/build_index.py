@@ -72,5 +72,13 @@ def build():
     return out
 
 
+def load_index(rebuild=False):
+    """Return the enriched index rows, building it first if missing/stale."""
+    if rebuild or not os.path.exists(OUT):
+        build()
+    with open(OUT, newline="", encoding="utf-8") as fh:
+        return list(csv.DictReader(fh))
+
+
 if __name__ == "__main__":
     build()

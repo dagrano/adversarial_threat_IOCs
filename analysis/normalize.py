@@ -95,6 +95,7 @@ def canonicalize(indicator_type: str, value: str) -> dict:
 _METRIC = re.compile(r"^\s*([\d,]+)\s+(.*?)\s*$")
 _UNIT_MAP = {
     "account": "accounts", "accounts": "accounts",
+    "acount": "accounts", "acounts": "accounts", "acccounts": "accounts",
     "facebook account": "accounts", "facebook accounts": "accounts",
     "instagram account": "accounts", "instagram accounts": "accounts",
     "x/twitter account": "accounts", "twitter account": "accounts",

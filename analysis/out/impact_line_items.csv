@@ -1,0 +1,185 @@
+actor_id,actor_name,country,provider,unit,value,source
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,accounts,63,63 accounts
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,pages,44,44 Pages
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,groups,28,28 Groups
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,accounts,117,117 Facebook accounts
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,pages,38,38 Pages
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,groups,6,6 Groups
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,accounts,38,38 accounts
+LABEL:georgia-based-cib-network,Georgia-Based Cib Network,Georgia,meta,accounts,82,82 accounts
+LABEL:georgia-based-cib-network,Georgia-Based Cib Network,Georgia,meta,pages,27,27 Pages
+LABEL:georgia-based-cib-network,Georgia-Based Cib Network,Georgia,meta,groups,9,9 Groups
+LABEL:georgia-based-cib-network,Georgia-Based Cib Network,Georgia,meta,accounts,2,2 accounts
+LABEL:iran-based-cib-network,Iran-Based Cib Network,Iran,meta,accounts,67,67 accounts
+LABEL:iran-based-cib-network,Iran-Based Cib Network,Iran,meta,pages,14,14 Pages
+LABEL:iran-based-cib-network,Iran-Based Cib Network,Iran,meta,groups,1,1 Group
+LABEL:iran-based-cib-network,Iran-Based Cib Network,Iran,meta,accounts,18,18 Instagram accounts
+LABEL:togo-burkina-faso-based-cib-network,Togo Burkina Faso-Based Cib Network,Togo,meta,accounts,145,145 accounts
+LABEL:togo-burkina-faso-based-cib-network,Togo Burkina Faso-Based Cib Network,Togo,meta,pages,142,142 Pages
+LABEL:togo-burkina-faso-based-cib-network,Togo Burkina Faso-Based Cib Network,Togo,meta,accounts,26,26 accounts
+LABEL:venezuela-us-based-cib-network,Venezuela Us-Based Cib Network,Venezuela,meta,accounts,21,21 accounts
+LABEL:venezuela-us-based-cib-network,Venezuela Us-Based Cib Network,Venezuela,meta,pages,88,88 Pages
+LABEL:t-rkiye-iran-based-cib-network,Türkiye Iran-Based Cib Network,Iran,meta,accounts,22,22 accounts
+LABEL:t-rkiye-iran-based-cib-network,Türkiye Iran-Based Cib Network,Iran,meta,pages,21,21 Pages
+LABEL:t-rkiye-iran-based-cib-network,Türkiye Iran-Based Cib Network,Iran,meta,accounts,7,7 Instagram accounts
+LABEL:t-rkiye-based-cib-network,Türkiye-Based Cib Network,Turkey,meta,accounts,34,34 accounts
+LABEL:t-rkiye-based-cib-network,Türkiye-Based Cib Network,Turkey,meta,pages,49,49 Pages
+LABEL:t-rkiye-based-cib-network,Türkiye-Based Cib Network,Turkey,meta,groups,107,107 Groups
+LABEL:t-rkiye-based-cib-network,Türkiye-Based Cib Network,Turkey,meta,accounts,12,12 Instagram accounts
+LABEL:t-rkiye-based-cib-network,Türkiye-Based Cib Network,Turkey,meta,accounts,60,60 accounts
+LABEL:t-rkiye-based-cib-network,Türkiye-Based Cib Network,Turkey,meta,pages,37,37 Pages
+LABEL:t-rkiye-based-cib-network,Türkiye-Based Cib Network,Turkey,meta,groups,2,2 Groups
+LABEL:t-rkiye-based-cib-network,Türkiye-Based Cib Network,Turkey,meta,accounts,20,20 Instagram accounts
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,meta,accounts,7704,"7,704 Facebook accounts"
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,meta,pages,954,954 Facebook Pages
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,meta,groups,15,15 Facebook Groups
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,meta,accounts,15,15 Instagram accounts
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,accounts,13,13 accounts
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,groups,7,7 Groups
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,accounts,4789,"4,789 accounts"
+LABEL:russia-based-cib-network,Russia-Based Cib Network,Russia,meta,accounts,6,6 accounts
+LABEL:russia-based-cib-network,Russia-Based Cib Network,Russia,meta,pages,1,1 Page
+LABEL:russia-based-cib-network,Russia-Based Cib Network,Russia,meta,accounts,3,3 Instagram accounts
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,33,33 accounts
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,pages,6,6 Pages
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,groups,6,6 Groups
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,4,4 accounts
+LABEL:myanmar-based-cib-network,Myanmar Based Cib Network,Myanmar,meta,accounts,381,381 accounts
+LABEL:myanmar-based-cib-network,Myanmar Based Cib Network,Myanmar,meta,pages,88,88 Pages
+LABEL:myanmar-based-cib-network,Myanmar Based Cib Network,Myanmar,meta,groups,19,19 Groups
+LABEL:ukraine-based-cib-network,Ukraine Based Cib Network,Ukraine,meta,accounts,1020,"1,020 accounts"
+LABEL:ukraine-based-cib-network,Ukraine Based Cib Network,Ukraine,meta,pages,5,5 Pages
+LABEL:ukraine-based-cib-network,Ukraine Based Cib Network,Ukraine,meta,groups,2,2 Groups
+LABEL:ukraine-based-cib-network,Ukraine Based Cib Network,Ukraine,meta,accounts,711,711 accounts
+LABEL:bangladesh-based-cib-network,Bangladesh Based Cib Network,Bangladesh,meta,accounts,50,50 accounts
+LABEL:bangladesh-based-cib-network,Bangladesh Based Cib Network,Bangladesh,meta,pages,98,98 Pages
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,37,37 accounts
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,pages,13,13 Pages
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,groups,5,5 Groups
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,9,9 accounts
+LABEL:croatia-based-cib-network,Croatia Based Cib Network,Croatia,meta,accounts,104,104 accounts
+LABEL:croatia-based-cib-network,Croatia Based Cib Network,Croatia,meta,pages,39,39 Pages
+LABEL:croatia-based-cib-network,Croatia Based Cib Network,Croatia,meta,accounts,7,7 accounts
+LABEL:iran-based-cib-network,Iran-Based Cib Network,Iran,meta,accounts,22,22 accounts
+LABEL:iran-based-cib-network,Iran-Based Cib Network,Iran,meta,pages,8,8 Pages
+LABEL:iran-based-cib-network,Iran-Based Cib Network,Iran,meta,groups,8,8 Groups
+LABEL:iran-based-cib-network,Iran-Based Cib Network,Iran,meta,accounts,23,23 accounts
+LABEL:israel-based-cib-network,Israel Based Cib Network,Israel,meta,accounts,510,510 accounts
+LABEL:israel-based-cib-network,Israel Based Cib Network,Israel,meta,pages,11,11 Pages
+LABEL:israel-based-cib-network,Israel Based Cib Network,Israel,meta,groups,1,1 Groups
+LABEL:israel-based-cib-network,Israel Based Cib Network,Israel,meta,accounts,32,32 accounts
+LABEL:moldova-madagascar-targeting-cib-network,Moldova & Madagascar Targeting Cib Network,Moldova,meta,accounts,1326,1326 accounts
+LABEL:moldova-madagascar-targeting-cib-network,Moldova & Madagascar Targeting Cib Network,Moldova,meta,pages,80,80 Pages
+LABEL:moldova-madagascar-targeting-cib-network,Moldova & Madagascar Targeting Cib Network,Moldova,meta,groups,1,1 Groups
+LABEL:moldova-madagascar-targeting-cib-network,Moldova & Madagascar Targeting Cib Network,Moldova,meta,accounts,1,1 accounts
+LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,accounts,76,76 accounts
+LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,pages,30,30 Pages
+LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,accounts,11,11 accounts
+LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,accounts,20,20 accounts
+LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,pages,14,14 Pages
+LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,accounts,9,9 accounts
+LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,accounts,43,43 accounts
+LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,pages,85,85 Pages
+LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,accounts,12,12 accounts
+LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,pages,32,32 Pages
+LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,groups,5,5 Groups
+LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,accounts,3,3 accounts
+LABEL:us-based-cib-network,Us-Based Cib Network,,meta,accounts,96,96 accounts
+LABEL:us-based-cib-network,Us-Based Cib Network,,meta,pages,16,16 Pages
+LABEL:us-based-cib-network,Us-Based Cib Network,,meta,groups,12,12 Groups
+LABEL:us-based-cib-network,Us-Based Cib Network,,meta,accounts,3,3 accounts
+LABEL:vietnam-based-cib-network,Vietnam Based Cib Network,Vietnam,meta,accounts,112,112 accounts
+LABEL:vietnam-based-cib-network,Vietnam Based Cib Network,Vietnam,meta,pages,65,65 Pages
+LABEL:vietnam-based-cib-network,Vietnam Based Cib Network,Vietnam,meta,accounts,49,49 accounts
+LABEL:iran-based-cib-network,Iran Based Cib Network,Iran,meta,accounts,48,48 accounts
+LABEL:iran-based-cib-network,Iran Based Cib Network,Iran,meta,accounts,2,2 accounts
+LABEL:lebanon-based-cib-network,Lebanon Based Cib Network,Lebanon,meta,accounts,15,15 accounts
+LABEL:lebanon-based-cib-network,Lebanon Based Cib Network,Lebanon,meta,pages,15,15 pages
+LABEL:lebanon-based-cib-network,Lebanon Based Cib Network,Lebanon,meta,accounts,6,6 accounts
+LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,meta,accounts,7,7 accounts
+LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,meta,pages,23,23 Pages
+LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,meta,groups,1,1 Group
+LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,meta,accounts,20,20 accounts
+LABEL:benin-based-cib-network,Benin Based Cib Network,Benin,meta,accounts,16,16 accounts
+LABEL:benin-based-cib-network,Benin Based Cib Network,Benin,meta,pages,6,6 pages
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,18,18 accounts
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,pages,2,2 Pages
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,groups,4,4 Groups
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,5,5 accounts
+LABEL:ghana-based-cib-network,Ghana Based Cib Network,Ghana,meta,accounts,42,42 accounts
+LABEL:ghana-based-cib-network,Ghana Based Cib Network,Ghana,meta,pages,1,1 pages
+LABEL:ghana-based-cib-network,Ghana Based Cib Network,Ghana,meta,accounts,33,33 accounts
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,accounts,157,157 accounts
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,pages,19,19 Pages
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,groups,1,1 group
+LABEL:china-based-cib-network,China-Based Cib Network,China,meta,accounts,17,17 accounts
+LABEL:iran-based-cib-network,Iran-Based Cib Network,Iran,meta,accounts,17,17 accounts
+LABEL:iran-based-cib-network,Iran-Based Cib Network,Iran,meta,pages,22,22 Pages
+LABEL:iran-based-cib-network,Iran-Based Cib Network,Iran,meta,accounts,21,21 accounts
+LABEL:romania-based-cib-network,Romania Based Cib Network,Romania,meta,accounts,658,658 accounts
+LABEL:romania-based-cib-network,Romania Based Cib Network,Romania,meta,pages,14,14 Pages
+LABEL:romania-based-cib-network,Romania Based Cib Network,Romania,meta,accounts,2,2 accounts
+LABEL:belarus-based-cib-network,Belarus Based Cib Network,Belarus,meta,accounts,4,4 accounts
+LABEL:belarus-based-cib-network,Belarus Based Cib Network,Belarus,meta,pages,12,12 pages
+LABEL:belarus-based-cib-network,Belarus Based Cib Network,Belarus,meta,accounts,21,21 accounts
+LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,meta,accounts,15,15 acounts
+LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,meta,pages,6,6 pages
+LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,meta,groups,7,7 groups
+LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,meta,accounts,4,4 accounts
+LABEL:poland-based-cib-network,Poland Based Cib Network,Poland,meta,accounts,55,55 accounts
+LABEL:poland-based-cib-network,Poland Based Cib Network,Poland,meta,pages,36,36 pages
+LABEL:poland-based-cib-network,Poland Based Cib Network,Poland,meta,groups,23,23 groups
+LABEL:poland-based-cib-network,Poland Based Cib Network,Poland,meta,accounts,1,1 account
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,accounts,5,5 accounts
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,pages,2,2 pages
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,groups,3,3 groups
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,accounts,67,67 accounts
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,pages,70,70 pages
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,groups,2,2 groups
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,accounts,10,10 accounts
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,pages,2,2 Pages
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,accounts,9,9 accounts
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,154,154 Accounts
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,pages,23,23 Pages
+LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,1,1 Account
+LABEL:iran-based-cib-network,Iran Based Cib Network,Iran,meta,accounts,8,8 accounts
+LABEL:iran-based-cib-network,Iran Based Cib Network,Iran,meta,pages,2,2 Pages
+LABEL:iran-based-cib-network,Iran Based Cib Network,Iran,meta,accounts,294,294 accounts
+LABEL:iran-based-cib-network,Iran Based Cib Network,Iran,meta,accounts,367,367 Accounts
+LABEL:iran-based-cib-network,Iran Based Cib Network,Iran,meta,pages,3,3 Pages
+LABEL:iran-based-cib-network,Iran Based Cib Network,Iran,meta,accounts,360,360 Accounts
+LABEL:pakistan-based-cib-network,Pakistan Based Cib Network,Pakistan,meta,accounts,23,23 Accounts
+LABEL:pakistan-based-cib-network,Pakistan Based Cib Network,Pakistan,meta,pages,8,8 Pages
+LABEL:pakistan-based-cib-network,Pakistan Based Cib Network,Pakistan,meta,accounts,14,14 Accounts
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,accounts,37,37 Accounts
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,pages,29,29 Pages
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,accounts,52,52 Accounts
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,pages,134,134 Pages
+LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,accounts,35,35 Accounts
+LABEL:tiktok-cio-takedowns-15-operations-jan-apr,"Tiktok Cio Takedowns (15 Operations, Jan-Apr )",,tiktok,accounts,3001,3001 accounts
+LABEL:tiktok-cio-takedowns-15-operations-jan-apr,"Tiktok Cio Takedowns (15 Operations, Jan-Apr )",,tiktok,accounts,3001,"Aggregate: 15 influence operations, 3,001 accounts; majority targeted political "
+IRA,Internet Research Agency,Russia,x,accounts,3841,3841 accounts
+LABEL:iran-io-network,Iran Io Network,Iran,x,accounts,770,770 accounts
+LABEL:catalan-independence-network,Catalan Independence Network,,x,accounts,130,130 accounts
+IRA,Internet Research Agency,Russia,x,accounts,4,4 accounts
+LABEL:iran-io-sets,Iran Io ( Sets),Iran,x,accounts,4779,4779 accounts
+LABEL:venezuela-commercial-network,Venezuela Commercial Network,Venezuela,x,accounts,33,33 accounts
+LABEL:prc-hong-kong-network,Prc/Hong Kong Network,,x,accounts,4301,4301 accounts
+LABEL:dotdev-uae-egypt,Dotdev (Uae & Egypt),United Arab Emirates,x,accounts,271,271 accounts
+LABEL:pais-alliance-network,Pais Alliance Network,,x,accounts,1019,1019 accounts
+LABEL:partido-popular-network,Partido Popular Network,,x,accounts,259,259 accounts
+LABEL:saudi-state-media-accounts,Saudi State-Media Accounts,,x,accounts,6,6 accounts
+LABEL:uae-network-qatar-yemen-targeting,Uae Network (Qatar/Yemen Targeting),United Arab Emirates,x,accounts,4248,4248 accounts
+LABEL:cuba-io-network,Cuba Io Network,Cuba,x,accounts,526,526 accounts
+LABEL:iran-io-network,Iran Io Network,Iran,x,accounts,104,104 accounts
+LABEL:saudi-io-network,Saudi Io Network,,x,accounts,33,33 accounts
+LABEL:thailand-io-network,Thailand Io Network,Thailand,x,accounts,926,926 accounts
+LABEL:russia-io-network-accounts,Russia Io Network ( Accounts),Russia,x,accounts,5,5 accounts
+LABEL:changyu-culture-network,Changyu Culture Network,,x,accounts,112,112 accounts
+LABEL:fichuatanzania-targeting-network,Fichuatanzania-Targeting Network,,x,accounts,268,268 accounts
+LABEL:government-narrative-network,Government-Narrative Network,,x,accounts,277,277 accounts
+LABEL:government-support-network,Government-Support Network,,x,accounts,276,276 accounts
+IRA,Internet Research Agency,Russia,x,accounts,16,16 accounts
+LABEL:libya-syria-operation,Libya/Syria Operation,Syria,x,accounts,50,50 accounts
+LABEL:pro-museveni-network,Pro-Museveni Network,,x,accounts,418,418 accounts
+LABEL:uyghur-narrative-network,Uyghur-Narrative Network,,x,accounts,2048,2048 accounts

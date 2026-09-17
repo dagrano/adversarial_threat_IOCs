@@ -1,0 +1,31 @@
+origin_country,n_providers,total_rows,anthropic,google,meta,openai,tiktok,x
+Iran,4,431,,2,424,2,,3
+Russia,3,6719,,4,6711,,,4
+China,3,1165,,5,1159,1,,
+North Korea,3,17,7,6,,4,,
+Vietnam,2,48,1,,47,,,
+Venezuela,2,31,,,30,,,1
+Palestine,1,243,,,243,,,
+Pakistan,1,172,,,172,,,
+Turkey,1,73,,,73,,,
+Moldova,1,63,,,63,,,
+India,1,60,,,60,,,
+Bangladesh,1,47,,,47,,,
+Togo,1,43,,,43,,,
+Myanmar,1,26,,,26,,,
+Israel,1,25,,,25,,,
+Croatia,1,23,,,23,,,
+Romania,1,23,,,23,,,
+Lebanon,1,20,,,20,,,
+Ghana,1,19,,,19,,,
+Georgia,1,16,,,16,,,
+Belarus,1,16,,,16,,,
+Ukraine,1,13,,,13,,,
+Benin,1,12,,,12,,,
+Poland,1,10,,,10,,,
+United Arab Emirates,1,2,,,,,,2
+Cambodia,1,1,,,,1,,
+Indonesia,1,1,,,,,1,
+Cuba,1,1,,,,,,1
+Thailand,1,1,,,,,,1
+Syria,1,1,,,,,,1
