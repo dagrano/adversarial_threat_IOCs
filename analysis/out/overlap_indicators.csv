@@ -1,5 +1,7 @@
 confidence,ind_class,ind_key,n_providers,providers,n_actors,actors,n_reports,reports
-strong,netloc,newstop.africa,2,meta|openai,2,Russia-Based Cib Network # ; Stop News,2,Disrupting malicious uses of AI: October 2025 ; Q2_2024_RUSSIA-BASED CIB NETWORK #2 
+strong,netloc,euronewstop.co.uk,2,meta|openai,2,Russia-Based Cib Network # ; Stop News,2,Influence and cyber operations: an update (October 2024) ; Q2_2024_RUSSIA-BASED CIB NETWORK #2 
+strong,netloc,newstop.africa,2,meta|openai,2,Russia-Based Cib Network # ; Stop News,3,Disrupting malicious uses of AI: October 2025 ; Influence and cyber operations: an update (October 2024) ; Q2_2024_RUSSIA-BASED CIB NETWORK #2 
+strong,netloc,empoweringghana.com,2,meta|openai,2,Ghana Based Cib Network ; Ghana Election Io (Digitsol),2, Q4_2024 GHANA_BASED_CIB_NETWORK ; Disrupting malicious uses of our models: an update (February 2025)
 strong,netloc,avisindependent.eu,1,meta,2,09 China And Russia ; Doppelganger,2,2022 09 removing coordinated inauthentic behavior from china and russia ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
 strong,netloc,bild.pics,1,meta,2,09 China And Russia ; Doppelganger,2,2022 09 removing coordinated inauthentic behavior from china and russia ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
 strong,netloc,rrn.world,1,meta,2,09 China And Russia ; Doppelganger,2,2022 09 removing coordinated inauthentic behavior from china and russia ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
@@ -318,3 +320,4 @@ strong,netloc,rebrand.ly,1,meta,2,05 Malware Iocs ; Patchwork,2,2023 05 malware 
 strong,netloc,pinterest.com,1,meta,2,Doppelganger ; Vietnam Based Cib Network,2,Q2_2023_Doppelganger_Russia_based_CIB_network_updated ; Q2_2024_VIETNAM_BASED_CIB_NETWORK 
 strong,netloc,tumblr.com,1,meta,2,Doppelganger ; Spamouflage / DRAGONBRIDGE,2,Q2_2023_Doppelganger_Russia_based_CIB_network_updated ; Q2_2023_Spamouflage_China_based_CIB_updated
 strong,netloc,linkedin.com,1,meta,2,Iran-Based Ib Cluster ; Türkiye Iran-Based Cib Network,2,Q2 2023_ Türkiye _ Iran-based CIB network ; Q3_2023_Iran-based IB_cluster
+strong,netloc,iuvmpress.co,1,openai,2,International Union Of Virtual Media (Iuvm) ; Iranian Influence Nexus,2,AI and covert influence operations: latest trends (May 2024) ; Disrupting malicious uses of our models: an update (February 2025)

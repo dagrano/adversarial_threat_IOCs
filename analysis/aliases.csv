@@ -33,3 +33,16 @@ IRA,Internet Research Agency,Russia,internet research agency,high,"Prigozhin-lin
 IRA,Internet Research Agency,Russia,ira-linked,medium,X archive labels
 IRA,Internet Research Agency,Russia,prigozhin,medium,"Prigozhin-associated entities"
 KRYMSKYBRIDGE,KrymskyBridge,Russia,krymskybridge,high,Google GTIG naming
+APT42,APT42,Iran,calanque ion,high,"GTIG 2026 rename of APT42"
+APT42,APT42,Iran,calanque,medium,"GTIG 2026 rename of APT42"
+APT24,APT24,China,apt24,high,"a.k.a. COULEE / Ravine Castle (GTIG 2026 rename)"
+APT24,APT24,China,coulee,medium,alias
+APT24,APT24,China,ravine castle,high,"GTIG 2026 rename of APT24"
+SANDWORM,Sandworm (APT44),Russia,sandworm,high,"a.k.a. FROZENBARENTS / APT44 / Sandworm Relic"
+SANDWORM,Sandworm (APT44),Russia,apt44,high,alias
+SANDWORM,Sandworm (APT44),Russia,sandworm relic,high,"GTIG 2026 rename of APT44"
+SANDWORM,Sandworm (APT44),Russia,frozenbarents,medium,alias
+UNC1069,UNC1069,North Korea,unc1069,high,"a.k.a. Midnight Neptune (GTIG 2026 rename)"
+UNC1069,UNC1069,North Korea,midnight neptune,high,"GTIG 2026 rename of UNC1069"
+BASIN,Basin Castle (TEMP.Hex),China,basin castle,high,"GTIG 2026 rename of TEMP.Hex"
+BASIN,Basin Castle (TEMP.Hex),China,temp.hex,high,alias
