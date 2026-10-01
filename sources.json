@@ -18,10 +18,10 @@
         "https://openai.com/index/disrupting-malicious-ai-uses/"
       ],
       "reports": [
-        {"date": "2024-02-14", "title": "Disrupting malicious uses of AI by state-affiliated threat actors", "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors/", "status": "pending"},
-        {"date": "2024-05-30", "title": "AI and covert influence operations: latest trends (May 2024)", "url": "https://openai.com/index/disrupting-deceptive-uses-of-AI-by-covert-influence-operations/", "status": "pending"},
-        {"date": "2024-10-09", "title": "Influence and cyber operations: an update (October 2024)", "url": "https://openai.com/index/influence-and-cyber-operations-an-update/", "status": "pending"},
-        {"date": "2025-02-21", "title": "Disrupting malicious uses of AI: February 2025", "url": "https://openai.com/global-affairs/disrupting-malicious-uses-of-our-models/", "status": "pending"},
+        {"date": "2024-02-14", "title": "Disrupting malicious uses of AI by state-affiliated threat actors", "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors/", "status": "ingested"},
+        {"date": "2024-05-30", "title": "AI and covert influence operations: latest trends (May 2024)", "url": "https://openai.com/index/disrupting-deceptive-uses-of-AI-by-covert-influence-operations/", "status": "ingested"},
+        {"date": "2024-10-09", "title": "Influence and cyber operations: an update (October 2024)", "url": "https://cdn.openai.com/threat-intelligence-reports/influence-and-cyber-operations-an-update_October-2024.pdf", "status": "ingested"},
+        {"date": "2025-02-21", "title": "Disrupting malicious uses of our models: an update (February 2025)", "url": "https://cdn.openai.com/threat-intelligence-reports/disrupting-malicious-uses-of-our-models-february-2025-update.pdf", "status": "ingested"},
         {"date": "2025-06-05", "title": "Disrupting malicious uses of AI: June 2025", "url": "https://cdn.openai.com/threat-intelligence-reports/5f73af09-a3a3-4a55-992e-069237681620/disrupting-malicious-uses-of-ai-june-2025.pdf", "status": "ingested"},
         {"date": "2025-10-07", "title": "Disrupting malicious uses of AI: October 2025", "url": "https://cdn.openai.com/threat-intelligence-reports/7d662b68-952f-4dfd-a2f2-fe55b041cc4a/disrupting-malicious-uses-of-ai-october-2025.pdf", "status": "ingested"}
       ]
@@ -40,7 +40,8 @@
       ],
       "reports": [
         {"date": "2025-01-29", "title": "Adversarial Misuse of Generative AI (GTIG)", "url": "https://services.google.com/fh/files/misc/adversarial-misuse-generative-ai.pdf", "status": "ingested"},
-        {"date": "2026-02-12", "title": "GTIG AI Threat Tracker", "url": "https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use", "status": "ingested"}
+        {"date": "2026-02-12", "title": "GTIG AI Threat Tracker", "url": "https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use", "status": "ingested"},
+        {"date": "2026-09-08", "title": "GTIG AI Threat Tracker: From Prompting to Autonomy - The Evolution of Adversarial AI", "url": "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai", "status": "ingested"}
       ]
     },
     "tiktok": {

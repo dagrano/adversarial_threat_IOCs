@@ -1,5 +1,7 @@
 ind_class,ind_key,n_providers,providers,n_actors,actors,n_rows
-netloc,newstop.africa,2,meta|openai,2,LABEL:russia-based-cib-network|LABEL:stop-news,2
+netloc,euronewstop.co.uk,2,meta|openai,2,LABEL:russia-based-cib-network|LABEL:stop-news,2
+netloc,newstop.africa,2,meta|openai,2,LABEL:russia-based-cib-network|LABEL:stop-news,3
+netloc,empoweringghana.com,2,meta|openai,2,LABEL:ghana-based-cib-network|LABEL:ghana-election-io-digitsol,2
 netloc,youtube.com,1,meta,14,LABEL:bangladesh-based-cib-network|LABEL:china-based-cib-network|LABEL:iran-based-cib-network|LABEL:iran-based-ib-cluster|LABEL:iran-based-recidivist-cib-cluster|LABEL:israel-based-cib-network|LABEL:lebanon-based-cib-network|LABEL:moldova-based-cib-network|LABEL:myanmar-based-cib-network|LABEL:pakistan-based-cib-network|LABEL:romania-based-cib-network|LABEL:russia-based-cib-network|LABEL:t-rkiye-based-cib-network|LABEL:vietnam-based-cib-network,50
 netloc,twitter.com,1,meta,13,LABEL:bangladesh-based-cib-network|LABEL:china-based-cib-network|LABEL:iran-based-cib-network|LABEL:iran-based-ib-cluster|LABEL:iran-based-recidivist-cib-cluster|LABEL:lebanon-based-cib-network|LABEL:myanmar-based-cib-network|LABEL:russia-based-cib-network|LABEL:t-rkiye-based-cib-network|LABEL:t-rkiye-iran-based-cib-network|LABEL:venezuela-us-based-cib-network|LABEL:vietnam-based-cib-network|SPAMOUFLAGE,167
 netloc,t.me,1,meta,12,LABEL:09-china-and-russia|LABEL:bangladesh-based-cib-network|LABEL:china-based-cib-network|LABEL:iran-based-cib-network|LABEL:iran-based-ib-cluster|LABEL:iran-based-recidivist-cib-cluster|LABEL:moldova-based-cib-network|LABEL:moldova-madagascar-targeting-cib-network|LABEL:myanmar-based-cib-network|LABEL:russia-based-cib-network|LABEL:t-rkiye-iran-based-cib-network|LABEL:vietnam-based-cib-network,70
@@ -329,3 +331,4 @@ netloc,pinterest.com,1,meta,2,DOPPELGANGER|LABEL:vietnam-based-cib-network,24
 netloc,tumblr.com,1,meta,2,DOPPELGANGER|SPAMOUFLAGE,80
 netloc,linkedin.com,1,meta,2,LABEL:iran-based-ib-cluster|LABEL:t-rkiye-iran-based-cib-network,2
 netloc,vk.com,1,meta,2,LABEL:moldova-based-cib-network|SPAMOUFLAGE,3
+netloc,iuvmpress.co,1,openai,2,LABEL:international-union-of-virtual-media-iuvm|LABEL:iranian-influence-nexus,2

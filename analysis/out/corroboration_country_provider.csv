@@ -1,38 +1,39 @@
 origin_country,n_providers,total_rows,anthropic,google,meta,openai,tiktok,x
-Russia,5,6827,93,5,6711,14,,4
-China,5,1192,3,8,1159,19,,3
-Iran,4,433,,4,424,2,,3
-North Korea,3,18,7,7,,4,,
+Russia,5,6837,93,7,6711,22,,4
+China,5,1205,3,12,1159,28,,3
+Iran,4,450,,6,424,17,,3
+North Korea,3,24,7,10,,7,,
 Turkey,2,96,23,,73,,,
+United States,2,62,,,59,3,,
 Vietnam,2,48,1,,47,,,
+Israel,2,26,,,25,1,,
+Ghana,2,21,,,19,2,,
 United Kingdom,2,4,3,,,,1,
 Palestine,1,243,,,243,,,
 Pakistan,1,172,,,172,,,
 France,1,93,93,,,,,
 Moldova,1,63,,,63,,,
 India,1,60,,,60,,,
-United States,1,59,,,59,,,
 Bangladesh,1,47,,,47,,,
 Togo,1,43,,,43,,,
 Bahamut,1,37,,,37,,,
 Myanmar,1,26,,,26,,,
-Israel,1,25,,,25,,,
 Croatia,1,23,,,23,,,
 Romania,1,23,,,23,,,
 Lebanon,1,20,,,20,,,
-Ghana,1,19,,,19,,,
 Georgia,1,16,,,16,,,
 Belarus,1,16,,,16,,,
 Ukraine,1,13,,,13,,,
 Benin,1,12,,,12,,,
 Poland,1,10,,,10,,,
 Russia/Ukraine,1,8,8,,,,,
-Cambodia,1,4,,,,4,,
+Cambodia,1,6,,,,6,,
 Spain,1,2,,,,,,2
 Venezuela,1,2,,,,,,2
 United Arab Emirates,1,2,,,,,,2
 Saudi Arabia,1,2,,,,,,2
 "China, Iran, Russia, Saudi Arabia",1,1,,1,,,,
+Rwanda,1,1,,,,1,,
 Philippines,1,1,,,,1,,
 Indonesia,1,1,,,,,1,
 Ecuador,1,1,,,,,,1

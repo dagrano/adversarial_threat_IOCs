@@ -1,6 +1,6 @@
 actor_id,actor_name,is_named,country,n_providers,providers,n_rows
-SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,2,google|meta,530
-DOPPELGANGER,Doppelganger,True,Russia,2,google|meta,6496
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,3,google|meta|openai,532
+DOPPELGANGER,Doppelganger,True,Russia,3,google|meta|openai,6497
 IRA,Internet Research Agency,True,Russia,2,google|x,4
 LABEL:iot-credential-scraping-actor,Iot Credential Scraping Actor,False,,1,anthropic,1
 LABEL:multi-client-influence-network,Multi-Client Influence Network,False,,1,anthropic,1
@@ -27,7 +27,7 @@ LABEL:gtg-50029,Gtg-50029,False,France,1,anthropic,23
 LABEL:gtg-54002-lkm-company,Gtg-54002 (Lkm Company),False,France,1,anthropic,29
 LABEL:gtg-84005-bbs-bilisim-teknolojileri,Gtg-84005 (Bbs Bilisim Teknolojileri),False,Turkey,1,anthropic,23
 APT41,APT41,True,China,1,google,2
-APT42,APT42,True,Iran,1,google,2
+APT42,APT42,True,Iran,1,google,3
 APT43,APT43,True,North Korea,1,google,1
 COPYCOP,CopyCop,True,Russia,1,google,1
 LABEL:dprk-apt-actors-groups,Dprk Apt Actors ( Groups),False,North Korea,1,google,1
@@ -41,11 +41,21 @@ LABEL:russian-apt-actors-groups,Russian Apt Actors ( Groups),False,Russia,1,goog
 APT31,APT31,True,China,1,google,1
 LABEL:gtig-tracked-ai-enabled-malware,Gtig-Tracked Ai-Enabled Malware,False,,1,google,7
 LABEL:gtig-tracked-io-actors,Gtig-Tracked Io Actors,False,"China, Iran, Russia, Saudi Arabia",1,google,1
-LABEL:temp-hex,Temp.Hex,False,China,1,google,1
+BASIN,Basin Castle (TEMP.Hex),True,China,1,google,2
 LABEL:unc2970,Unc2970,False,North Korea,1,google,1
 LABEL:unc5356,Unc5356,False,,1,google,6
 LABEL:unc6418,Unc6418,False,,1,google,1
 LABEL:unc795,Unc795,False,China,1,google,1
+LABEL:dprk-aerospace-defense-clusters,Dprk Aerospace/Defense Clusters,False,North Korea,1,google,1
+LABEL:iranian-influence-actors,Iranian Influence Actors,False,Iran,1,google,1
+UNC1069,UNC1069,True,North Korea,1,google,2
+LABEL:prc-nexus-automated-exploitation-group,Prc-Nexus Automated-Exploitation Group,False,China,1,google,1
+APT24,APT24,True,China,1,google,1
+SANDWORM,Sandworm (APT44),True,Russia,1,google,1
+LABEL:unc5792,Unc5792,False,Russia,1,google,1
+LABEL:unc6240-shinyhunters,Unc6240 (Shinyhunters),False,,1,google,1
+LABEL:unc6508,Unc6508,False,China,1,google,1
+LABEL:unc6780-teampcp,Unc6780 (Teampcp),False,,1,google,2
 LABEL:12-bangladesh-and-vietnam,12 Bangladesh And Vietnam,False,Vietnam,1,meta,10
 LABEL:03-china,03 China,False,China,1,meta,26
 LABEL:04-palestine,04 Palestine,False,Palestine,1,meta,243
@@ -87,10 +97,36 @@ LABEL:romania-based-cib-network,Romania Based Cib Network,False,Romania,1,meta,2
 LABEL:belarus-based-cib-network,Belarus Based Cib Network,False,Belarus,1,meta,16
 LABEL:poland-based-cib-network,Poland Based Cib Network,False,Poland,1,meta,10
 LABEL:pakistan-based-cib-network,Pakistan Based Cib Network,False,Pakistan,1,meta,17
+LABEL:charcoal-typhoon,Charcoal Typhoon,False,China,1,openai,1
+LABEL:crimson-sandstorm,Crimson Sandstorm,False,Iran,1,openai,1
+LABEL:emerald-sleet,Emerald Sleet,False,North Korea,1,openai,1
+LABEL:forest-blizzard,Forest Blizzard,False,Russia,1,openai,1
+LABEL:salmon-typhoon,Salmon Typhoon,False,China,1,openai,1
+LABEL:bad-grammar,Bad Grammar,False,Russia,1,openai,1
+LABEL:international-union-of-virtual-media-iuvm,International Union Of Virtual Media (Iuvm),False,Iran,1,openai,2
+LABEL:zero-zeno-stoic,Zero Zeno (Stoic),False,Israel,1,openai,1
+LABEL:a2z,A2Z,False,United States,1,openai,2
+LABEL:bet-bot,Bet Bot,False,,1,openai,1
+LABEL:corrupt-comment,Corrupt Comment,False,,1,openai,1
+LABEL:cyberav3ngers,Cyberav3Ngers,False,Iran,1,openai,1
+LABEL:russian-troll-hoax,Russian 'Troll' Hoax,False,United States,1,openai,1
+LABEL:rwandan-election-content,Rwandan Election Content,False,Rwanda,1,openai,1
+LABEL:storm-0817,Storm-0817,False,Iran,1,openai,4
+STORM-2035,Storm-2035,True,Iran,1,openai,4
+LABEL:stop-news,Stop News,False,Russia,1,openai,9
+LABEL:sweetspecter,Sweetspecter,False,China,1,openai,3
+LABEL:tort-report,Tort Report,False,,1,openai,1
+LABEL:deceptive-employment-scheme,Deceptive Employment Scheme,False,North Korea,1,openai,1
+LABEL:ghana-election-io-digitsol,Ghana Election Io (Digitsol),False,Ghana,1,openai,2
+LABEL:iranian-influence-nexus,Iranian Influence Nexus,False,Iran,1,openai,5
+LABEL:peer-review-qianyue,Peer Review (Qianyue),False,China,1,openai,1
+LABEL:romance-baiting-scam-pig-butchering,Romance-Baiting Scam (Pig Butchering),False,Cambodia,1,openai,1
+LABEL:sponsored-discontent,Sponsored Discontent,False,China,1,openai,1
+LABEL:task-scam,Task Scam,False,Cambodia,1,openai,1
+LABEL:velvet-chollima-stardust-chollima,Velvet Chollima / Stardust Chollima,False,North Korea,1,openai,1
 LABEL:dprk-it-worker-scheme,Dprk It Worker Scheme,False,North Korea,1,openai,1
 LABEL:helgoland-bite,Helgoland Bite,False,Russia,1,openai,4
 LABEL:high-five-comm-sense-inc,High Five (Comm&Sense Inc),False,Philippines,1,openai,1
-STORM-2035,Storm-2035,True,Iran,1,openai,2
 LABEL:scopecreep,Scopecreep,False,Russia,1,openai,5
 LABEL:sneer-review,Sneer Review,False,China,1,openai,2
 LABEL:uncle-spam,Uncle Spam,False,China,1,openai,3
@@ -102,7 +138,6 @@ LABEL:korean-language-operators-likely-dprk-unconfirme,"Korean-Language Operator
 LABEL:nine-emdash-line,Nine-Emdash Line,False,China,1,openai,3
 LABEL:prc-government-linked-authoritarian-tooling,Prc Government-Linked Authoritarian Tooling,False,China,1,openai,1
 LABEL:russian-language-malware-tooling-developer,Russian-Language Malware Tooling Developer,False,Russia,1,openai,1
-LABEL:stop-news,Stop News,False,Russia,1,openai,4
 LABEL:uta0388-unk-droppitch,Uta0388 / Unk_Droppitch,False,China,1,openai,5
 LABEL:indonesia-targeting-network,Indonesia-Targeting Network,False,Indonesia,1,tiktok,1
 LABEL:tiktok-cio-takedowns-15-operations-jan-apr,"Tiktok Cio Takedowns (15 Operations, Jan-Apr )",False,,1,tiktok,1
