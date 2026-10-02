@@ -299,7 +299,7 @@ button.tog{{float:right;background:var(--surface-1);color:var(--text-secondary);
 <body><div class="wrap">
 <button class="tog" onclick="var r=document.documentElement;r.dataset.theme=r.dataset.theme==='dark'?'light':'dark'">◐ theme</button>
 <h1>Adversarial Threat IOCs</h1>
-<p class="sub">Cross-source analysis of published adversarial-threat reporting — generated from the corpus.</p>
+<p class="sub">Cross-source analysis of published adversarial-threat reporting — generated from the corpus. <a href="query.html" style="color:var(--series-1)">Search the raw indicators →</a></p>
 <div class="tiles">{tiles}</div>
 
 <h2>Filter by reporting company</h2>
