@@ -137,7 +137,8 @@ mark{background:color-mix(in srgb,var(--warn) 45%,transparent);color:inherit;bor
 <div class="wrap">
 <header class="top">
   <h1>IOC Explorer</h1>
-  <p class="sub">Search and filter the adversarial-threat IOC corpus — <span id="total"></span> indicators from Meta, OpenAI, Anthropic, Google, TikTok and X.</p>
+  <p class="sub">Search and filter the adversarial-threat IOC corpus — <span id="total"></span> indicators across 12 sources (Meta, OpenAI, Anthropic, Google, TikTok, X, Microsoft, Mandiant, DFRLab, Graphika, EU DisinfoLab, CISA/FBI).</p>
+  <p class="sub" style="margin-top:3px"><a href="index.html" style="color:var(--accent);text-decoration:none">← Dashboard</a> &nbsp; <a href="corroboration.html" style="color:var(--accent);text-decoration:none">Cross-source corroboration →</a></p>
 </header>
 
 <div class="controls">

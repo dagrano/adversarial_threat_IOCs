@@ -6,8 +6,12 @@ security investigations. Every report is normalized into one flat CSV schema so
 you can search, diff, and import the data into a SIEM, TIP, or a spreadsheet
 without re-reading a stack of PDFs.
 
-**Current sources:** Meta, OpenAI, Anthropic, Google (GTIG), TikTok, and X.
-**Roadmap:** Mandiant's classic APT IOC catalog and vetted OSINT /
+**Current sources:** Meta, OpenAI, Anthropic, Google (GTIG), TikTok, X,
+Microsoft (MSTIC/MTAC), Mandiant, DFRLab, Graphika, EU DisinfoLab, and
+government advisories (CISA, FBI). NCSC is tracked but has no in-scope report
+yet (its public actor reporting is cyber-espionage, outside this corpus's
+influence-operations / AI-misuse scope).
+**Roadmap:** deeper government-advisory coverage and additional vetted OSINT /
 security-vendor investigations. Sources are an extensible vocabulary
 (`schema/providers.csv`) — adding one is a one-line change, then drop CSVs
 under `data/<provider>/`.
@@ -32,9 +36,21 @@ under `data/<provider>/`.
 | Google (GTIG) | Actor-by-actor AI-misuse reporting; the AI Threat Tracker adds malware families | *Adversarial Misuse of Generative AI* (Jan 2025), *AI Threat Tracker* (Feb 2026) |
 | TikTok | Covert Influence Operations transparency disclosures; behavioral, few hard IOCs | Jan–Apr 2024 aggregate + examples (**partial** — per-network detail behind a JS transparency center) |
 | X (Twitter) | Historical state-linked IO archive (2018–2021), discontinued after 2022 | **Account-level attribution only** (no tweet content): 25 disclosed networks with country + account counts |
+| Microsoft (MSTIC/MTAC) | Influence-operations & AI-misuse reporting (Storm-#### networks, election IO, the AI-threat-actor taxonomy) | 7 reports (2023–2024): AI-threat-actor report, East Asia, Paris Olympics, US-election IO, Iran |
+| Mandiant | Mandiant-bylined information-operations reporting | DRAGONBRIDGE (2022 midterms), Ghostwriter / UNC1151 (Belarus) |
+| DFRLab | Atlantic Council influence-operation investigations | Doppelganger (2024, domain lists), Iranian election interference |
+| Graphika | Influence-operation research reports | Spamouflage: *Goes to America* (2020), *The #Americans* (2024) |
+| EU DisinfoLab | Disinformation / influence-operation investigations | Doppelganger (origin report, 2022), Indian Chronicles (Srivastava Group) |
+| CISA / FBI | Government advisories — influence-ops & AI-misuse / state-linked only | CISA: Emennet Pasargad (domains, IPs, hashes, AI-tool misuse); FBI/DOJ: Doppelganger 32-domain seizure |
 
-Current size: **11,600+ rows**. Rebuild stats print when you run
-`scripts/build_master.py`.
+Current size: **11,800+ rows** across 12 sources. Rebuild stats print when you
+run `scripts/build_master.py`.
+
+Scope for the newer sources (Microsoft, Mandiant, DFRLab, Graphika, EU
+DisinfoLab, CISA/FBI/NCSC) is **influence operations and AI-misuse only** —
+generic ransomware/CVE advisories and pure cyber-espionage are out of scope.
+Government joint advisories are keyed to the lead agency, with co-authors noted
+in `description`.
 
 X rows use `indicator_type = asset_count` (e.g. "4,779 accounts") because X
 published account datasets, not atomic IOCs; per the corpus's scope these
@@ -45,11 +61,8 @@ capture network-level attribution, not individual tweets.
 ```
 data/
   anthropic/   one CSV per report  (YYYY-MM-DD_slug.csv)
-  openai/
-  meta/
-  google/
-  tiktok/
-  x/
+  openai/  meta/  google/  tiktok/  x/
+  microsoft/  mandiant/  dfrlab/  graphika/  eu_disinfolab/  cisa/  fbi/
 dist/
   indicators.csv        generated master (all rows, sorted) — the file to query
 schema/
@@ -57,15 +70,37 @@ schema/
   indicator_types.csv   controlled vocabulary for indicator_type
   actor_types.csv       controlled vocabulary for actor_type
   ttp_frameworks.csv    controlled vocabulary for ttp_framework
+  providers.csv         controlled vocabulary for source_provider
 scripts/
   normalize_meta.py             regenerate data/meta from a repo clone
-  backfill_anthropic_openai.py  regenerate data/anthropic + data/openai
-  backfill_google_tiktok_x.py   regenerate data/google + data/tiktok + data/x
   build_master.py               concat data/**/*.csv -> dist/indicators.csv
   validate.py                   schema + vocabulary check (CI gate)
   check_new_reports.py          monthly: find un-ingested reports
+analysis/
+  aliases.csv           hand-curated alias -> canonical actor map
+  build_index.py        -> out/normalized_indicators.csv (resolved actors)
+  build_dashboard.py    -> out/dashboard.html (overview, map, timeline)
+  build_query.py        -> out/query.html  (IOC Explorer: search + filter)
+  build_corroboration.py -> out/corroboration.html (cross-source view + actor timeline)
 sources.json          manifest of every known report + ingest status
 ```
+
+## Web tools (GitHub Pages)
+
+Three self-contained pages are rebuilt by CI on every push and served from
+GitHub Pages:
+
+- **Dashboard** (`index.html`) — overview tiles, origin-country map,
+  corroboration heatmap, takedown timeline.
+- **IOC Explorer** (`query.html`) — search any selector and filter by origin
+  country, provider, and indicator type; export the filtered set as CSV.
+- **Cross-source corroboration** (`corroboration.html`) — ranks named actors by
+  how many independent providers reported them, and draws a per-actor
+  **reporting timeline**: each report on its date, sized by indicator count,
+  colour-coded by actor, linked to its source. This is where the corpus's main
+  value shows — e.g. *Doppelganger* reported by seven independent sources, or
+  the same operation surfacing under different vendor names once the alias map
+  reconciles them.
 
 ## The schema
 
@@ -106,10 +141,18 @@ its source report.
 
 - **Meta rows** are normalized programmatically from the source CSVs — high
   fidelity.
-- **Anthropic / OpenAI rows** are extracted from report PDFs and should be
-  **spot-checked against `source_url`** before operational blocking. PDF table
-  extraction can transpose a character in a hash or IP. Treat them as leads,
-  verify before enforcement.
+- **Government advisory rows** (CISA, FBI) carry authoritative hard IOCs —
+  seized domains, IPs, file hashes — but the advisories themselves say to vet
+  indicators before blocking.
+- **PDF / blog-extracted rows** (Anthropic, OpenAI, Google, Microsoft, and the
+  IO researchers) should be **spot-checked against `source_url`** before
+  operational blocking — extraction can transpose a character in a hash or IP.
+  Treat them as leads, verify before enforcement. Many IO-research rows are
+  actor/TTP/persona summaries (confidence left blank), not atomic IOCs.
+- **Cross-source corroboration** is a built-in quality signal: when independent
+  providers surface the same indicator or actor, confidence rises. `analysis/`
+  computes this (overlaps, the actor×provider matrix, linked-op clusters), and
+  `corroboration.html` visualises it.
 - No indicator here is a substitute for your own validation. This is a research
   and triage corpus.
 
@@ -131,7 +174,9 @@ status in `sources.json`, rebuild, and open a PR. See
 
 MIT (see `LICENSE`) — chosen to match Meta's upstream `threat-research`
 repository, which publishes its data under MIT. The underlying indicators
-belong to their respective publishers (Anthropic, OpenAI, Meta); this project
-redistributes them for defensive research with attribution via `source_url`,
-and the `NOTICE` file retains Meta's copyright and credits all three sources.
-If you are one of these publishers and want a change, open an issue.
+belong to their respective publishers (Meta, OpenAI, Anthropic, Google,
+Microsoft, Mandiant, DFRLab, Graphika, EU DisinfoLab, CISA/FBI, and the
+others); this project redistributes them for defensive research with
+attribution via `source_url`, and the `NOTICE` file retains the upstream
+copyrights and credits. If you are one of these publishers and want a change,
+open an issue.
