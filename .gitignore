@@ -13,3 +13,4 @@ analysis/out/linked_ops.graphml
 # generated dashboards — rebuilt by CI
 analysis/out/dashboard.html
 analysis/out/query.html
+analysis/out/corroboration.html
