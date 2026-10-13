@@ -90,3 +90,5 @@ BITTER,Bitter APT,South Asia,bitter apt,high,"South Asia cyber-espionage APT"
 BITTER,Bitter APT,South Asia,apt-c-08,medium,alias
 APT36,APT36,Pakistan,apt36,high,"Pakistan state-linked (a.k.a. Transparent Tribe)"
 APT36,APT36,Pakistan,transparent tribe,high,alias
+ZERO-ZENO,Zero Zeno (STOIC),Israel,zero zeno,high,"STOIC (Tel Aviv political-marketing firm); Meta Q1 2024 == OpenAI May 2024"
+ZERO-ZENO,Zero Zeno (STOIC),Israel,stoic,medium,"Commercial firm STOIC behind the Zero Zeno operation"

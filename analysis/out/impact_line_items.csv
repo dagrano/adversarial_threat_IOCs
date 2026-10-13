@@ -124,6 +124,14 @@ LABEL:us-based-cib-network,Us-Based Cib Network,United States,meta,accounts,3,3 
 LABEL:vietnam-based-cib-network,Vietnam Based Cib Network,Vietnam,meta,accounts,112,112 accounts
 LABEL:vietnam-based-cib-network,Vietnam Based Cib Network,Vietnam,meta,pages,65,65 Pages
 LABEL:vietnam-based-cib-network,Vietnam Based Cib Network,Vietnam,meta,accounts,49,49 accounts
+LABEL:bangladesh-based-network-cib,Bangladesh-Based Network (Cib),Bangladesh,meta,accounts,50,50 Facebook accounts; 98 Pages
+LABEL:bangladesh-based-network-cib,Bangladesh-Based Network (Cib),Bangladesh,meta,usd_spend,60,Links to the Awami League party and the Center for Research and Information; ~$6
+LABEL:china-based-network-operation-k,China-Based Network (Operation K),China,meta,accounts,37,37 Facebook accounts; 13 Pages; 5 Groups; 9 Instagram accounts
+LABEL:croatia-based-network-cib,Croatia-Based Network (Cib),Croatia,meta,accounts,104,104 Facebook accounts; 39 Pages; 7 Instagram accounts
+LABEL:iran-based-network-cib,Iran-Based Network (Cib),Iran,meta,accounts,22,22 Facebook accounts; 8 Pages; 8 Groups; 23 Instagram accounts
+LABEL:unknown-origin-network-moldova-madagascar,Unknown-Origin Network (Moldova/Madagascar),Moldova,meta,accounts,1326,"1,326 Facebook accounts; 80 Pages; 1 Group; 1 Instagram account"
+LABEL:unknown-origin-network-moldova-madagascar,Unknown-Origin Network (Moldova/Madagascar),Moldova,meta,usd_spend,42000,"Origin unknown; routed via Lithuania and Transnistria; ~$42,000 ads"
+ZERO-ZENO,Zero Zeno (STOIC),Israel,meta,accounts,510,510 Facebook accounts; 11 Pages; 1 Group; 32 Instagram accounts
 LABEL:iran-based-cib-network,Iran Based Cib Network,Iran,meta,accounts,48,48 accounts
 LABEL:iran-based-cib-network,Iran Based Cib Network,Iran,meta,accounts,2,2 accounts
 LABEL:lebanon-based-cib-network,Lebanon Based Cib Network,Lebanon,meta,accounts,15,15 accounts
@@ -133,6 +141,12 @@ LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,meta,accounts,
 LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,meta,pages,23,23 Pages
 LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,meta,groups,1,1 Group
 LABEL:moldova-based-cib-network,Moldova Based Cib Network,Moldova,meta,accounts,20,20 accounts
+LABEL:agora-expert-club,Agora Expert Club,Russia,meta,accounts,76,76 Facebook accounts; 30 Pages; 11 Instagram accounts
+LABEL:center-for-information-defense,Center For Information Defense,Russia,meta,accounts,12,12 Facebook accounts; 32 Pages; 5 Groups; 3 Instagram accounts
+LABEL:euro-top-news,Euro Top News,Russia,meta,accounts,20,20 Facebook accounts; 14 Pages; 9 Instagram accounts
+LABEL:it-s-in-your-hands-lt-media,It'S In Your Hands (Lt Media),Vietnam,meta,accounts,112,112 Facebook accounts; 65 Pages; 49 Instagram accounts
+LABEL:patriots-run-project,Patriots Run Project,United States,meta,accounts,96,96 Facebook accounts; 16 Pages; 12 Groups; 3 Instagram accounts
+LABEL:ukrainian-european-front,Ukrainian European Front,Russia,meta,accounts,43,43 Facebook accounts; 85 Pages
 LABEL:benin-based-cib-network,Benin Based Cib Network,Benin,meta,accounts,16,16 accounts
 LABEL:benin-based-cib-network,Benin Based Cib Network,Benin,meta,pages,6,6 pages
 LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,18,18 accounts
@@ -142,6 +156,11 @@ LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,5,5 ac
 LABEL:ghana-based-cib-network,Ghana Based Cib Network,Ghana,meta,accounts,42,42 accounts
 LABEL:ghana-based-cib-network,Ghana Based Cib Network,Ghana,meta,pages,1,1 pages
 LABEL:ghana-based-cib-network,Ghana Based Cib Network,Ghana,meta,accounts,33,33 accounts
+COTTON-SANDSTORM,Cotton Sandstorm,Iran,meta,accounts,48,48 Facebook accounts; 2 Instagram accounts
+LABEL:india-odisha-network-cib,India (Odisha) Network (Cib),India,meta,accounts,100,100 Facebook accounts; 2 Pages; 19 Instagram accounts
+LABEL:india-based-network-cib,India-Based Network (Cib),India,meta,accounts,122,122 Facebook accounts; 2 Pages; 30 Instagram accounts
+LABEL:lebanon-based-network-cib,Lebanon-Based Network (Cib),Lebanon,meta,accounts,15,15 Facebook accounts; 15 Pages; 6 Instagram accounts
+LABEL:transnistria-moldova-network-cib,Transnistria/Moldova Network (Cib),Moldova,meta,accounts,7,7 Facebook accounts; 23 Pages; 1 Group; 20 Instagram accounts
 LABEL:china-based-cib-network,China-Based Cib Network,China,meta,accounts,157,157 accounts
 LABEL:china-based-cib-network,China-Based Cib Network,China,meta,pages,19,19 Pages
 LABEL:china-based-cib-network,China-Based Cib Network,China,meta,groups,1,1 group
@@ -172,6 +191,21 @@ LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,groups,2,2 g
 LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,accounts,10,10 accounts
 LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,pages,2,2 Pages
 LABEL:russia-based-cib-network,Russia Based Cib Network,Russia,meta,accounts,9,9 accounts
+LABEL:china-based-network-cib,China-Based Network (Cib),China,meta,accounts,157,157 Facebook accounts; 19 Pages; 1 Group; 17 Instagram accounts
+LABEL:romania-based-network-cib,Romania-Based Network (Cib),Romania,meta,accounts,658,658 Facebook accounts; 14 Pages; 2 Instagram accounts
+LABEL:romania-based-network-cib,Romania-Based Network (Cib),Romania,meta,usd_spend,177000,"Proxy IP infrastructure; ~$177,000 ads; not attributed to a specific state/group"
+STORM-2035,Storm-2035,Iran,meta,accounts,17,17 Facebook accounts; 22 Pages; 21 Instagram accounts
+STORM-2035,Storm-2035,Iran,meta,usd_spend,70,Azeri-speaking audiences; detected via Google TIG; linked to STORM-2035 (OpenAI/
+LABEL:belarus-based-network-poland,Belarus-Based Network (Poland),Poland,meta,accounts,4,4 Facebook accounts; 12 Pages; 21 Instagram accounts
+LABEL:belarus-based-network-poland,Belarus-Based Network (Poland),Poland,meta,usd_spend,1800,Links to Belarus and Russia; impersonated the Civic Coalition; amplified a hack-
+LABEL:india-based-network-genai-personas,India-Based Network (Genai Personas),India,meta,accounts,59,59 Facebook accounts; 11 Pages; 152 Instagram accounts
+LABEL:india-based-network-genai-personas,India-Based Network (Genai Personas),India,meta,usd_spend,3600,"Used generative AI for profile pictures, bios, images, captions and comments; ~$"
+LABEL:moldova-based-network-gagauzia,Moldova-Based Network (Gagauzia),Moldova,meta,accounts,15,15 Facebook accounts; 6 Pages; 7 Groups; 4 Instagram accounts
+LABEL:poland-based-network-cib,Poland-Based Network (Cib),Poland,meta,accounts,55,55 Facebook accounts; 36 Pages; 23 Groups; 1 Instagram account
+LABEL:russia-based-network-african-freelancers,Russia-Based Network (African Freelancers),Russia,meta,accounts,67,67 Facebook accounts; 70 Pages; 2 Groups
+LABEL:russia-based-network-african-freelancers,Russia-Based Network (African Freelancers),Russia,meta,usd_spend,107300,"Freelancer-driven; posed as local media; anti-France/US; ~$107,300 ads; VIGINUM-"
+LABEL:russia-based-network-moldova-mare,Russia-Based Network (Moldova Mare),Russia,meta,accounts,5,5 Facebook accounts; 2 Pages; 3 Groups
+LABEL:russia-based-network-rt-linked,Russia-Based Network (Rt-Linked),Russia,meta,accounts,10,10 Facebook accounts; 2 Pages; 9 Instagram accounts
 LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,154,154 Accounts
 LABEL:china-based-cib-network,China Based Cib Network,China,meta,pages,23,23 Pages
 LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,1,1 Account
