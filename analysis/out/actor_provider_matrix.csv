@@ -1,5 +1,5 @@
 actor_id,actor_name,is_named,country,n_providers,providers,n_rows
-DOPPELGANGER,Doppelganger,True,Russia,5,dfrlab|google|meta|microsoft|openai,6524
+DOPPELGANGER,Doppelganger,True,Russia,6,dfrlab|eu_disinfolab|google|meta|microsoft|openai,6528
 SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,5,google|graphika|meta|microsoft|openai,550
 APT42,APT42,True,Iran,3,dfrlab|google|microsoft,5
 APT43,APT43,True,North Korea,3,google|microsoft|openai,4
@@ -38,6 +38,7 @@ LABEL:evenpolitics,Evenpolitics,False,Iran,1,dfrlab,3
 LABEL:liberty-front-press,Liberty Front Press,False,Iran,1,dfrlab,1
 LABEL:nio-thinker,Nio Thinker,False,Iran,1,dfrlab,1
 LABEL:teorator,Teorator,False,Iran,1,dfrlab,1
+SRIVASTAVA-GROUP,Srivastava Group,True,India,1,eu_disinfolab,8
 APT41,APT41,True,China,1,google,2
 COPYCOP,CopyCop,True,Russia,1,google,1
 LABEL:dprk-apt-actors-groups,Dprk Apt Actors ( Groups),False,North Korea,1,google,1

@@ -133,7 +133,10 @@
       "listing_urls": [
         "https://www.disinfo.eu/publications/"
       ],
-      "reports": []
+      "reports": [
+        {"date": "2020-12-09", "title": "Indian Chronicles: deep dive into a 15-year operation targeting the EU and UN to serve Indian interests", "url": "https://www.disinfo.eu/publications/indian-chronicles-deep-dive-into-a-15-year-operation-targeting-the-eu-and-un-to-serve-indian-interests/", "status": "ingested"},
+        {"date": "2022-09-27", "title": "Doppelganger - Media clones serving Russian propaganda", "url": "https://www.disinfo.eu/doppelganger/", "status": "ingested", "note": "Origin report naming the campaign; domain list in the Qurium technical annex"}
+      ]
     }
   }
 }
