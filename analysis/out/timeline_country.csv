@@ -1,5 +1,5 @@
 origin_country,country,first_seen,last_seen,span_days,n_reports,n_providers,providers
-Russia,Russia,2018-10-17,2026-10-01,2906,29,7,anthropic|dfrlab|google|meta|microsoft|openai|x
+Russia,Russia,2018-10-17,2026-10-01,2906,30,8,anthropic|dfrlab|eu_disinfolab|google|meta|microsoft|openai|x
 Iran,Iran,2018-10-17,2026-10-01,2906,27,6,dfrlab|google|meta|microsoft|openai|x
 Spain,Spain,2019-06-13,2019-09-20,99,2,1,x
 Venezuela,Venezuela,2019-06-13,2021-12-02,903,2,1,x
@@ -9,6 +9,7 @@ Ecuador,Ecuador,2019-09-20,2019-09-20,0,1,1,x
 Saudi Arabia,Saudi Arabia,2019-09-20,2020-06-11,265,2,1,x
 Cuba,Cuba,2020-06-11,2020-06-11,0,1,1,x
 Thailand,Thailand,2020-06-11,2020-06-11,0,1,1,x
+India,India,2020-12-09,2023-01-01,753,2,2,eu_disinfolab|meta
 Vietnam,Vietnam,2020-12-10,2025-08-27,1721,3,2,anthropic|meta
 Palestine,Palestine,2021-04-21,2021-04-21,0,1,1,meta
 Pakistan,Pakistan,2021-11-16,2026-10-01,1780,4,1,meta
@@ -18,7 +19,6 @@ Syria,Syria,2021-12-02,2021-12-02,0,1,1,x
 Uganda,Uganda,2021-12-02,2021-12-02,0,1,1,x
 Bahamut,Bahamut,2023-01-01,2023-01-01,0,1,1,meta
 Georgia,Georgia,2023-01-01,2023-01-01,0,1,1,meta
-India,India,2023-01-01,2023-01-01,0,1,1,meta
 Togo,Togo,2023-01-01,2023-01-01,0,1,1,meta
 United States,United States,2023-01-01,2024-10-09,647,3,2,meta|openai
 Turkey,Turkey,2023-04-01,2026-09-10,1258,3,2,anthropic|meta
