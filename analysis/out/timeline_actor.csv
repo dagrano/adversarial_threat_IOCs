@@ -1,7 +1,8 @@
 actor,country,first_seen,last_seen,span_days,n_reports,n_providers,providers
 Internet Research Agency,Russia,2018-10-17,2025-01-29,2296,4,2,google|x
-Spamouflage / DRAGONBRIDGE,China,2020-08-12,2025-01-29,1631,7,5,google|graphika|meta|microsoft|openai
+Spamouflage / DRAGONBRIDGE,China,2020-08-12,2025-01-29,1631,8,6,google|graphika|mandiant|meta|microsoft|openai
 Srivastava Group,India,2020-12-09,2020-12-09,0,1,1,eu_disinfolab
+Ghostwriter (UNC1151),Belarus,2021-11-16,2021-11-16,0,1,1,mandiant
 Doppelganger,Russia,2022-09-27,2025-01-29,855,7,6,dfrlab|eu_disinfolab|google|meta|microsoft|openai
 Bahamut,Bahamut,2023-01-01,2023-01-01,0,1,1,meta
 Patchwork,India,2023-01-01,2023-01-01,0,1,1,meta

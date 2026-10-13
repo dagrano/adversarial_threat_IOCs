@@ -1,6 +1,6 @@
 actor_id,actor_name,is_named,country,n_providers,providers,n_rows
 DOPPELGANGER,Doppelganger,True,Russia,6,dfrlab|eu_disinfolab|google|meta|microsoft|openai,6528
-SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,5,google|graphika|meta|microsoft|openai,550
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,6,google|graphika|mandiant|meta|microsoft|openai,553
 APT42,APT42,True,Iran,3,dfrlab|google|microsoft,5
 APT43,APT43,True,North Korea,3,google|microsoft|openai,4
 COTTON-SANDSTORM,Cotton Sandstorm,True,Iran,2,dfrlab|microsoft,6
@@ -67,6 +67,7 @@ LABEL:unc5792,Unc5792,False,Russia,1,google,1
 LABEL:unc6240-shinyhunters,Unc6240 (Shinyhunters),False,,1,google,1
 LABEL:unc6508,Unc6508,False,China,1,google,1
 LABEL:unc6780-teampcp,Unc6780 (Teampcp),False,,1,google,2
+UNC1151,Ghostwriter (UNC1151),True,Belarus,1,mandiant,7
 LABEL:12-bangladesh-and-vietnam,12 Bangladesh And Vietnam,False,Vietnam,1,meta,10
 LABEL:03-china,03 China,False,China,1,meta,26
 LABEL:04-palestine,04 Palestine,False,Palestine,1,meta,243
