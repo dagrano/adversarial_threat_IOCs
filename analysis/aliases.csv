@@ -85,3 +85,8 @@ COTTON-SANDSTORM,Cotton Sandstorm,Iran,marnanbridge,medium,"vendor name"
 COTTON-SANDSTORM,Cotton Sandstorm,Iran,haywire kitten,medium,"vendor name"
 DOPPELGANGER,Doppelganger,Russia,social design agency,high,"Russian operator (SDA) behind Doppelganger"
 DOPPELGANGER,Doppelganger,Russia,ano dialog,medium,"Russian entity linked to Doppelganger"
+CYBER-FRONT-Z,Cyber Front Z,Russia,cyber front z,high,"Russian IO (IRA-linked); Meta ATR Q2 2022"
+BITTER,Bitter APT,South Asia,bitter apt,high,"South Asia cyber-espionage APT"
+BITTER,Bitter APT,South Asia,apt-c-08,medium,alias
+APT36,APT36,Pakistan,apt36,high,"Pakistan state-linked (a.k.a. Transparent Tribe)"
+APT36,APT36,Pakistan,transparent tribe,high,alias

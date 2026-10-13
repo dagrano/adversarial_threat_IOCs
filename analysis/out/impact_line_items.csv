@@ -1,5 +1,18 @@
 actor_id,actor_name,country,provider,unit,value,source
 SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,graphika,accounts,15,"15 X accounts + 1 TikTok account posing as US citizens; plus a cross-platform persona as an inauthentic US-focused media outlet (TikTok, X, now-suspended Instagram and YouTube)"
+LABEL:brazil-based-network-cib,Brazil-Based Network (Cib),Brazil,meta,accounts,14,14 Facebook accounts; 9 Pages; 39 Instagram accounts
+LABEL:costa-rica-el-salvador-network-cib,Costa Rica / El Salvador Network (Cib),"Costa Rica, El Salvador",meta,accounts,233,233 Facebook accounts; 84 Pages; 2 Groups; 27 Instagram accounts
+IRA,Internet Research Agency,Russia,meta,accounts,3,3 Facebook accounts
+LABEL:russia-ukraine-network-cib,Russia/Ukraine Network (Cib),Russia,meta,accounts,27,27 Facebook accounts; 2 Pages; 3 Groups; 4 Instagram accounts
+CYBER-FRONT-Z,Cyber Front Z,Russia,meta,accounts,45,"45 Facebook accounts; 1,037 Instagram accounts"
+CYBER-FRONT-Z,Cyber Front Z,Russia,meta,usd_spend,1400,"Linked to IRA-associated individuals; ~$1,400 in ads (rubles); banned"
+LABEL:greece-coordinated-violating-network,Greece Coordinated Violating Network,Greece,meta,accounts,2,2 clusters of accounts and Pages
+LABEL:malaysia-based-network-cib,Malaysia-Based Network (Cib),Malaysia,meta,accounts,596,596 Facebook accounts; 180 Pages; 11 Groups; 72 Instagram accounts
+LABEL:malaysia-based-network-cib,Malaysia-Based Network (Cib),Malaysia,meta,usd_spend,6000,"Linked to the Royal Malaysia Police; ~$6,000 in ads"
+LABEL:mind-force,Mind Force,Israel,meta,accounts,259,259 Facebook accounts; 42 Pages; 9 Groups; 107 Instagram accounts
+LABEL:mind-force,Mind Force,Israel,meta,usd_spend,12000,"Israeli PR firm Mind Force (banned); fictitious NGOs/outlets; ~$12,000 in ads"
+LABEL:china-based-cib-network-us-midterms,China-Based Cib Network (Us Midterms),United States,meta,accounts,81,81 Facebook accounts; 8 Pages; 1 Group; 2 Instagram accounts
+DOPPELGANGER,Doppelganger,Russia,meta,accounts,1633,"1,633 Facebook accounts; 703 Pages; 1 Group; 29 Instagram accounts"
 LABEL:china-based-cib-network,China-Based Cib Network,China,meta,accounts,63,63 accounts
 LABEL:china-based-cib-network,China-Based Cib Network,China,meta,pages,44,44 Pages
 LABEL:china-based-cib-network,China-Based Cib Network,China,meta,groups,28,28 Groups
@@ -20,6 +33,9 @@ LABEL:togo-burkina-faso-based-cib-network,Togo Burkina Faso-Based Cib Network,To
 LABEL:togo-burkina-faso-based-cib-network,Togo Burkina Faso-Based Cib Network,Togo,meta,accounts,26,26 accounts
 LABEL:venezuela-us-based-cib-network,Venezuela Us-Based Cib Network,United States,meta,accounts,21,21 accounts
 LABEL:venezuela-us-based-cib-network,Venezuela Us-Based Cib Network,United States,meta,pages,88,88 Pages
+LABEL:bolivia-based-network-cib-mass-reporting,Bolivia-Based Network (Cib + Mass Reporting),Bolivia,meta,accounts,1041,"1,041 Facebook accounts; 450 Pages; 14 Groups; 130 Instagram accounts"
+LABEL:cuba-based-network-cib,Cuba-Based Network (Cib),Cuba,meta,accounts,363,363 Facebook accounts; 270 Pages; 229 Groups; 72 Instagram accounts
+LABEL:serbia-based-network-cib,Serbia-Based Network (Cib),Serbia,meta,accounts,5374,"5,374 Facebook accounts; 12 Groups; ~1,060 Instagram accounts (report internally inconsistent)"
 LABEL:t-rkiye-iran-based-cib-network,Türkiye Iran-Based Cib Network,Iran,meta,accounts,22,22 accounts
 LABEL:t-rkiye-iran-based-cib-network,Türkiye Iran-Based Cib Network,Iran,meta,pages,21,21 Pages
 LABEL:t-rkiye-iran-based-cib-network,Türkiye Iran-Based Cib Network,Iran,meta,accounts,7,7 Instagram accounts
@@ -35,12 +51,22 @@ SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,meta,accounts,7704,"7,704 Facebook 
 SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,meta,pages,954,954 Facebook Pages
 SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,meta,groups,15,15 Facebook Groups
 SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,meta,accounts,15,15 Instagram accounts
+LABEL:china-based-cib-network,China-Based Cib Network #,China,meta,accounts,50,50 Facebook accounts; 46 Pages; 31 Groups; 10 Instagram accounts
+LABEL:china-based-cib-network,China-Based Cib Network #,China,meta,accounts,107,107 Facebook accounts; 36 Pages; 6 Groups; 35 Instagram accounts
+LABEL:georgia-based-network-cib,Georgia-Based Network (Cib),Georgia,meta,accounts,80,80 Facebook accounts; 26 Pages; 9 Groups; 2 Instagram accounts
+LABEL:iran-based-network-cib,Iran-Based Network (Cib),Iran,meta,accounts,40,40 Facebook accounts; 8 Pages; 1 Group
+LABEL:togo-burkina-faso-network-cib,Togo/Burkina Faso Network (Cib),Togo,meta,accounts,134,134 Facebook accounts; 142 Pages; 20 Instagram accounts
+LABEL:venezuela-us-network-cib,Venezuela/Us Network (Cib),United States,meta,accounts,24,24 Facebook accounts; 54 Pages; 4 Instagram accounts
 LABEL:china-based-cib-network,China-Based Cib Network,China,meta,accounts,13,13 accounts
 LABEL:china-based-cib-network,China-Based Cib Network,China,meta,groups,7,7 Groups
 LABEL:china-based-cib-network,China-Based Cib Network,China,meta,accounts,4789,"4,789 accounts"
 LABEL:russia-based-cib-network,Russia-Based Cib Network,Russia,meta,accounts,6,6 accounts
 LABEL:russia-based-cib-network,Russia-Based Cib Network,Russia,meta,pages,1,1 Page
 LABEL:russia-based-cib-network,Russia-Based Cib Network,Russia,meta,accounts,3,3 Instagram accounts
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,meta,accounts,7704,"7,704 Facebook accounts; 954 Pages; 15 Groups; 15 Instagram accounts"
+LABEL:t-rkiye-based-network-cib-turkuaz,Türkiye-Based Network (Cib) — Turkuaz,Turkey,meta,accounts,34,34 Facebook accounts; 49 Pages; 107 Groups; 12 Instagram accounts
+LABEL:t-rkiye-based-network-cib-agencies,Türkiye-Based Network (Cib) — Agencies,Turkey,meta,accounts,60,60 Facebook accounts; 37 Pages; 2 Groups; 20 Instagram accounts
+LABEL:t-rkiye-iran-network-cib,Türkiye/Iran Network (Cib),Iran,meta,accounts,22,22 Facebook accounts; 21 Pages; 7 Instagram accounts
 LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,33,33 accounts
 LABEL:china-based-cib-network,China Based Cib Network,China,meta,pages,6,6 Pages
 LABEL:china-based-cib-network,China Based Cib Network,China,meta,groups,6,6 Groups
@@ -52,6 +78,9 @@ LABEL:ukraine-based-cib-network,Ukraine Based Cib Network,Ukraine,meta,accounts,
 LABEL:ukraine-based-cib-network,Ukraine Based Cib Network,Ukraine,meta,pages,5,5 Pages
 LABEL:ukraine-based-cib-network,Ukraine Based Cib Network,Ukraine,meta,groups,2,2 Groups
 LABEL:ukraine-based-cib-network,Ukraine Based Cib Network,Ukraine,meta,accounts,711,711 accounts
+LABEL:china-based-network-cib,China-Based Network (Cib),China,meta,accounts,13,13 accounts; 7 Groups
+LABEL:china-based-network-us-4789-accounts,"China-Based Network (Us, 4789 Accounts)",United States,meta,accounts,4789,"4,789 Facebook accounts"
+LABEL:russia-based-network-rt-linked,Russia-Based Network (Rt-Linked),Russia,meta,accounts,6,6 Facebook accounts; 1 Page; 3 Instagram accounts
 LABEL:bangladesh-based-cib-network,Bangladesh Based Cib Network,Bangladesh,meta,accounts,50,50 accounts
 LABEL:bangladesh-based-cib-network,Bangladesh Based Cib Network,Bangladesh,meta,pages,98,98 Pages
 LABEL:china-based-cib-network,China Based Cib Network,China,meta,accounts,37,37 accounts
@@ -73,6 +102,9 @@ LABEL:moldova-madagascar-targeting-cib-network,Moldova & Madagascar Targeting Ci
 LABEL:moldova-madagascar-targeting-cib-network,Moldova & Madagascar Targeting Cib Network,Moldova,meta,pages,80,80 Pages
 LABEL:moldova-madagascar-targeting-cib-network,Moldova & Madagascar Targeting Cib Network,Moldova,meta,groups,1,1 Groups
 LABEL:moldova-madagascar-targeting-cib-network,Moldova & Madagascar Targeting Cib Network,Moldova,meta,accounts,1,1 accounts
+LABEL:china-based-network-cib,China-Based Network (Cib),China,meta,accounts,33,33 Facebook accounts; 6 Pages; 6 Groups; 4 Instagram accounts
+LABEL:myanmar-based-network-cib,Myanmar-Based Network (Cib),Myanmar,meta,accounts,381,381 Facebook accounts; 88 Pages; 19 Groups
+LABEL:ukraine-based-network-cib,Ukraine-Based Network (Cib),Ukraine,meta,accounts,1020,"1,020 Facebook accounts; 5 Pages; 2 Groups; 711 Instagram accounts"
 LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,accounts,76,76 accounts
 LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,pages,30,30 Pages
 LABEL:russia-based-cib-network,Russia-Based Cib Network #,Russia,meta,accounts,11,11 accounts
