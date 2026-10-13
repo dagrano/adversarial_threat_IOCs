@@ -1,8 +1,8 @@
 origin_country,n_providers,total_rows,anthropic,dfrlab,google,graphika,meta,microsoft,openai,tiktok,x
 Russia,7,6868,93,23,7,,6711,8,22,,4
-China,7,1226,3,,12,13,1159,8,28,,3
-Iran,6,463,,10,6,,424,3,17,,3
-North Korea,4,25,7,,10,,,1,7,,
+China,7,1233,3,,12,13,1159,15,28,,3
+Iran,6,469,,10,6,,424,9,17,,3
+North Korea,4,26,7,,10,,,2,7,,
 Turkey,2,96,23,,,,73,,,,
 United States,2,62,,,,,59,,3,,
 Vietnam,2,48,1,,,,47,,,,

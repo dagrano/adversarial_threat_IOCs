@@ -1,18 +1,18 @@
 actor,country,first_seen,last_seen,span_days,n_reports,n_providers,providers
 Internet Research Agency,Russia,2018-10-17,2025-01-29,2296,4,2,google|x
-Spamouflage / DRAGONBRIDGE,China,2020-08-12,2025-01-29,1631,6,5,google|graphika|meta|microsoft|openai
+Spamouflage / DRAGONBRIDGE,China,2020-08-12,2025-01-29,1631,7,5,google|graphika|meta|microsoft|openai
 Bahamut,Bahamut,2023-01-01,2023-01-01,0,1,1,meta
 Patchwork,India,2023-01-01,2023-01-01,0,1,1,meta
 Doppelganger,Russia,2023-04-01,2025-01-29,669,6,5,dfrlab|google|meta|microsoft|openai
+Cotton Sandstorm,Iran,2023-05-02,2024-10-23,540,3,2,dfrlab|microsoft
 APT43,North Korea,2024-02-14,2025-02-21,373,4,3,google|microsoft|openai
 Charcoal Typhoon,China,2024-02-14,2024-02-14,0,2,2,microsoft|openai
 Crimson Sandstorm,Iran,2024-02-14,2024-02-14,0,2,2,microsoft|openai
 APT28,Russia,2024-02-14,2024-02-14,0,2,2,microsoft|openai
 Salmon Typhoon,China,2024-02-14,2024-02-14,0,2,2,microsoft|openai
 Storm-1679,Russia,2024-06-02,2024-06-02,0,1,1,microsoft
-Storm-2035,Iran,2024-10-09,2025-06-05,239,2,1,openai
-APT42,Iran,2024-10-18,2026-09-08,690,4,2,dfrlab|google
-Cotton Sandstorm,Iran,2024-10-18,2024-10-23,5,2,2,dfrlab|microsoft
+APT42,Iran,2024-08-09,2026-09-08,760,5,3,dfrlab|google|microsoft
+Storm-2035,Iran,2024-08-09,2025-06-05,300,3,2,microsoft|openai
 Storm-1516,Russia,2024-10-23,2024-10-23,0,1,1,microsoft
 APT41,China,2025-01-29,2026-02-12,379,2,1,google
 CopyCop,Russia,2025-01-29,2025-01-29,0,1,1,google
