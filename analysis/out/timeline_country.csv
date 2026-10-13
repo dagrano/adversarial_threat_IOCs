@@ -1,9 +1,9 @@
 origin_country,country,first_seen,last_seen,span_days,n_reports,n_providers,providers
-Russia,Russia,2018-10-17,2026-10-01,2906,24,5,anthropic|google|meta|openai|x
-Iran,Iran,2018-10-17,2026-10-01,2906,22,4,google|meta|openai|x
+Russia,Russia,2018-10-17,2026-10-01,2906,29,7,anthropic|dfrlab|google|meta|microsoft|openai|x
+Iran,Iran,2018-10-17,2026-10-01,2906,25,6,dfrlab|google|meta|microsoft|openai|x
 Spain,Spain,2019-06-13,2019-09-20,99,2,1,x
 Venezuela,Venezuela,2019-06-13,2021-12-02,903,2,1,x
-China,China,2019-08-19,2026-10-01,2600,25,5,anthropic|google|meta|openai|x
+China,China,2019-08-19,2026-10-01,2600,28,6,anthropic|google|meta|microsoft|openai|x
 United Arab Emirates,United Arab Emirates,2019-09-20,2019-09-20,0,1,1,x
 Ecuador,Ecuador,2019-09-20,2019-09-20,0,1,1,x
 Saudi Arabia,Saudi Arabia,2019-09-20,2020-06-11,265,2,1,x
@@ -28,7 +28,7 @@ Bangladesh,Bangladesh,2024-01-01,2024-01-01,0,1,1,meta
 Croatia,Croatia,2024-01-01,2024-01-01,0,1,1,meta
 Israel,Israel,2024-01-01,2024-05-30,150,2,2,meta|openai
 Moldova,Moldova,2024-01-01,2025-04-01,456,3,1,meta
-North Korea,North Korea,2024-02-14,2026-09-08,937,8,3,anthropic|google|openai
+North Korea,North Korea,2024-02-14,2026-09-08,937,9,4,anthropic|google|microsoft|openai
 United Kingdom,United Kingdom,2024-05-23,2025-08-27,461,2,2,anthropic|tiktok
 Indonesia,Indonesia,2024-05-23,2024-05-23,0,1,1,tiktok
 Lebanon,Lebanon,2024-07-01,2024-07-01,0,1,1,meta
