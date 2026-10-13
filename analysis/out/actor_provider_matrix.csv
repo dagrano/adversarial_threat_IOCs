@@ -1,10 +1,10 @@
 actor_id,actor_name,is_named,country,n_providers,providers,n_rows
-DOPPELGANGER,Doppelganger,True,Russia,7,dfrlab|eu_disinfolab|fbi|google|meta|microsoft|openai,6561
-SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,6,google|graphika|mandiant|meta|microsoft|openai,553
+DOPPELGANGER,Doppelganger,True,Russia,7,dfrlab|eu_disinfolab|fbi|google|meta|microsoft|openai,6564
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,6,google|graphika|mandiant|meta|microsoft|openai,554
 COTTON-SANDSTORM,Cotton Sandstorm,True,Iran,3,cisa|dfrlab|microsoft,46
 APT42,APT42,True,Iran,3,dfrlab|google|microsoft,5
 APT43,APT43,True,North Korea,3,google|microsoft|openai,4
-IRA,Internet Research Agency,True,Russia,2,google|x,4
+IRA,Internet Research Agency,True,Russia,3,google|meta|x,5
 CHARCOAL-TYPHOON,Charcoal Typhoon,True,China,2,microsoft|openai,2
 CRIMSON-SANDSTORM,Crimson Sandstorm,True,Iran,2,microsoft|openai,2
 APT28,APT28,True,Russia,2,microsoft|openai,2
@@ -75,30 +75,70 @@ LABEL:07-iran,07 Iran,False,Iran,1,meta,187
 LABEL:11-action-against-hackers-in-pakistan-and-syria,11 Action Against Hackers In Pakistan And Syria,False,Pakistan,1,meta,49
 LABEL:12-taking-action-against-surveillance-for-hire,12 Taking Action Against Surveillance For Hire,False,,1,meta,313
 LABEL:04-metas-adversarial-threat-report,04 Metas Adversarial Threat Report,False,,1,meta,79
+LABEL:azerbaijan-based-network,Azerbaijan-Based Network,False,Azerbaijan,1,meta,1
+LABEL:brazil-based-network-cib,Brazil-Based Network (Cib),False,Brazil,1,meta,1
+LABEL:costa-rica-el-salvador-network-cib,Costa Rica / El Salvador Network (Cib),False,"Costa Rica, El Salvador",1,meta,1
+LABEL:iran-based-espionage-actor,Iran-Based Espionage Actor,False,Iran,1,meta,1
+LABEL:philippines-coordinated-violating-network,Philippines Coordinated Violating Network,False,Philippines,1,meta,1
+LABEL:russia-based-mass-reporting-network,Russia-Based Mass-Reporting Network,False,Russia,1,meta,1
+LABEL:russia-ukraine-network-cib,Russia/Ukraine Network (Cib),False,Russia,1,meta,1
+LABEL:unc788,Unc788,False,Iran,1,meta,1
 LABEL:08-metas-adversarial-threat-report,08 Metas Adversarial Threat Report,False,,1,meta,52
+APT36,APT36,True,Pakistan,1,meta,1
+BITTER,Bitter APT,True,South Asia,1,meta,1
+CYBER-FRONT-Z,Cyber Front Z,True,Russia,1,meta,2
+LABEL:greece-coordinated-violating-network,Greece Coordinated Violating Network,False,Greece,1,meta,1
+LABEL:india-brigading-network,India Brigading Network,False,India,1,meta,1
+LABEL:indonesia-mass-reporting-network,Indonesia Mass-Reporting Network,False,Indonesia,1,meta,1
+LABEL:malaysia-based-network-cib,Malaysia-Based Network (Cib),False,Malaysia,1,meta,1
+LABEL:mind-force,Mind Force,False,Israel,1,meta,1
+LABEL:operation-dudula,Operation Dudula,False,South Africa,1,meta,1
 LABEL:09-china-and-russia,09 China And Russia,False,China,1,meta,350
+LABEL:china-based-cib-network-us-midterms,China-Based Cib Network (Us Midterms),False,United States,1,meta,1
 LABEL:malicious-mobile-apps,Malicious Mobile Apps,False,,1,meta,402
-BAHAMUT,Bahamut,True,Bahamut,1,meta,37
-LABEL:china-based-cib-network,China Based Cib Network,False,China,1,meta,255
+BAHAMUT,Bahamut,True,South Asia,1,meta,38
+LABEL:china-based-cib-network,China Based Cib Network,False,China,1,meta,257
 LABEL:georgia-based-cib-network,Georgia-Based Cib Network,False,Georgia,1,meta,16
 LABEL:iran-based-cib-network,Iran Based Cib Network,False,Iran,1,meta,177
 LABEL:pakistan-apt,Pakistan Apt,False,Pakistan,1,meta,62
-PATCHWORK,Patchwork,True,India,1,meta,60
+PATCHWORK,Patchwork,True,India,1,meta,61
 LABEL:togo-burkina-faso-based-cib-network,Togo Burkina Faso-Based Cib Network,False,Togo,1,meta,43
 LABEL:venezuela-us-based-cib-network,Venezuela Us-Based Cib Network,False,United States,1,meta,30
+LABEL:bolivia-based-network-cib-mass-reporting,Bolivia-Based Network (Cib + Mass Reporting),False,Bolivia,1,meta,1
+LABEL:cuba-based-network-cib,Cuba-Based Network (Cib),False,Cuba,1,meta,1
+LABEL:serbia-based-network-cib,Serbia-Based Network (Cib),False,Serbia,1,meta,1
 LABEL:t-rkiye-iran-based-cib-network,Türkiye Iran-Based Cib Network,False,Iran,1,meta,40
 LABEL:t-rkiye-based-cib-network,Türkiye-Based Cib Network,False,Turkey,1,meta,73
 LABEL:05-malware-iocs,05 Malware Iocs,False,,1,meta,1062
+LABEL:georgia-based-network-cib,Georgia-Based Network (Cib),False,Georgia,1,meta,1
+LABEL:iran-based-network-cib,Iran-Based Network (Cib),False,Iran,1,meta,1
+LABEL:pakistan-based-espionage-gravityrat,Pakistan-Based Espionage (Gravityrat),False,Pakistan,1,meta,1
+LABEL:togo-burkina-faso-network-cib,Togo/Burkina Faso Network (Cib),False,Togo,1,meta,1
+LABEL:venezuela-us-network-cib,Venezuela/Us Network (Cib),False,United States,1,meta,1
 LABEL:iran-based-ib-cluster,Iran-Based Ib Cluster,False,Iran,1,meta,11
 LABEL:iran-based-recidivist-cib-cluster,Iran-Based Recidivist Cib Cluster,False,Iran,1,meta,9
 LABEL:russia-based-cib-network,Russia Based Cib Network,False,Russia,1,meta,216
+LABEL:t-rkiye-based-network-cib-turkuaz,Türkiye-Based Network (Cib) — Turkuaz,False,Turkey,1,meta,1
+LABEL:t-rkiye-based-network-cib-agencies,Türkiye-Based Network (Cib) — Agencies,False,Turkey,1,meta,1
+LABEL:t-rkiye-iran-network-cib,Türkiye/Iran Network (Cib),False,Iran,1,meta,1
 LABEL:myanmar-based-cib-network,Myanmar Based Cib Network,False,Myanmar,1,meta,26
 LABEL:pakistan-based-espionage-network,Pakistan Based Espionage Network,False,Pakistan,1,meta,44
 LABEL:ukraine-based-cib-network,Ukraine Based Cib Network,False,Ukraine,1,meta,13
+LABEL:china-based-network-cib,China-Based Network (Cib),False,China,1,meta,2
+LABEL:china-based-network-us-4789-accounts,"China-Based Network (Us, 4789 Accounts)",False,United States,1,meta,1
+LABEL:russia-based-network-rt-linked,Russia-Based Network (Rt-Linked),False,Russia,1,meta,1
 LABEL:bangladesh-based-cib-network,Bangladesh Based Cib Network,False,Bangladesh,1,meta,47
 LABEL:croatia-based-cib-network,Croatia Based Cib Network,False,Croatia,1,meta,23
 LABEL:israel-based-cib-network,Israel Based Cib Network,False,Israel,1,meta,25
 LABEL:moldova-madagascar-targeting-cib-network,Moldova & Madagascar Targeting Cib Network,False,Moldova,1,meta,6
+LABEL:cy4gate,Cy4Gate,False,Italy,1,meta,1
+LABEL:ips-intelligence,Ips Intelligence,False,Italy,1,meta,1
+LABEL:mollitiam-industries,Mollitiam Industries,False,Spain,1,meta,1
+LABEL:myanmar-based-network-cib,Myanmar-Based Network (Cib),False,Myanmar,1,meta,1
+LABEL:negg-group,Negg Group,False,Italy,1,meta,1
+LABEL:rcs-labs,Rcs Labs,False,Italy,1,meta,1
+LABEL:ukraine-based-network-cib,Ukraine-Based Network (Cib),False,Ukraine,1,meta,1
+LABEL:variston-it,Variston It,False,Spain,1,meta,1
 LABEL:us-based-cib-network,Us-Based Cib Network,False,United States,1,meta,29
 LABEL:vietnam-based-cib-network,Vietnam Based Cib Network,False,Vietnam,1,meta,37
 LABEL:lebanon-based-cib-network,Lebanon Based Cib Network,False,Lebanon,1,meta,20

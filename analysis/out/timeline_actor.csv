@@ -1,11 +1,14 @@
 actor,country,first_seen,last_seen,span_days,n_reports,n_providers,providers
-Internet Research Agency,Russia,2018-10-17,2025-01-29,2296,4,2,google|x
-Spamouflage / DRAGONBRIDGE,China,2020-08-12,2025-01-29,1631,8,6,google|graphika|mandiant|meta|microsoft|openai
+Internet Research Agency,Russia,2018-10-17,2025-01-29,2296,5,3,google|meta|x
+Spamouflage / DRAGONBRIDGE,China,2020-08-12,2025-01-29,1631,9,6,google|graphika|mandiant|meta|microsoft|openai
 Srivastava Group,India,2020-12-09,2020-12-09,0,1,1,eu_disinfolab
 Ghostwriter (UNC1151),Belarus,2021-11-16,2021-11-16,0,1,1,mandiant
-Doppelganger,Russia,2022-09-27,2025-01-29,855,8,7,dfrlab|eu_disinfolab|fbi|google|meta|microsoft|openai
-Bahamut,Bahamut,2023-01-01,2023-01-01,0,1,1,meta
-Patchwork,India,2023-01-01,2023-01-01,0,1,1,meta
+APT36,Pakistan,2022-08-04,2022-08-04,0,1,1,meta
+Bitter APT,South Asia,2022-08-04,2022-08-04,0,1,1,meta
+Cyber Front Z,Russia,2022-08-04,2023-02-23,203,2,1,meta
+Doppelganger,Russia,2022-09-27,2025-01-29,855,11,7,dfrlab|eu_disinfolab|fbi|google|meta|microsoft|openai
+Bahamut,South Asia,2023-01-01,2023-05-03,122,2,1,meta
+Patchwork,India,2023-01-01,2023-05-03,122,2,1,meta
 Cotton Sandstorm,Iran,2023-05-02,2024-10-30,547,4,3,cisa|dfrlab|microsoft
 APT43,North Korea,2024-02-14,2025-02-21,373,4,3,google|microsoft|openai
 Charcoal Typhoon,China,2024-02-14,2024-02-14,0,2,2,microsoft|openai
