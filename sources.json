@@ -71,7 +71,15 @@
         "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/",
         "https://www.microsoft.com/en-us/corporate-responsibility/customer-security-trust/microsoft-threat-analysis-center"
       ],
-      "reports": []
+      "reports": [
+        {"date": "2024-02-14", "title": "Staying ahead of threat actors in the age of AI", "url": "https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/", "status": "ingested", "note": "AI-misuse; co-published with OpenAI; maps MS actor names to APT aliases"},
+        {"date": "2024-04-05", "title": "Same targets, new playbooks: East Asia threat actors employ unique methods", "url": "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/east-asia-threat-actors-employ-unique-methods", "status": "ingested", "note": "IO portion only (Storm-1376/Spamouflage, CCP sockpuppets, Haixun/Haimai); cyber-espionage actors out of scope"},
+        {"date": "2024-06-02", "title": "How Russia is trying to disrupt the 2024 Paris Olympic Games", "url": "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/how-russia-is-trying-to-disrupt-the-2024-paris-olympic-games", "status": "ingested", "note": "Storm-1679 and Storm-1099/Doppelganger"},
+        {"date": "2024-10-23", "title": "As the US election nears, Russia, Iran and China step up influence efforts", "url": "https://blogs.microsoft.com/on-the-issues/2024/10/23/as-the-u-s-election-nears-russia-iran-and-china-step-up-influence-efforts/", "status": "ingested", "note": "Storm-1516, Bushnell's Men, Cotton Sandstorm, CCP down-ballot"},
+        {"date": "2023-05-02", "title": "Rinse and repeat: Iran accelerates its cyber influence operations worldwide", "url": "https://blogs.microsoft.com/on-the-issues/2023/05/02/dtac-iran-cyber-influence-operations-digital-threat/", "status": "pending", "note": "DTAC (MTAC predecessor); Iran IO - next batch"},
+        {"date": "2023-09-01", "title": "Digital threats from East Asia increase in breadth and effectiveness", "url": "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/digital-threats-from-east-asia-increase-in-breadth-and-effectiveness", "status": "pending", "note": "First CCP generative-AI influence writeup - next batch"},
+        {"date": "2024-08-08", "title": "Iran steps into US election 2024 with cyber-enabled influence operations", "url": "https://www.microsoft.com/en-ie/security/security-insider/intelligence-reports/iran-steps-into-us-election-2024-with-cyber-enabled-influence-operations", "status": "pending", "note": "Iran cyber-enabled IO - next batch"}
+      ]
     },
     "mandiant": {
       "scope": "Mandiant-bylined information-operations reporting only; AI-misuse rows remain under google/GTIG.",

@@ -46,3 +46,28 @@ UNC1069,UNC1069,North Korea,unc1069,high,"a.k.a. Midnight Neptune (GTIG 2026 ren
 UNC1069,UNC1069,North Korea,midnight neptune,high,"GTIG 2026 rename of UNC1069"
 BASIN,Basin Castle (TEMP.Hex),China,basin castle,high,"GTIG 2026 rename of TEMP.Hex"
 BASIN,Basin Castle (TEMP.Hex),China,temp.hex,high,alias
+APT28,APT28,Russia,forest blizzard,high,"Microsoft name (formerly STRONTIUM); a.k.a. Fancy Bear"
+APT28,APT28,Russia,fancy bear,high,alias
+APT28,APT28,Russia,strontium,medium,"Microsoft legacy name"
+APT28,APT28,Russia,apt28,high,"GRU Unit 26165"
+APT43,APT43,North Korea,emerald sleet,high,"Microsoft name (formerly THALLIUM) = Kimsuky"
+APT43,APT43,North Korea,thallium,medium,"Microsoft legacy name"
+APT43,APT43,North Korea,velvet chollima,high,alias
+CRIMSON-SANDSTORM,Crimson Sandstorm,Iran,crimson sandstorm,high,"Microsoft name (formerly CURIUM); IRGC-connected"
+CRIMSON-SANDSTORM,Crimson Sandstorm,Iran,tortoiseshell,high,alias
+CRIMSON-SANDSTORM,Crimson Sandstorm,Iran,imperial kitten,high,alias
+CRIMSON-SANDSTORM,Crimson Sandstorm,Iran,yellow liderc,medium,alias
+CRIMSON-SANDSTORM,Crimson Sandstorm,Iran,curium,medium,"Microsoft legacy name"
+CHARCOAL-TYPHOON,Charcoal Typhoon,China,charcoal typhoon,high,"Microsoft name (formerly CHROMIUM)"
+CHARCOAL-TYPHOON,Charcoal Typhoon,China,aquatic panda,high,alias
+CHARCOAL-TYPHOON,Charcoal Typhoon,China,redhotel,medium,alias
+CHARCOAL-TYPHOON,Charcoal Typhoon,China,bronze university,medium,alias
+SALMON-TYPHOON,Salmon Typhoon,China,salmon typhoon,high,"Microsoft name (formerly SODIUM)"
+SALMON-TYPHOON,Salmon Typhoon,China,apt4,high,alias
+SALMON-TYPHOON,Salmon Typhoon,China,maverick panda,medium,alias
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,China,storm-1376,high,"Microsoft name for Spamouflage"
+DOPPELGANGER,Doppelganger,Russia,storm-1099,high,"Microsoft name for Doppelganger (RRN)"
+STORM-1516,Storm-1516,Russia,storm-1516,high,"Kremlin-aligned troll farm; AI deepfake IO"
+STORM-1679,Storm-1679,Russia,storm-1679,high,"Russia-affiliated IO; Olympics / media-impersonation deepfakes"
+COTTON-SANDSTORM,Cotton Sandstorm,Iran,cotton sandstorm,high,"IRGC-linked; a.k.a. Emennet Pasargad"
+COTTON-SANDSTORM,Cotton Sandstorm,Iran,emennet pasargad,high,alias
