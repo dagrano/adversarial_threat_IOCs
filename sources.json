@@ -96,7 +96,9 @@
       "listing_urls": [
         "https://www.cisa.gov/news-events/cybersecurity-advisories"
       ],
-      "reports": []
+      "reports": [
+        {"date": "2024-10-30", "title": "New Tradecraft of Iranian Cyber Group Aria Sepehr Ayandehsazan (aka Emennet Pasargad)", "url": "https://www.ic3.gov/CSA/2024/241030.pdf", "status": "ingested", "note": "FBI/CISA/CNMF/DC3/INCD joint advisory (keyed to CISA); cyber-enabled IO + AI-tool misuse"}
+      ]
     },
     "fbi": {
       "scope": "Influence-operations & AI-misuse only (IC3 PSAs and industry alerts).",
@@ -104,14 +106,17 @@
         "https://www.ic3.gov/PSA",
         "https://www.ic3.gov/CSA"
       ],
-      "reports": []
+      "reports": [
+        {"date": "2024-09-04", "title": "Justice Department disrupts covert Russian government-sponsored influence operation (Doppelganger domain seizures)", "url": "https://www.justice.gov/opa/pr/justice-department-disrupts-covert-russian-government-sponsored-foreign-malign-influence", "status": "ingested", "note": "DOJ/FBI seizure of 32 Doppelganger domains"}
+      ]
     },
     "ncsc": {
       "scope": "Influence-operations & AI-misuse only.",
       "listing_urls": [
         "https://www.ncsc.gov.uk/section/keep-up-to-date/threat-reports"
       ],
-      "reports": []
+      "reports": [],
+      "note": "Reviewed; NCSC's public actor reporting (e.g. Star Blizzard / SEABORGIUM) is credential-theft cyber-espionage, out of the IO + AI-misuse scope. No in-scope report ingested."
     },
     "dfrlab": {
       "listing_urls": [

@@ -1,4 +1,8 @@
 provider_a,provider_b,strong,medium,weak,total
+fbi,meta,26,0,0,26
 dfrlab,meta,14,0,0,14
+cisa,meta,5,0,0,5
+dfrlab,fbi,4,0,0,4
 meta,microsoft,3,0,0,3
 meta,openai,3,0,0,3
+fbi,microsoft,1,0,0,1

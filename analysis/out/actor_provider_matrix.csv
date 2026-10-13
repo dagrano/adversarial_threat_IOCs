@@ -1,9 +1,9 @@
 actor_id,actor_name,is_named,country,n_providers,providers,n_rows
-DOPPELGANGER,Doppelganger,True,Russia,6,dfrlab|eu_disinfolab|google|meta|microsoft|openai,6528
+DOPPELGANGER,Doppelganger,True,Russia,7,dfrlab|eu_disinfolab|fbi|google|meta|microsoft|openai,6561
 SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,6,google|graphika|mandiant|meta|microsoft|openai,553
+COTTON-SANDSTORM,Cotton Sandstorm,True,Iran,3,cisa|dfrlab|microsoft,46
 APT42,APT42,True,Iran,3,dfrlab|google|microsoft,5
 APT43,APT43,True,North Korea,3,google|microsoft|openai,4
-COTTON-SANDSTORM,Cotton Sandstorm,True,Iran,2,dfrlab|microsoft,6
 IRA,Internet Research Agency,True,Russia,2,google|x,4
 CHARCOAL-TYPHOON,Charcoal Typhoon,True,China,2,microsoft|openai,2
 CRIMSON-SANDSTORM,Crimson Sandstorm,True,Iran,2,microsoft|openai,2

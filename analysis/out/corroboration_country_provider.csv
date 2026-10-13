@@ -1,45 +1,45 @@
-origin_country,n_providers,total_rows,anthropic,dfrlab,eu_disinfolab,google,graphika,mandiant,meta,microsoft,openai,tiktok,x
-Russia,8,6872,93,23,4,7,,,6711,8,22,,4
-China,8,1236,3,,,12,13,3,1159,15,28,,3
-Iran,6,469,,10,,6,,,424,9,17,,3
-North Korea,4,26,7,,,10,,,,2,7,,
-Turkey,2,96,23,,,,,,73,,,,
-India,2,68,,,8,,,,60,,,,
-United States,2,62,,,,,,,59,,3,,
-Vietnam,2,48,1,,,,,,47,,,,
-Israel,2,26,,,,,,,25,,1,,
-Belarus,2,23,,,,,,7,16,,,,
-Ghana,2,21,,,,,,,19,,2,,
-United Kingdom,2,4,3,,,,,,,,,1,
-Palestine,1,243,,,,,,,243,,,,
-Pakistan,1,172,,,,,,,172,,,,
-France,1,93,93,,,,,,,,,,
-Moldova,1,63,,,,,,,63,,,,
-Bangladesh,1,47,,,,,,,47,,,,
-Togo,1,43,,,,,,,43,,,,
-Bahamut,1,37,,,,,,,37,,,,
-Myanmar,1,26,,,,,,,26,,,,
-Croatia,1,23,,,,,,,23,,,,
-Romania,1,23,,,,,,,23,,,,
-Lebanon,1,20,,,,,,,20,,,,
-Georgia,1,16,,,,,,,16,,,,
-Ukraine,1,13,,,,,,,13,,,,
-Benin,1,12,,,,,,,12,,,,
-Poland,1,10,,,,,,,10,,,,
-Russia/Ukraine,1,8,8,,,,,,,,,,
-Cambodia,1,6,,,,,,,,,6,,
-Spain,1,2,,,,,,,,,,,2
-Venezuela,1,2,,,,,,,,,,,2
-United Arab Emirates,1,2,,,,,,,,,,,2
-Saudi Arabia,1,2,,,,,,,,,,,2
-"China, Iran, Russia, Saudi Arabia",1,1,,,,1,,,,,,,
-Rwanda,1,1,,,,,,,,,1,,
-Philippines,1,1,,,,,,,,,1,,
-Indonesia,1,1,,,,,,,,,,1,
-Ecuador,1,1,,,,,,,,,,,1
-Cuba,1,1,,,,,,,,,,,1
-Thailand,1,1,,,,,,,,,,,1
-Tanzania,1,1,,,,,,,,,,,1
-Mexico,1,1,,,,,,,,,,,1
-Syria,1,1,,,,,,,,,,,1
-Uganda,1,1,,,,,,,,,,,1
+origin_country,n_providers,total_rows,anthropic,cisa,dfrlab,eu_disinfolab,fbi,google,graphika,mandiant,meta,microsoft,openai,tiktok,x
+Russia,9,6905,93,,23,4,33,7,,,6711,8,22,,4
+China,8,1236,3,,,,,12,13,3,1159,15,28,,3
+Iran,7,509,,40,10,,,6,,,424,9,17,,3
+North Korea,4,26,7,,,,,10,,,,2,7,,
+Turkey,2,96,23,,,,,,,,73,,,,
+India,2,68,,,,8,,,,,60,,,,
+United States,2,62,,,,,,,,,59,,3,,
+Vietnam,2,48,1,,,,,,,,47,,,,
+Israel,2,26,,,,,,,,,25,,1,,
+Belarus,2,23,,,,,,,,7,16,,,,
+Ghana,2,21,,,,,,,,,19,,2,,
+United Kingdom,2,4,3,,,,,,,,,,,1,
+Palestine,1,243,,,,,,,,,243,,,,
+Pakistan,1,172,,,,,,,,,172,,,,
+France,1,93,93,,,,,,,,,,,,
+Moldova,1,63,,,,,,,,,63,,,,
+Bangladesh,1,47,,,,,,,,,47,,,,
+Togo,1,43,,,,,,,,,43,,,,
+Bahamut,1,37,,,,,,,,,37,,,,
+Myanmar,1,26,,,,,,,,,26,,,,
+Croatia,1,23,,,,,,,,,23,,,,
+Romania,1,23,,,,,,,,,23,,,,
+Lebanon,1,20,,,,,,,,,20,,,,
+Georgia,1,16,,,,,,,,,16,,,,
+Ukraine,1,13,,,,,,,,,13,,,,
+Benin,1,12,,,,,,,,,12,,,,
+Poland,1,10,,,,,,,,,10,,,,
+Russia/Ukraine,1,8,8,,,,,,,,,,,,
+Cambodia,1,6,,,,,,,,,,,6,,
+Spain,1,2,,,,,,,,,,,,,2
+Venezuela,1,2,,,,,,,,,,,,,2
+United Arab Emirates,1,2,,,,,,,,,,,,,2
+Saudi Arabia,1,2,,,,,,,,,,,,,2
+"China, Iran, Russia, Saudi Arabia",1,1,,,,,,1,,,,,,,
+Rwanda,1,1,,,,,,,,,,,1,,
+Philippines,1,1,,,,,,,,,,,1,,
+Indonesia,1,1,,,,,,,,,,,,1,
+Ecuador,1,1,,,,,,,,,,,,,1
+Cuba,1,1,,,,,,,,,,,,,1
+Thailand,1,1,,,,,,,,,,,,,1
+Tanzania,1,1,,,,,,,,,,,,,1
+Mexico,1,1,,,,,,,,,,,,,1
+Syria,1,1,,,,,,,,,,,,,1
+Uganda,1,1,,,,,,,,,,,,,1
