@@ -313,7 +313,7 @@ netloc,warhheintdaunegn.pw,2,09 China And Russia ; Doppelganger,5,dfrlab|google|
 netloc,play.google.com,2,Bahamut ; Patchwork,1,meta
 netloc,rebrand.ly,2,05 Malware Iocs ; Patchwork,1,meta
 netloc,pinterest.com,2,Doppelganger ; Vietnam Based Cib Network,5,dfrlab|google|meta|microsoft|openai
-netloc,tumblr.com,2,Doppelganger ; Spamouflage / DRAGONBRIDGE,5,dfrlab|google|meta|microsoft|openai
+netloc,tumblr.com,2,Doppelganger ; Spamouflage / DRAGONBRIDGE,6,dfrlab|google|graphika|meta|microsoft|openai
 netloc,linkedin.com,2,Iran-Based Ib Cluster ; Türkiye Iran-Based Cib Network,1,meta
 netloc,euronewstop.co.uk,2,Russia Based Cib Network ; Stop News,2,meta|openai
 netloc,newstop.africa,2,Russia Based Cib Network ; Stop News,2,meta|openai

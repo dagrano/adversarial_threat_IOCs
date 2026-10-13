@@ -1,9 +1,9 @@
 actor,country,first_seen,last_seen,span_days,n_reports,n_providers,providers
 Internet Research Agency,Russia,2018-10-17,2025-01-29,2296,4,2,google|x
+Spamouflage / DRAGONBRIDGE,China,2020-08-12,2025-01-29,1631,6,5,google|graphika|meta|microsoft|openai
 Bahamut,Bahamut,2023-01-01,2023-01-01,0,1,1,meta
 Patchwork,India,2023-01-01,2023-01-01,0,1,1,meta
 Doppelganger,Russia,2023-04-01,2025-01-29,669,6,5,dfrlab|google|meta|microsoft|openai
-Spamouflage / DRAGONBRIDGE,China,2023-04-01,2025-01-29,669,4,4,google|meta|microsoft|openai
 APT43,North Korea,2024-02-14,2025-02-21,373,4,3,google|microsoft|openai
 Charcoal Typhoon,China,2024-02-14,2024-02-14,0,2,2,microsoft|openai
 Crimson Sandstorm,Iran,2024-02-14,2024-02-14,0,2,2,microsoft|openai

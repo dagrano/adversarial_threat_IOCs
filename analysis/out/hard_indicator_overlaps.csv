@@ -1,4 +1,5 @@
 ind_class,ind_key,n_providers,providers,n_actors,actors,n_rows
+netloc,linktr.ee,2,graphika|meta,4,LABEL:iran-based-ib-cluster|LABEL:lebanon-based-cib-network|LABEL:t-rkiye-iran-based-cib-network|SPAMOUFLAGE,4
 netloc,rrn.world,2,dfrlab|meta,2,DOPPELGANGER|LABEL:09-china-and-russia,3
 netloc,euronewstop.co.uk,2,meta|openai,2,LABEL:russia-based-cib-network|LABEL:stop-news,2
 netloc,newstop.africa,2,meta|openai,2,LABEL:russia-based-cib-network|LABEL:stop-news,3
@@ -27,7 +28,6 @@ netloc,x.com,1,meta,7,LABEL:belarus-based-cib-network|LABEL:iran-based-cib-netwo
 netloc,change.org,1,meta,4,LABEL:09-china-and-russia|LABEL:moldova-madagascar-targeting-cib-network|LABEL:russia-based-cib-network|LABEL:vietnam-based-cib-network,8
 netloc,reddit.com,1,meta,3,DOPPELGANGER|LABEL:china-based-cib-network|SPAMOUFLAGE,158
 netloc,medium.com,1,meta,3,DOPPELGANGER|LABEL:china-based-cib-network|SPAMOUFLAGE,71
-netloc,linktr.ee,1,meta,3,LABEL:iran-based-ib-cluster|LABEL:lebanon-based-cib-network|LABEL:t-rkiye-iran-based-cib-network,3
 netloc,sites.google.com,1,meta,2,LABEL:04-palestine|LABEL:05-malware-iocs,132
 netloc,avisindependent.eu,1,meta,2,DOPPELGANGER|LABEL:09-china-and-russia,2
 netloc,bild.pics,1,meta,2,DOPPELGANGER|LABEL:09-china-and-russia,2
