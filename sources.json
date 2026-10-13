@@ -64,6 +64,61 @@
         {"date": "2020-06-11", "title": "X/Twitter state-linked IO archive (2020)", "url": "https://blog.x.com/en_us/topics/company/2020/disclosing-removed-networks-to-our-archive-of-state-linked-information", "status": "ingested"},
         {"date": "2021-12-02", "title": "X/Twitter state-linked IO archive (Dec 2021)", "url": "https://blog.x.com/en_us/topics/company/2021/disclosing-state-linked-information-operations-we-ve-removed", "status": "ingested", "note": "Post-2021 disclosures effectively discontinued; earlier 2020/2021 batches may still be added"}
       ]
+    },
+    "microsoft": {
+      "scope": "Influence-operations & AI-misuse reporting only (MSTIC/MTAC); skip generic ransomware/CVE advisories.",
+      "listing_urls": [
+        "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/",
+        "https://www.microsoft.com/en-us/corporate-responsibility/customer-security-trust/microsoft-threat-analysis-center"
+      ],
+      "reports": []
+    },
+    "mandiant": {
+      "scope": "Mandiant-bylined information-operations reporting only; AI-misuse rows remain under google/GTIG.",
+      "listing_urls": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/"
+      ],
+      "reports": []
+    },
+    "cisa": {
+      "scope": "Influence-operations & AI-misuse / state-linked advisories only; joint advisories keyed to lead agency, co-authors in description.",
+      "listing_urls": [
+        "https://www.cisa.gov/news-events/cybersecurity-advisories"
+      ],
+      "reports": []
+    },
+    "fbi": {
+      "scope": "Influence-operations & AI-misuse only (IC3 PSAs and industry alerts).",
+      "listing_urls": [
+        "https://www.ic3.gov/PSA",
+        "https://www.ic3.gov/CSA"
+      ],
+      "reports": []
+    },
+    "ncsc": {
+      "scope": "Influence-operations & AI-misuse only.",
+      "listing_urls": [
+        "https://www.ncsc.gov.uk/section/keep-up-to-date/threat-reports"
+      ],
+      "reports": []
+    },
+    "dfrlab": {
+      "listing_urls": [
+        "https://dfrlab.org/"
+      ],
+      "reports": []
+    },
+    "graphika": {
+      "listing_urls": [
+        "https://www.graphika.com/reports"
+      ],
+      "reports": []
+    },
+    "eu_disinfolab": {
+      "listing_urls": [
+        "https://www.disinfo.eu/publications/"
+      ],
+      "reports": []
     }
   }
 }
