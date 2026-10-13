@@ -124,7 +124,10 @@
       "listing_urls": [
         "https://www.graphika.com/reports"
       ],
-      "reports": []
+      "reports": [
+        {"date": "2020-08-12", "title": "Spamouflage Dragon Goes to America", "url": "https://www.graphika.com/reports/spamouflage-dragon-goes-to-america", "status": "ingested"},
+        {"date": "2024-09-04", "title": "The #Americans", "url": "https://www.graphika.com/reports/the-americans", "status": "ingested", "note": "Public page only; raw handle/domain indicators gated behind PDF form"}
+      ]
     },
     "eu_disinfolab": {
       "listing_urls": [

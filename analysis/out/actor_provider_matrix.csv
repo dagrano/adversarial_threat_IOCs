@@ -1,6 +1,6 @@
 actor_id,actor_name,is_named,country,n_providers,providers,n_rows
 DOPPELGANGER,Doppelganger,True,Russia,5,dfrlab|google|meta|microsoft|openai,6524
-SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,4,google|meta|microsoft|openai,535
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,5,google|graphika|meta|microsoft|openai,548
 APT43,APT43,True,North Korea,3,google|microsoft|openai,4
 APT42,APT42,True,Iran,2,dfrlab|google,4
 COTTON-SANDSTORM,Cotton Sandstorm,True,Iran,2,dfrlab|microsoft,4
