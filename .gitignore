@@ -9,3 +9,7 @@ threat-research/
 analysis/out/normalized_indicators.csv
 analysis/out/linked_ops_edges.csv
 analysis/out/linked_ops.graphml
+
+# generated dashboards — rebuilt by CI
+analysis/out/dashboard.html
+analysis/out/query.html
