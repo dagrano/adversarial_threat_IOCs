@@ -114,7 +114,11 @@
       "listing_urls": [
         "https://dfrlab.org/"
       ],
-      "reports": []
+      "reports": [
+        {"date": "2024-09-18", "title": "Doppelganger: How Russia mimicked real news sites and created fake ones to target US audiences", "url": "https://dfrlab.org/2024/09/18/doppelganger-us-election/", "status": "ingested"},
+        {"date": "2024-10-09", "title": "Doppelganger websites persist one month following US government seizures", "url": "https://dfrlab.org/2024/10/09/doppelganger-websites-persist/", "status": "ingested"},
+        {"date": "2024-10-18", "title": "Iranian election interference: When you're broke, at least be flashy", "url": "https://dfrlab.org/2024/10/18/iranian-election-interference-when-youre-broke-at-least-be-flashy/", "status": "ingested"}
+      ]
     },
     "graphika": {
       "listing_urls": [
