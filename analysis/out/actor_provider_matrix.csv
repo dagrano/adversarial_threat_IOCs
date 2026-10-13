@@ -1,14 +1,15 @@
 actor_id,actor_name,is_named,country,n_providers,providers,n_rows
 DOPPELGANGER,Doppelganger,True,Russia,5,dfrlab|google|meta|microsoft|openai,6524
-SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,5,google|graphika|meta|microsoft|openai,548
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,5,google|graphika|meta|microsoft|openai,550
+APT42,APT42,True,Iran,3,dfrlab|google|microsoft,5
 APT43,APT43,True,North Korea,3,google|microsoft|openai,4
-APT42,APT42,True,Iran,2,dfrlab|google,4
-COTTON-SANDSTORM,Cotton Sandstorm,True,Iran,2,dfrlab|microsoft,4
+COTTON-SANDSTORM,Cotton Sandstorm,True,Iran,2,dfrlab|microsoft,6
 IRA,Internet Research Agency,True,Russia,2,google|x,4
 CHARCOAL-TYPHOON,Charcoal Typhoon,True,China,2,microsoft|openai,2
 CRIMSON-SANDSTORM,Crimson Sandstorm,True,Iran,2,microsoft|openai,2
 APT28,APT28,True,Russia,2,microsoft|openai,2
 SALMON-TYPHOON,Salmon Typhoon,True,China,2,microsoft|openai,2
+STORM-2035,Storm-2035,True,Iran,2,microsoft|openai,7
 LABEL:iot-credential-scraping-actor,Iot Credential Scraping Actor,False,,1,anthropic,1
 LABEL:multi-client-influence-network,Multi-Client Influence Network,False,,1,anthropic,1
 LABEL:novice-malware-developer,Novice Malware Developer,False,,1,anthropic,1
@@ -106,6 +107,11 @@ LABEL:romania-based-cib-network,Romania Based Cib Network,False,Romania,1,meta,2
 LABEL:belarus-based-cib-network,Belarus Based Cib Network,False,Belarus,1,meta,16
 LABEL:poland-based-cib-network,Poland Based Cib Network,False,Poland,1,meta,10
 LABEL:pakistan-based-cib-network,Pakistan Based Cib Network,False,Pakistan,1,meta,17
+LABEL:ccp-affiliated-io-network-midterms,Ccp-Affiliated Io Network ( Midterms),False,China,1,microsoft,1
+LABEL:chinese-state-media-influencer-initiative,Chinese State-Media Influencer Initiative,False,China,1,microsoft,2
+LABEL:mps-912-special-working-group,Mps 912 Special Working Group,False,China,1,microsoft,1
+LABEL:north-korean-influencer-operations,North Korean Influencer Operations,False,North Korea,1,microsoft,1
+LABEL:ufwd-linked-chinese-language-news-network,Ufwd-Linked Chinese-Language News Network,False,China,1,microsoft,1
 LABEL:ccp-affiliated-sockpuppet-network,Ccp-Affiliated Sockpuppet Network,False,China,1,microsoft,1
 LABEL:haixun-haimai,Haixun / Haimai,False,China,1,microsoft,1
 STORM-1679,Storm-1679,True,Russia,1,microsoft,2
@@ -122,7 +128,6 @@ LABEL:cyberav3ngers,Cyberav3Ngers,False,Iran,1,openai,1
 LABEL:russian-troll-hoax,Russian 'Troll' Hoax,False,United States,1,openai,1
 LABEL:rwandan-election-content,Rwandan Election Content,False,Rwanda,1,openai,1
 LABEL:storm-0817,Storm-0817,False,Iran,1,openai,4
-STORM-2035,Storm-2035,True,Iran,1,openai,4
 LABEL:stop-news,Stop News,False,Russia,1,openai,9
 LABEL:sweetspecter,Sweetspecter,False,China,1,openai,3
 LABEL:tort-report,Tort Report,False,,1,openai,1
