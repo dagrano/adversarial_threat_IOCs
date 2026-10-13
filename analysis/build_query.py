@@ -22,26 +22,16 @@ HARD = ["domain", "url", "ipv4", "ipv6", "sha256", "sha1", "md5", "email",
 
 
 def load():
-    # Prefer the analysis index: it carries a resolved `actor_country` that
-    # recovers origins buried in the actor string (e.g. Meta's "Romania-based
-    # CIB network"), which the raw `country` column leaves blank. Fall back to
-    # the master file if build_index.py hasn't been run.
-    norm = os.path.join(OUT, "normalized_indicators.csv")
-    base = os.path.join(ROOT, "dist", "indicators.csv")
-    p = norm if os.path.exists(norm) else base
+    p = os.path.join(ROOT, "dist", "indicators.csv")
     rows = list(csv.DictReader(open(p, newline="", encoding="utf-8")))
-    # emit as array-of-arrays (COLS order) + a resolved origin as the last cell
-    out = []
-    for r in rows:
-        origin = (r.get("actor_country") or r.get("country") or "").strip()
-        out.append([r.get(c, "") for c in COLS] + [origin])
-    return out
+    # emit as array-of-arrays (column order = COLS) to keep the payload small
+    return [[r.get(c, "") for c in COLS] for r in rows]
 
 
 def main():
     os.makedirs(OUT, exist_ok=True)
     rows = load()
-    countries = sorted({r[-1] for r in rows if r[-1]})
+    countries = sorted({r[COLS.index("country")] for r in rows if r[COLS.index("country")]})
     types = sorted({r[COLS.index("indicator_type")] for r in rows if r[COLS.index("indicator_type")]})
     providers = sorted({r[COLS.index("source_provider")] for r in rows if r[COLS.index("source_provider")]})
     html = (TEMPLATE
@@ -198,7 +188,6 @@ mark{background:color-mix(in srgb,var(--warn) 45%,transparent);color:inherit;bor
 const COLS=__COLS__, ROWS=__ROWS__, COUNTRIES=__COUNTRIES__, TYPES=__TYPES__,
       PROVIDERS=__PROVIDERS__, HARD=new Set(__HARD__), NROWS=__NROWS__, CAP=600;
 const ix={}; COLS.forEach((c,i)=>ix[c]=i);
-const ORIGIN=COLS.length; // resolved origin (actor_country|country), appended per row
 document.getElementById('total').textContent=NROWS.toLocaleString()+' ';
 
 // populate controls
@@ -227,7 +216,7 @@ function filtered(){
   const out=[];
   for(const r of ROWS){
     if(!provOn.has(r[ix.source_provider]))continue;
-    if(country && r[ORIGIN]!==country)continue;
+    if(country && r[ix.country]!==country)continue;
     if(type && r[ix.indicator_type]!==type)continue;
     if(hard && !HARD.has(r[ix.indicator_type]))continue;
     if(terms.length){
@@ -249,7 +238,7 @@ function render(){
   matches=filtered();
   const terms=q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const actors=new Set(),countries=new Set();
-  for(const r of matches){if(r[ix.actor])actors.add(r[ix.actor]);if(r[ORIGIN])countries.add(r[ORIGIN]);}
+  for(const r of matches){if(r[ix.actor])actors.add(r[ix.actor]);if(r[ix.country])countries.add(r[ix.country]);}
   document.getElementById('summary').innerHTML=
     '<span><b>'+matches.length.toLocaleString()+'</b> indicators</span>'+
     '<span><b>'+actors.size+'</b> actors</span>'+
@@ -269,7 +258,7 @@ function render(){
       '<td>'+hl(r[ix.actor],terms)+'</td>'+
       '<td><span class="pill'+hard+'">'+esc(r[ix.indicator_type])+'</span></td>'+
       '<td class="ind">'+hl(r[ix.indicator_value],terms)+'</td>'+
-      '<td>'+esc(r[ORIGIN])+'</td>'+
+      '<td>'+esc(r[ix.country])+'</td>'+
       '<td>'+esc(r[ix.target_country])+'</td>'+
       '<td class="prov">'+esc(r[ix.source_provider])+'</td>'+
       '<td class="desc">'+rep+srcLink+'</td>'+
@@ -286,7 +275,7 @@ function render(){
 function toCSV(){
   const q2=s=>{s=(s==null?'':''+s);return /[",\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;};
   const lines=[COLS.join(',')];
-  for(const r of matches)lines.push(r.slice(0,COLS.length).map(q2).join(','));
+  for(const r of matches)lines.push(r.map(q2).join(','));
   return lines.join('\n');
 }
 document.getElementById('copy').onclick=async e=>{
