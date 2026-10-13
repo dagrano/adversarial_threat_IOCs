@@ -86,7 +86,10 @@
       "listing_urls": [
         "https://cloud.google.com/blog/topics/threat-intelligence/"
       ],
-      "reports": []
+      "reports": [
+        {"date": "2021-11-16", "title": "UNC1151 Assessed with High Confidence to have Links to Belarus, Ghostwriter Campaign Aligned with Belarusian Government Interests", "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc1151-linked-to-belarus-government/", "status": "ingested"},
+        {"date": "2022-10-26", "title": "Pro-PRC DRAGONBRIDGE Influence Campaign Leverages New TTPs to Aggressively Target US Interests, Including Midterm Elections", "url": "https://cloud.google.com/blog/topics/threat-intelligence/prc-dragonbridge-influence-elections", "status": "ingested"}
+      ]
     },
     "cisa": {
       "scope": "Influence-operations & AI-misuse / state-linked advisories only; joint advisories keyed to lead agency, co-authors in description.",
