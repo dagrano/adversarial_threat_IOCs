@@ -1,2 +1,4 @@
 provider_a,provider_b,strong,medium,weak,total
+dfrlab,meta,14,0,0,14
+meta,microsoft,3,0,0,3
 meta,openai,3,0,0,3

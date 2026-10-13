@@ -1,23 +1,23 @@
 {
-  "rows": 11662,
+  "rows": 11715,
   "indicator_classes": {
-    "netloc": 9720,
-    "text": 1061,
+    "netloc": 9747,
+    "text": 1077,
     "package": 404,
-    "metric": 186,
+    "metric": 187,
     "hash": 111,
     "ip": 70,
-    "handle": 59,
+    "handle": 65,
     "malware": 26,
     "tool": 11,
+    "persona": 8,
     "filename": 8,
-    "persona": 5,
     "other": 1
   },
-  "rows_with_named_actor": 7155,
-  "canonical_actors": 164,
-  "named_actors": 18,
-  "actors_in_multiple_providers": 3,
-  "hard_overlap_keys": 333,
-  "cross_provider_overlap_keys": 3
+  "rows_with_named_actor": 7204,
+  "canonical_actors": 173,
+  "named_actors": 25,
+  "actors_in_multiple_providers": 10,
+  "hard_overlap_keys": 349,
+  "cross_provider_overlap_keys": 20
 }

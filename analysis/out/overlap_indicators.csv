@@ -1,10 +1,26 @@
 confidence,ind_class,ind_key,n_providers,providers,n_actors,actors,n_reports,reports
+strong,netloc,rrn.world,2,dfrlab|meta,2,09 China And Russia ; Doppelganger,3,2022 09 removing coordinated inauthentic behavior from china and russia ; Doppelganger websites persist one month following US government seizures ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
 strong,netloc,euronewstop.co.uk,2,meta|openai,2,Russia-Based Cib Network # ; Stop News,2,Influence and cyber operations: an update (October 2024) ; Q2_2024_RUSSIA-BASED CIB NETWORK #2 
 strong,netloc,newstop.africa,2,meta|openai,2,Russia-Based Cib Network # ; Stop News,3,Disrupting malicious uses of AI: October 2025 ; Influence and cyber operations: an update (October 2024) ; Q2_2024_RUSSIA-BASED CIB NETWORK #2 
 strong,netloc,empoweringghana.com,2,meta|openai,2,Ghana Based Cib Network ; Ghana Election Io (Digitsol),2, Q4_2024 GHANA_BASED_CIB_NETWORK ; Disrupting malicious uses of our models: an update (February 2025)
+strong,netloc,washingtonpost.pm,2,dfrlab|meta,1,Doppelganger,2,Doppelganger: How Russia mimicked real news sites and created fake ones to target US audiences ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,fox-news.top,2,dfrlab|meta,1,Doppelganger,2,Doppelganger: How Russia mimicked real news sites and created fake ones to target US audiences ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,mypride.press,2,dfrlab|meta,1,Doppelganger,2,Doppelganger: How Russia mimicked real news sites and created fake ones to target US audiences ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,cropmarketchronicles.cc,2,dfrlab|meta,1,Doppelganger,2,Doppelganger: How Russia mimicked real news sites and created fake ones to target US audiences ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,holylandherald.com,2,dfrlab|meta,1,Doppelganger,2,Doppelganger: How Russia mimicked real news sites and created fake ones to target US audiences ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,acrosstheline.cc,2,dfrlab|meta,1,Doppelganger,2,Doppelganger websites persist one month following US government seizures ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,artichoc.cc,2,dfrlab|meta,1,Doppelganger,2,Doppelganger websites persist one month following US government seizures ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,levinaigre.so,2,dfrlab|meta,1,Doppelganger,2,Doppelganger websites persist one month following US government seizures ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,rrn.so,2,dfrlab|meta,1,Doppelganger,2,Doppelganger websites persist one month following US government seizures ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,50statesoflie.so,2,dfrlab|meta,1,Doppelganger,2,Doppelganger websites persist one month following US government seizures ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,ukrlm.so,2,dfrlab|meta,1,Doppelganger,2,Doppelganger websites persist one month following US government seizures ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,warfareinsider.cc,2,dfrlab|meta,1,Doppelganger,2,Doppelganger websites persist one month following US government seizures ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,shadowwatch.co,2,dfrlab|meta,1,Doppelganger,2,Doppelganger websites persist one month following US government seizures ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,leparisien.top,2,meta|microsoft,1,Doppelganger,2,How Russia is trying to disrupt the 2024 Paris Olympic Games ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,franceeteu.today,2,meta|microsoft,1,Doppelganger,2,How Russia is trying to disrupt the 2024 Paris Olympic Games ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
+strong,netloc,rrn.media,2,meta|microsoft,1,Doppelganger,2,How Russia is trying to disrupt the 2024 Paris Olympic Games ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
 strong,netloc,avisindependent.eu,1,meta,2,09 China And Russia ; Doppelganger,2,2022 09 removing coordinated inauthentic behavior from china and russia ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
 strong,netloc,bild.pics,1,meta,2,09 China And Russia ; Doppelganger,2,2022 09 removing coordinated inauthentic behavior from china and russia ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
-strong,netloc,rrn.world,1,meta,2,09 China And Russia ; Doppelganger,2,2022 09 removing coordinated inauthentic behavior from china and russia ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
 strong,netloc,welt.tours,1,meta,2,09 China And Russia ; Doppelganger,2,2022 09 removing coordinated inauthentic behavior from china and russia ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
 strong,netloc,dailymail.top,1,meta,2,09 China And Russia ; Doppelganger,2,2022 09 removing coordinated inauthentic behavior from china and russia ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated
 strong,netloc,repubblica.life,1,meta,2,09 China And Russia ; Doppelganger,2,2022 09 removing coordinated inauthentic behavior from china and russia ; Q2_2023_Doppelganger_Russia_based_CIB_network_updated

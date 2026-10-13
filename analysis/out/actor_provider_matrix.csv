@@ -1,7 +1,14 @@
 actor_id,actor_name,is_named,country,n_providers,providers,n_rows
-SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,3,google|meta|openai,532
-DOPPELGANGER,Doppelganger,True,Russia,3,google|meta|openai,6497
+DOPPELGANGER,Doppelganger,True,Russia,5,dfrlab|google|meta|microsoft|openai,6524
+SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,4,google|meta|microsoft|openai,535
+APT43,APT43,True,North Korea,3,google|microsoft|openai,4
+APT42,APT42,True,Iran,2,dfrlab|google,4
+COTTON-SANDSTORM,Cotton Sandstorm,True,Iran,2,dfrlab|microsoft,4
 IRA,Internet Research Agency,True,Russia,2,google|x,4
+CHARCOAL-TYPHOON,Charcoal Typhoon,True,China,2,microsoft|openai,2
+CRIMSON-SANDSTORM,Crimson Sandstorm,True,Iran,2,microsoft|openai,2
+APT28,APT28,True,Russia,2,microsoft|openai,2
+SALMON-TYPHOON,Salmon Typhoon,True,China,2,microsoft|openai,2
 LABEL:iot-credential-scraping-actor,Iot Credential Scraping Actor,False,,1,anthropic,1
 LABEL:multi-client-influence-network,Multi-Client Influence Network,False,,1,anthropic,1
 LABEL:novice-malware-developer,Novice Malware Developer,False,,1,anthropic,1
@@ -26,9 +33,11 @@ LABEL:gtg-50021-alias-kl1zy,Gtg-50021 (Alias Kl1Zy),False,Russia/Ukraine,1,anthr
 LABEL:gtg-50029,Gtg-50029,False,France,1,anthropic,23
 LABEL:gtg-54002-lkm-company,Gtg-54002 (Lkm Company),False,France,1,anthropic,29
 LABEL:gtg-84005-bbs-bilisim-teknolojileri,Gtg-84005 (Bbs Bilisim Teknolojileri),False,Turkey,1,anthropic,23
+LABEL:evenpolitics,Evenpolitics,False,Iran,1,dfrlab,3
+LABEL:liberty-front-press,Liberty Front Press,False,Iran,1,dfrlab,1
+LABEL:nio-thinker,Nio Thinker,False,Iran,1,dfrlab,1
+LABEL:teorator,Teorator,False,Iran,1,dfrlab,1
 APT41,APT41,True,China,1,google,2
-APT42,APT42,True,Iran,1,google,3
-APT43,APT43,True,North Korea,1,google,1
 COPYCOP,CopyCop,True,Russia,1,google,1
 LABEL:dprk-apt-actors-groups,Dprk Apt Actors ( Groups),False,North Korea,1,google,1
 LABEL:dprk-it-workers,Dprk It Workers,False,North Korea,1,google,4
@@ -97,11 +106,12 @@ LABEL:romania-based-cib-network,Romania Based Cib Network,False,Romania,1,meta,2
 LABEL:belarus-based-cib-network,Belarus Based Cib Network,False,Belarus,1,meta,16
 LABEL:poland-based-cib-network,Poland Based Cib Network,False,Poland,1,meta,10
 LABEL:pakistan-based-cib-network,Pakistan Based Cib Network,False,Pakistan,1,meta,17
-LABEL:charcoal-typhoon,Charcoal Typhoon,False,China,1,openai,1
-LABEL:crimson-sandstorm,Crimson Sandstorm,False,Iran,1,openai,1
-LABEL:emerald-sleet,Emerald Sleet,False,North Korea,1,openai,1
-LABEL:forest-blizzard,Forest Blizzard,False,Russia,1,openai,1
-LABEL:salmon-typhoon,Salmon Typhoon,False,China,1,openai,1
+LABEL:ccp-affiliated-sockpuppet-network,Ccp-Affiliated Sockpuppet Network,False,China,1,microsoft,1
+LABEL:haixun-haimai,Haixun / Haimai,False,China,1,microsoft,1
+STORM-1679,Storm-1679,True,Russia,1,microsoft,2
+LABEL:bushnell-s-men,Bushnell'S Men,False,Iran,1,microsoft,1
+LABEL:ccp-linked-down-ballot-io,Ccp-Linked Down-Ballot Io,False,China,1,microsoft,1
+STORM-1516,Storm-1516,True,Russia,1,microsoft,1
 LABEL:bad-grammar,Bad Grammar,False,Russia,1,openai,1
 LABEL:international-union-of-virtual-media-iuvm,International Union Of Virtual Media (Iuvm),False,Iran,1,openai,2
 LABEL:zero-zeno-stoic,Zero Zeno (Stoic),False,Israel,1,openai,1
@@ -123,7 +133,6 @@ LABEL:peer-review-qianyue,Peer Review (Qianyue),False,China,1,openai,1
 LABEL:romance-baiting-scam-pig-butchering,Romance-Baiting Scam (Pig Butchering),False,Cambodia,1,openai,1
 LABEL:sponsored-discontent,Sponsored Discontent,False,China,1,openai,1
 LABEL:task-scam,Task Scam,False,Cambodia,1,openai,1
-LABEL:velvet-chollima-stardust-chollima,Velvet Chollima / Stardust Chollima,False,North Korea,1,openai,1
 LABEL:dprk-it-worker-scheme,Dprk It Worker Scheme,False,North Korea,1,openai,1
 LABEL:helgoland-bite,Helgoland Bite,False,Russia,1,openai,4
 LABEL:high-five-comm-sense-inc,High Five (Comm&Sense Inc),False,Philippines,1,openai,1
