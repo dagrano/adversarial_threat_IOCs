@@ -1,10 +1,10 @@
 actor_id,actor_name,is_named,country,n_providers,providers,n_rows
-DOPPELGANGER,Doppelganger,True,Russia,7,dfrlab|eu_disinfolab|fbi|google|meta|microsoft|openai,6567
+DOPPELGANGER,Doppelganger,True,Russia,7,dfrlab|eu_disinfolab|fbi|google|meta|microsoft|openai,6571
 SPAMOUFLAGE,Spamouflage / DRAGONBRIDGE,True,China,6,google|graphika|mandiant|meta|microsoft|openai,554
 COTTON-SANDSTORM,Cotton Sandstorm,True,Iran,4,cisa|dfrlab|meta|microsoft,47
 APT42,APT42,True,Iran,3,dfrlab|google|microsoft,5
 APT43,APT43,True,North Korea,3,google|microsoft|openai,4
-IRA,Internet Research Agency,True,Russia,3,google|meta|x,5
+IRA,Internet Research Agency,True,Russia,3,google|meta|x,6
 STORM-2035,Storm-2035,True,Iran,3,meta|microsoft|openai,8
 ZERO-ZENO,Zero Zeno (STOIC),True,Israel,2,meta|openai,2
 CHARCOAL-TYPHOON,Charcoal Typhoon,True,China,2,microsoft|openai,2
@@ -171,6 +171,38 @@ LABEL:moldova-based-network-gagauzia,Moldova-Based Network (Gagauzia),False,Mold
 LABEL:poland-based-network-cib,Poland-Based Network (Cib),False,Poland,1,meta,1
 LABEL:russia-based-network-african-freelancers,Russia-Based Network (African Freelancers),False,Russia,1,meta,1
 LABEL:russia-based-network-moldova-mare,Russia-Based Network (Moldova Mare),False,Russia,1,meta,1
+LABEL:cameroon-ai-animal-rehoming-fraud-network,Cameroon Ai Animal-Rehoming Fraud Network,False,Cameroon,1,meta,1
+LABEL:china-based-network-cib-taiwan,"China-Based Network (Cib, Taiwan)",False,China,1,meta,1
+LABEL:criminal-scam-syndicates-se-asia-compounds,Criminal Scam Syndicates (Se Asia Compounds),False,,1,meta,1
+LABEL:fake-funeral-livestream-fraud-network,Fake-Funeral-Livestream Fraud Network,False,Bangladesh,1,meta,1
+LABEL:fake-rental-listing-fraud-network,Fake-Rental-Listing Fraud Network,False,Bangladesh,1,meta,1
+LABEL:iran-based-network-cib-azerbaijan,"Iran-Based Network (Cib, Azerbaijan)",False,Iran,1,meta,2
+LABEL:iran-based-network-cib-us-early-stage,"Iran-Based Network (Cib, Us Early-Stage)",False,United States,1,meta,1
+LABEL:military-bank-impersonation-investment-scam-netw,Military/Bank-Impersonation Investment-Scam Network,False,Nigeria,1,meta,1
+LABEL:pakistan-ispr-domestic-network-cib,Pakistan Ispr Domestic Network (Cib),False,Pakistan,1,meta,1
+LABEL:relationship-scam-network-japanese-women-persona,Relationship-Scam Network (Japanese-Women Personas),False,,1,meta,1
+LABEL:romance-scam-network-medical-professional-person,Romance-Scam Network (Medical-Professional Personas),False,,1,meta,1
+RUPOSTERS,Ruposters,True,Russia,1,meta,1
+LABEL:russia-based-network-cib-sub-saharan-africa,"Russia-Based Network (Cib, Sub-Saharan Africa)",False,Russia,1,meta,1
+ASIGINT,ASIGINT (SIO SPA),True,Italy,1,meta,1
+BINDECY,Bindecy,True,Israel,1,meta,1
+LABEL:engagement-bait-gift-card-fraud-network,Engagement-Bait Gift-Card Fraud Network,False,Nigeria,1,meta,1
+LABEL:france-spain-based-network-cib,France & Spain-Based Network (Cib),False,Spain,1,meta,1
+LABEL:ghana-nigeria-investment-scam-network,Ghana/Nigeria Investment-Scam Network,False,Ghana,1,meta,1
+INTELLEXA,Intellexa / Cytrox (Predator),True,Greece,1,meta,1
+LABEL:iran-based-network-cib-africa,"Iran-Based Network (Cib, Africa)",False,Iran,1,meta,1
+LABEL:iran-based-network-cib-us,"Iran-Based Network (Cib, Us)",False,United States,1,meta,1
+LABEL:israel-based-influence-for-hire-network-cib,Israel-Based Influence-For-Hire Network (Cib),False,Israel,1,meta,1
+LABEL:pakistan-dormant-inventory-account-farm,Pakistan Dormant-Inventory Account Farm,False,Pakistan,1,meta,1
+LABEL:russia-based-network-cib-hungary,"Russia-Based Network (Cib, Hungary)",False,Russia,1,meta,1
+LABEL:russia-based-network-cib-international-burke-ins,"Russia-Based Network (Cib, International Burke Institute)",False,Russia,1,meta,1
+LABEL:se-asia-scam-compound-networks-joint-disruption-,Se Asia Scam-Compound Networks (Joint Disruption Week),False,,1,meta,1
+SINOVATIO,Sinovatio (ex-ZTESec),True,China,1,meta,1
+SURFILTER,Surfilter Network Technology,True,China,1,meta,1
+LABEL:taiwan-parcel-delivery-typosquatting-network,Taiwan Parcel-Delivery Typosquatting Network,False,,1,meta,1
+LABEL:us-elder-benefits-scam-network,Us Elder-Benefits Scam Network,False,United States,1,meta,1
+LABEL:uganda-charity-impersonation-fraud-network,Uganda Charity-Impersonation Fraud Network,False,Uganda,1,meta,1
+LABEL:ukraine-bulgaria-based-network-cib,Ukraine & Bulgaria-Based Network (Cib),False,Ukraine,1,meta,1
 LABEL:pakistan-based-cib-network,Pakistan Based Cib Network,False,Pakistan,1,meta,17
 LABEL:ccp-affiliated-io-network-midterms,Ccp-Affiliated Io Network ( Midterms),False,China,1,microsoft,1
 LABEL:chinese-state-media-influencer-initiative,Chinese State-Media Influencer Initiative,False,China,1,microsoft,2

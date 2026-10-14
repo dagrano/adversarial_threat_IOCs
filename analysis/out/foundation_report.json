@@ -1,10 +1,10 @@
 {
-  "rows": 11919,
+  "rows": 11957,
   "indicator_classes": {
     "netloc": 9798,
-    "text": 1110,
+    "text": 1115,
     "package": 404,
-    "metric": 263,
+    "metric": 296,
     "hash": 113,
     "ip": 89,
     "handle": 71,
@@ -14,9 +14,9 @@
     "filename": 8,
     "other": 1
   },
-  "rows_with_named_actor": 7338,
-  "canonical_actors": 242,
-  "named_actors": 31,
+  "rows_with_named_actor": 7349,
+  "canonical_actors": 274,
+  "named_actors": 37,
   "actors_in_multiple_providers": 12,
   "hard_overlap_keys": 370,
   "cross_provider_overlap_keys": 47

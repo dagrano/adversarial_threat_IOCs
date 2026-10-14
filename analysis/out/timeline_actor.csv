@@ -1,12 +1,12 @@
 actor,country,first_seen,last_seen,span_days,n_reports,n_providers,providers
-Internet Research Agency,Russia,2018-10-17,2025-01-29,2296,5,3,google|meta|x
+Internet Research Agency,Russia,2018-10-17,2026-08-22,2866,6,3,google|meta|x
 Spamouflage / DRAGONBRIDGE,China,2020-08-12,2025-01-29,1631,9,6,google|graphika|mandiant|meta|microsoft|openai
 Srivastava Group,India,2020-12-09,2020-12-09,0,1,1,eu_disinfolab
 Ghostwriter (UNC1151),Belarus,2021-11-16,2021-11-16,0,1,1,mandiant
 APT36,Pakistan,2022-08-04,2022-08-04,0,1,1,meta
 Bitter APT,South Asia,2022-08-04,2022-08-04,0,1,1,meta
 Cyber Front Z,Russia,2022-08-04,2023-02-23,203,2,1,meta
-Doppelganger,Russia,2022-09-27,2025-01-29,855,14,7,dfrlab|eu_disinfolab|fbi|google|meta|microsoft|openai
+Doppelganger,Russia,2022-09-27,2026-08-22,1425,15,7,dfrlab|eu_disinfolab|fbi|google|meta|microsoft|openai
 Bahamut,South Asia,2023-01-01,2023-05-03,122,2,1,meta
 Patchwork,India,2023-01-01,2023-05-03,122,2,1,meta
 Cotton Sandstorm,Iran,2023-05-02,2024-12-03,581,5,4,cisa|dfrlab|meta|microsoft
@@ -27,6 +27,12 @@ Keyhole Panda (APT5),China,2025-06-05,2025-06-05,0,1,1,openai
 Contagious Interview,North Korea,2025-08-27,2025-08-27,0,1,1,anthropic
 APT31,China,2026-02-12,2026-02-12,0,1,1,google
 Basin Castle (TEMP.Hex),China,2026-02-12,2026-09-08,208,2,1,google
+Ruposters,Russia,2026-03-19,2026-03-19,0,1,1,meta
+ASIGINT (SIO SPA),Italy,2026-08-22,2026-08-22,0,1,1,meta
+Bindecy,Israel,2026-08-22,2026-08-22,0,1,1,meta
+Intellexa / Cytrox (Predator),Greece,2026-08-22,2026-08-22,0,1,1,meta
+Sinovatio (ex-ZTESec),China,2026-08-22,2026-08-22,0,1,1,meta
+Surfilter Network Technology,China,2026-08-22,2026-08-22,0,1,1,meta
 UNC1069,North Korea,2026-09-08,2026-09-08,0,1,1,google
 APT24,China,2026-09-08,2026-09-08,0,1,1,google
 Sandworm (APT44),Russia,2026-09-08,2026-09-08,0,1,1,google

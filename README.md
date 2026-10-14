@@ -30,7 +30,7 @@ under `data/<provider>/`.
 
 | Provider | What they publish | Coverage here |
 |---|---|---|
-| Meta | `facebook/threat-research` GitHub repo — classic IOC tables (2020–2023) + Online Operations Kill Chain files for CIB takedowns (2023–present), **plus** the narrative quarterly/biannual Adversarial Threat Reports | **Full repo history** (68 source CSVs) + **13 narrative ATR editions** (2022–2025) |
+| Meta | `facebook/threat-research` GitHub repo — classic IOC tables (2020–2023) + Online Operations Kill Chain files for CIB takedowns (2023–present), **plus** the narrative quarterly/biannual Adversarial Threat Reports | **Full repo history** (68 source CSVs) + **15 narrative ATR editions** (2022–2026) covering CIB/influence ops, fraud/scams, and surveillance-for-hire |
 | Anthropic | Per-case-study indicator tables inside each report PDF; recent editions are IOC-rich | March 2025, August 2025, September 2026 |
 | OpenAI | Operation write-ups in report PDFs; very few hard IOCs by design | June 2025, October 2025 (older editions tracked as pending) |
 | Google (GTIG) | Actor-by-actor AI-misuse reporting; the AI Threat Tracker adds malware families | *Adversarial Misuse of Generative AI* (Jan 2025), *AI Threat Tracker* (Feb 2026) |
