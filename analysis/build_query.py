@@ -15,7 +15,7 @@ OUT = os.path.join(HERE, "out")
 COLS = ["actor", "actor_type", "source_provider", "source_report", "report_date",
         "source_url", "indicator_type", "indicator_value", "country",
         "target_country", "target_sector", "ttp", "ttp_framework", "confidence",
-        "description", "date_added"]
+        "description", "date_added", "source_kind"]
 
 HARD = ["domain", "url", "ipv4", "ipv6", "sha256", "sha1", "md5", "email",
         "onion_domain", "crypto_wallet"]
@@ -124,6 +124,7 @@ tr:last-child td{border-bottom:none}
 .desc{color:var(--text-secondary);max-width:320px}
 .pill{font-size:11px;padding:1px 7px;border-radius:9px;border:1px solid var(--border);white-space:nowrap}
 .pill.hard{background:color-mix(in srgb,var(--good) 16%,transparent);color:var(--good);border-color:transparent}
+.pill.rep{background:color-mix(in srgb,var(--warn) 16%,transparent);color:var(--warn);border-color:transparent;margin-left:4px}
 .prov{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
 a.src{color:var(--accent);text-decoration:none} a.src:hover{text-decoration:underline}
 mark{background:color-mix(in srgb,var(--warn) 45%,transparent);color:inherit;border-radius:2px}
@@ -154,6 +155,14 @@ mark{background:color-mix(in srgb,var(--warn) 45%,transparent);color:inherit;bor
     <div class="field">
       <label for="type">Indicator type</label>
       <select id="type"><option value="">All types</option></select>
+    </div>
+    <div class="field">
+      <label for="kind">Source kind</label>
+      <select id="kind">
+        <option value="">All sources</option>
+        <option value="ioc">IOC drops (released indicators)</option>
+        <option value="report">Narrative reports (no IOCs released)</option>
+      </select>
     </div>
     <div class="actions">
       <label class="toggle"><input type="checkbox" id="hardonly"> hard IOCs only</label>
@@ -207,18 +216,20 @@ for(const p of PROVIDERS){
 }
 
 const SEARCH_COLS=['actor','indicator_value','description','source_report','target_country','target_sector','ttp','persona'].map(c=>ix[c]).filter(i=>i!=null);
-const q=document.getElementById('q'), hardonly=document.getElementById('hardonly');
+const q=document.getElementById('q'), hardonly=document.getElementById('hardonly'),
+      ksel=document.getElementById('kind');
 let matches=[];
 
 function filtered(){
   const term=q.value.trim().toLowerCase();
   const terms=term?term.split(/\s+/):[];
-  const country=csel.value, type=tsel.value, hard=hardonly.checked;
+  const country=csel.value, type=tsel.value, hard=hardonly.checked, kind=ksel.value;
   const out=[];
   for(const r of ROWS){
     if(!provOn.has(r[ix.source_provider]))continue;
     if(country && r[ix.country]!==country)continue;
     if(type && r[ix.indicator_type]!==type)continue;
+    if(kind && (r[ix.source_kind]||'ioc')!==kind)continue;
     if(hard && !HARD.has(r[ix.indicator_type]))continue;
     if(terms.length){
       let hay='';for(const c of SEARCH_COLS)hay+=' '+(r[c]||'');
@@ -253,7 +264,8 @@ function render(){
     const tr=document.createElement('tr');
     const hard=HARD.has(r[ix.indicator_type])?' hard':'';
     const url=r[ix.source_url];
-    const rep=esc(r[ix.source_report])+(r[ix.report_date]?' <span class="prov">'+esc(r[ix.report_date])+'</span>':'');
+    const kindBadge=(r[ix.source_kind]==='report')?' <span class="pill rep">narrative report</span>':'';
+    const rep=esc(r[ix.source_report])+(r[ix.report_date]?' <span class="prov">'+esc(r[ix.report_date])+'</span>':'')+kindBadge;
     const srcLink=url?' · <a class="src" href="'+esc(url)+'" target="_blank" rel="noopener">source</a>':'';
     tr.innerHTML=
       '<td>'+hl(r[ix.actor],terms)+'</td>'+
@@ -292,13 +304,13 @@ document.getElementById('download').onclick=()=>{
   setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},0);
 };
 document.getElementById('reset').onclick=()=>{
-  q.value='';csel.value='';tsel.value='';hardonly.checked=false;
+  q.value='';csel.value='';tsel.value='';ksel.value='';hardonly.checked=false;
   provOn.clear();PROVIDERS.forEach(p=>provOn.add(p));
   document.querySelectorAll('.chip').forEach(b=>{b.classList.add('on');b.setAttribute('aria-pressed','true');});
   render();
 };
 let t;q.addEventListener('input',()=>{clearTimeout(t);t=setTimeout(render,120);});
-csel.onchange=render;tsel.onchange=render;hardonly.onchange=render;
+csel.onchange=render;tsel.onchange=render;ksel.onchange=render;hardonly.onchange=render;
 render();
 </script>
 </body></html>

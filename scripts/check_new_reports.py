@@ -68,6 +68,45 @@ def check_meta():
         print("  up to date.")
 
 
+def check_meta_atr(meta):
+    """Meta narrative Adversarial Threat Reports (data/meta-reports/ vein).
+
+    These are hand-curated per-network rows, NOT the facebook/threat-research
+    IOC CSVs. Meta now publishes ~twice-annually, so this prints the latest
+    ingested edition and scans the transparency listing for newer links so a
+    human (or the scheduled task) can ingest any new networks as a new
+    data/meta-reports/<date>_<slug>.csv.
+    """
+    print("\n=== META ATR (narrative reports, data/meta-reports/) ===")
+    atr = meta.get("atr_reports", [])
+    if not atr:
+        print("  no atr_reports tracked in sources.json.")
+        return
+    latest = max(r["date"] for r in atr)
+    print(f"  {len(atr)} editions ingested; latest = {latest} "
+          f"(cadence: {meta.get('atr_cadence', 'unknown')})")
+    known = {r["url"] for r in atr}
+    lu = meta.get("atr_listing_url")
+    if not lu:
+        return
+    try:
+        html = fetch(lu)
+    except Exception as e:  # noqa: BLE001
+        print(f"  (could not fetch listing {lu}: {e})")
+        return
+    links = set(re.findall(r'href="([^"]+)"', html))
+    cand = [l for l in links if re.search(r"(adversarial|threat-report|/sr/)", l, re.I)]
+    fresh = sorted({l for l in cand if l.startswith("http") and l not in known})
+    if fresh:
+        print("  candidate ATR links not in sources.json atr_reports:")
+        for c in fresh[:25]:
+            print("    ?", c)
+        print("  -> if an edition is newer than the latest above, extract its "
+              "networks into data/meta-reports/ (see sources.json atr_note).")
+    else:
+        print("  no new ATR links detected on the listing page.")
+
+
 def check_lab(name, data):
     print(f"\n=== {name.upper()} ===")
     pending = [r for r in data["reports"] if r.get("status") == "pending"]
@@ -98,7 +137,8 @@ def main():
     with open(os.path.join(ROOT, "sources.json"), encoding="utf-8") as fh:
         src = json.load(fh)["providers"]
     check_meta()
-    # every provider except meta (which has its own GitHub-tree check)
+    check_meta_atr(src.get("meta", {}))
+    # every provider except meta (which has its own GitHub-tree + ATR checks)
     for name, data in src.items():
         if name == "meta":
             continue

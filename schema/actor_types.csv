@@ -5,4 +5,5 @@ influence_operation,Coordinated inauthentic behavior / information operation
 fraud,Scam / fraud operation (task scams, romance scams, employment fraud)
 hacktivist,Ideologically motivated actor
 threat_actor,Generic/unclassified threat actor
+surveillance_vendor,Commercial surveillance-for-hire / spyware vendor (e.g. Intellexa/Cytrox)
 unknown,Not stated by the source
