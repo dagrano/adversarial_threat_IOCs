@@ -41,6 +41,7 @@ def main():
             .replace("__TYPES__", json.dumps(types, separators=(",", ":")))
             .replace("__PROVIDERS__", json.dumps(providers, separators=(",", ":")))
             .replace("__HARD__", json.dumps(HARD, separators=(",", ":")))
+            .replace("__NSOURCES__", str(len(providers)))
             .replace("__NROWS__", str(len(rows))))
     out = os.path.join(OUT, "query.html")
     open(out, "w", encoding="utf-8").write(html)
@@ -138,7 +139,7 @@ mark{background:color-mix(in srgb,var(--warn) 45%,transparent);color:inherit;bor
 <div class="wrap">
 <header class="top">
   <h1>IOC Explorer</h1>
-  <p class="sub">Search and filter the adversarial-threat IOC corpus — <span id="total"></span> indicators across 12 sources (Meta, OpenAI, Anthropic, Google, TikTok, X, Microsoft, Mandiant, DFRLab, Graphika, EU DisinfoLab, CISA/FBI).</p>
+  <p class="sub">Search and filter the adversarial-threat IOC corpus — <span id="total"></span> indicators across __NSOURCES__ sources (Meta, OpenAI, Anthropic, Google, TikTok, X, Microsoft, Mandiant, DFRLab, Graphika, EU DisinfoLab, CISA, FBI).</p>
   <p class="sub" style="margin-top:3px"><a href="index.html" style="color:var(--accent);text-decoration:none">← Dashboard</a> &nbsp; <a href="corroboration.html" style="color:var(--accent);text-decoration:none">Cross-source corroboration →</a></p>
 </header>
 

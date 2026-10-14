@@ -27,8 +27,35 @@ import os
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "out")
 
-PROVIDERS = ["anthropic", "openai", "meta", "google", "tiktok", "x"]
-PCOLOR = {"anthropic": 1, "openai": 2, "meta": 3, "google": 4, "tiktok": 5, "x": 6}
+# Providers are grouped into categories, and color follows the CATEGORY, not the
+# individual provider — 13 sources is far more than the categorical-hue budget, and
+# the four categories also mirror the "many independent kinds of watcher" framing.
+# Order is fixed (slot 1->4) so adjacent category colors clear the CVD adjacent-pair
+# gate; every chip, lane and column is text-labeled, so hue is reinforcement only.
+# The provider list itself is derived from the data at build time (see main), so a
+# newly ingested source appears automatically — and any provider not mapped below
+# falls into "Other" rather than silently vanishing.
+CATEGORIES = [
+    ("AI providers",           ["anthropic", "openai"],                                  1),
+    ("Platforms & vendor TI",  ["google", "meta", "microsoft", "mandiant", "tiktok", "x"], 2),
+    ("Government",             ["cisa", "fbi", "ncsc"],                                   3),
+    ("Civil-society research", ["dfrlab", "graphika", "eu_disinfolab"],                  4),
+]
+_CAT_OF = {p: name for name, provs, _ in CATEGORIES for p in provs}
+_CAT_SLOT = {name: slot for name, _, slot in CATEGORIES}
+OTHER_SLOT = 6  # muted-but-distinct slot for any provider not mapped above
+
+
+def provider_order(present):
+    """Providers actually present in the data, ordered by category then listed order."""
+    present = set(present)
+    ordered = [p for _, provs, _ in CATEGORIES for p in provs if p in present]
+    ordered += [p for p in sorted(present) if p not in ordered]  # unmapped -> Other
+    return ordered
+
+
+def pslot(p):
+    return _CAT_SLOT.get(_CAT_OF.get(p, ""), OTHER_SLOT)
 
 # Approx country centroids [lon, lat] for proportional-symbol placement.
 CENTROIDS = {
@@ -90,6 +117,16 @@ def main():
     comps = rd("linked_ops_components.csv")
     amx = rd("actor_provider_matrix.csv")
     idx = rd("normalized_indicators.csv")
+
+    # Providers present in the corpus, category-ordered; color follows category.
+    PROVIDERS = provider_order({r["source_provider"] for r in idx if r["source_provider"]})
+    PCOLOR = {p: pslot(p) for p in PROVIDERS}
+    cats_present = [(name, [p for p in provs if p in PROVIDERS], slot)
+                    for name, provs, slot in CATEGORIES]
+    cats_present = [c for c in cats_present if c[1]]
+    other_present = [p for p in PROVIDERS if p not in _CAT_OF]
+    if other_present:
+        cats_present.append(("Other", other_present, OTHER_SLOT))
 
     # ---- build takedown/operation events: (provider, report, actor_id) ----
     ev = {}
@@ -181,15 +218,23 @@ def main():
                          f'<div class="cf">{esc(r["n_bridge_indicators"])} shared indicators</div></div>')
     cmp_cards.append("</div>")
 
-    chips = "".join(
-        f'<button class="chip on" data-p="{p}"><i style="background:var(--series-{PCOLOR[p]})"></i>'
-        f'{p}</button>' for p in PROVIDERS)
+    chip_groups, legend_items = [], []
+    for name, provs, slot in cats_present:
+        c = "".join(
+            f'<button class="chip on" data-p="{esc(p)}">'
+            f'<i style="background:var(--series-{slot})"></i>{esc(p)}</button>' for p in provs)
+        chip_groups.append(f'<div class="cgroup"><span class="cglab">{esc(name)}</span>'
+                           f'<div class="cgchips">{c}</div></div>')
+        legend_items.append(f'<span class="lg"><i style="background:var(--series-{slot})"></i>'
+                            f'{esc(name)}</span>')
+    chips = "".join(chip_groups)
+    catlegend = "".join(legend_items)
 
     doc = TEMPLATE.format(
         tiles="".join(f'<div class="tile"><div class="tv">{esc(v)}</div>'
                       f'<div class="tk">{esc(k)}</div></div>' for k, v in tiles),
-        chips=chips, heat="".join(heat), bars="".join(bars), overl="".join(ovr),
-        comps="".join(cmp_cards),
+        chips=chips, catlegend=catlegend, heat="".join(heat), bars="".join(bars),
+        overl="".join(ovr), comps="".join(cmp_cards),
         data_json=json.dumps(events, separators=(",", ":")),
         centroids_json=json.dumps(CENTROIDS, separators=(",", ":")),
         world_json=json.dumps(load_world(), separators=(",", ":")),
@@ -247,6 +292,11 @@ section{{background:var(--surface-1);border:1px solid var(--border);border-radiu
 .chip.on{{color:var(--text-primary);border-color:var(--text-secondary)}}
 .chip.on i{{opacity:1}}
 .chip:hover{{border-color:var(--text-secondary)}}
+.cgroup{{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:7px 0}}
+.cglab{{min-width:150px;color:var(--text-secondary);font-size:11.5px;font-weight:600;
+  text-transform:uppercase;letter-spacing:.04em}}
+.cgchips{{display:flex;gap:7px;flex-wrap:wrap}}
+@media(max-width:560px){{.cglab{{min-width:100%}}}}
 .filtbtn{{background:none;border:none;color:var(--series-1);cursor:pointer;font-size:12px}}
 .legend{{display:flex;gap:14px;flex-wrap:wrap;margin:2px 0 6px;color:var(--text-secondary);font-size:12px}}
 .lg{{display:inline-flex;align-items:center;gap:5px}} .lg i{{width:10px;height:10px;border-radius:2px;display:inline-block}}
@@ -282,13 +332,13 @@ table{{border-collapse:collapse;width:100%;font-size:12.5px}}
 .bub:hover{{fill-opacity:.8}}
 .blab{{fill:var(--text-primary);font-size:9px;text-anchor:middle;pointer-events:none}}
 .tl{{position:relative}}
-.tllane{{display:grid;grid-template-columns:76px 1fr;align-items:center;gap:8px;height:26px}}
-.tlp{{color:var(--text-secondary);font-size:12px;text-align:right}}
+.tllane{{display:grid;grid-template-columns:112px 1fr;align-items:center;gap:8px;height:24px}}
+.tlp{{color:var(--text-secondary);font-size:12px;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
 .tltrack{{position:relative;height:100%;border-bottom:1px solid var(--grid)}}
 .tlmark{{position:absolute;top:4px;bottom:4px;width:2px;transform:translateX(-50%);border-radius:1px;cursor:pointer;opacity:.85}}
 .tlmark:hover{{opacity:1;width:3px}}
 .reglab{{fill:var(--muted);font-size:10px;opacity:.4;text-anchor:middle;pointer-events:none;letter-spacing:.08em}}
-.tlaxis{{display:flex;justify-content:space-between;color:var(--muted);font-size:11px;margin:4px 0 0 84px}}
+.tlaxis{{display:flex;justify-content:space-between;color:var(--muted);font-size:11px;margin:4px 0 0 120px}}
 #tip{{position:fixed;pointer-events:none;background:var(--surface-1);color:var(--text-primary);
   border:1px solid var(--border);border-radius:8px;padding:6px 9px;font-size:12px;opacity:0;
   transition:opacity .08s;z-index:9;max-width:260px;box-shadow:0 4px 14px rgba(0,0,0,.15)}}
@@ -302,12 +352,14 @@ button.tog{{float:right;background:var(--surface-1);color:var(--text-secondary);
 <p class="sub">Cross-source analysis of published adversarial-threat reporting — generated from the corpus. <a href="query.html" style="color:var(--series-1)">Search the raw indicators →</a> · <a href="corroboration.html" style="color:var(--series-1)">Cross-source corroboration →</a></p>
 <div class="tiles">{tiles}</div>
 
-<h2>Filter by reporting company</h2>
+<h2>Filter by reporting source</h2>
 <section>
-  <div class="filterbar">{chips}
+  <div class="legend" style="margin-bottom:4px">{catlegend}</div>
+  {chips}
+  <div class="filterbar" style="margin-top:6px">
     <button class="filtbtn" id="all">all</button><button class="filtbtn" id="none">none</button>
   </div>
-  <div class="note">Toggles apply to the map and the takedown timeline below.</div>
+  <div class="note">Sources grouped by kind; color follows the group. Toggles apply to the map and the takedown timeline below.</div>
 </section>
 
 <h2>Takedowns by origin country</h2>
@@ -328,7 +380,8 @@ button.tog{{float:right;background:var(--surface-1);color:var(--text-secondary);
 <section><div class="note">Actors joined by shared infrastructure (benign hubs excluded). Orange spans more than one provider.</div>{comps}</section>
 
 <h2>Takedown timeline</h2>
-<section><div class="note">One marker per disclosed operation, on its report date, in its company's lane. Filtered by the chips above.</div>
+<section><div class="legend" style="margin-bottom:6px">{catlegend}</div>
+<div class="note">One marker per disclosed operation, on its report date, in its source's lane (grouped by kind, colored by group). Filtered by the chips above.</div>
 <div class="tl" id="timeline"></div><div class="tlaxis" id="tlaxis"></div></section>
 
 <p class="foot">Generated by analysis/build_dashboard.py. PDF-extracted indicators should be verified against source_url before operational use.</p>
