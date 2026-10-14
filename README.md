@@ -43,7 +43,7 @@ under `data/<provider>/`.
 | EU DisinfoLab | Disinformation / influence-operation investigations | Doppelganger (origin report, 2022), Indian Chronicles (Srivastava Group) |
 | CISA / FBI | Government advisories — influence-ops & AI-misuse / state-linked only | CISA: Emennet Pasargad (domains, IPs, hashes, AI-tool misuse); FBI/DOJ: Doppelganger 32-domain seizure |
 
-Data explorer tools and visualization here: https://dagrano.github.io/adversarial_threat_IOCs/
+Data explorer tools and visualization here: https://dagrano.github.io/adversarial_threat_IOCs/index.html
 
 Current size: **11,800+ rows** across 12 sources. Rebuild stats print when you
 run `scripts/build_master.py`.
