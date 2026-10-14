@@ -1,30 +1,30 @@
 # Adversarial Threat IOCs
 
-A community-maintained, machine-readable collection of the indicators and
-tradecraft published in adversarial-threat reporting across tech companies and
+This is a community-maintained, machine-readable collection of the indicators and
+TTPs published in adversarial threat reporting across tech companies and
 security investigations. Every report is normalized into one flat CSV schema so
 you can search, diff, and import the data into a SIEM, TIP, or a spreadsheet
 without re-reading a stack of PDFs.
 
 **Current sources:** Meta, OpenAI, Anthropic, Google (GTIG), TikTok, X,
 Microsoft (MSTIC/MTAC), Mandiant, DFRLab, Graphika, EU DisinfoLab, and
-government advisories (CISA, FBI). NCSC is tracked but has no in-scope report
-yet (its public actor reporting is cyber-espionage, outside this corpus's
-influence-operations / AI-misuse scope).
+government advisories (CISA, FBI).
+
 **Roadmap:** deeper government-advisory coverage and additional vetted OSINT /
 security-vendor investigations. Sources are an extensible vocabulary
-(`schema/providers.csv`) — adding one is a one-line change, then drop CSVs
+(`schema/providers.csv`), adding one is a one-line change, then drop CSVs
 under `data/<provider>/`.
 
 > **Scope note, read this first.** These sources do **not** publish indicators
 > the way a classic CTI vendor does. Meta's older files and Anthropic's and
 > Google's recent reports carry real technical IOCs (domains, IPs, hashes,
 > emails, malware families). But a large share of what these providers publish
-> is *behavioral* — account attributions, coordinated-inauthentic-behavior
-> patterns, and model-abuse TTPs — and OpenAI in particular states it shares
+> is *behavioral*, account attributions, IO TTPs,
+> and model-abuse TTPs. OpenAI in particular claims it shares
 > hard technical indicators privately with industry partners rather than in the
-> report. This corpus therefore captures **indicators and TTPs**, not IOCs
-> alone, and is honest about which rows are which (see `indicator_type`).
+> report. Some companies share no technical indicators at all.
+> This corpus therefore captures **indicators and TTPs**, not IOCs
+> alone, and rows are labeled accordingly (see `indicator_type`).
 
 ## What's in it
 
@@ -50,7 +50,8 @@ run `scripts/build_master.py`.
 
 Scope for the newer sources (Microsoft, Mandiant, DFRLab, Graphika, EU
 DisinfoLab, CISA/FBI/NCSC) is **influence operations and AI-misuse only** —
-generic ransomware/CVE advisories and pure cyber-espionage are out of scope.
+generic ransomware/CVE advisories and pure cyber-espionage are out of 
+scope (but under consideration for future builds).
 Government joint advisories are keyed to the lead agency, with co-authors noted
 in `description`.
 
@@ -58,7 +59,7 @@ X rows use `indicator_type = asset_count` (e.g. "4,779 accounts") because X
 published account datasets, not atomic IOCs; per the corpus's scope these
 capture network-level attribution, not individual tweets.
 
-### Two Meta veins, tagged by `source_kind`
+### Two Meta sources, tagged by `source_kind`
 
 The build derives a **`source_kind`** column (in `dist/indicators.csv`, not in
 the per-file schema — it comes from the row's directory):
@@ -71,9 +72,9 @@ the per-file schema — it comes from the row's directory):
 
 This makes "where did Meta report on an actor but release no IOCs?" a direct
 filter (IOC Explorer → *Source kind → Narrative reports*), and keeps the two
-veins honest about corroboration: because both carry `source_provider = meta`,
+sources honest about corroboration: because both carry `source_provider = meta`,
 an actor appearing in a Meta IOC drop **and** a Meta narrative report still
-counts Meta **once** in the cross-source view — no false corroboration.
+counts Meta **once** in the cross-source view, with no false corroboration.
 
 ## Layout
 
@@ -119,7 +120,7 @@ GitHub Pages:
   how many independent providers reported them, and draws a per-actor
   **reporting timeline**: each report on its date, sized by indicator count,
   colour-coded by actor, linked to its source. This is where the corpus's main
-  value shows — e.g. *Doppelganger* reported by seven independent sources, or
+  value shows. For example, *Doppelganger* reported by seven independent sources, or
   the same operation surfacing under different vendor names once the alias map
   reconciles them.
 
