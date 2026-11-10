@@ -1,9 +1,9 @@
 origin_country,country,first_seen,last_seen,span_days,n_reports,n_providers,providers
-Russia,Russia,2018-10-17,2026-10-01,2906,43,9,anthropic|dfrlab|eu_disinfolab|fbi|google|meta|microsoft|openai|x
+Russia,Russia,2018-10-17,2026-10-01,2906,44,9,anthropic|dfrlab|eu_disinfolab|fbi|google|meta|microsoft|openai|x
 Iran,Iran,2018-10-17,2026-10-01,2906,36,7,cisa|dfrlab|google|meta|microsoft|openai|x
 Spain,Spain,2019-06-13,2026-08-22,2627,4,2,meta|x
 Venezuela,Venezuela,2019-06-13,2021-12-02,903,2,1,x
-China,China,2019-08-19,2026-10-01,2600,40,8,anthropic|google|graphika|mandiant|meta|microsoft|openai|x
+China,China,2019-08-19,2026-10-01,2600,44,8,anthropic|google|graphika|mandiant|meta|microsoft|openai|x
 United Arab Emirates,United Arab Emirates,2019-09-20,2019-09-20,0,1,1,x
 Ecuador,Ecuador,2019-09-20,2019-09-20,0,1,1,x
 Saudi Arabia,Saudi Arabia,2019-09-20,2020-06-11,265,2,1,x
@@ -35,7 +35,7 @@ Togo,Togo,2023-01-01,2023-05-03,122,2,1,meta
 Bolivia,Bolivia,2023-02-23,2023-02-23,0,1,1,meta
 Serbia,Serbia,2023-02-23,2023-02-23,0,1,1,meta
 Turkey,Turkey,2023-04-01,2026-09-10,1258,4,2,anthropic|meta
-North Korea,North Korea,2023-09-07,2026-09-08,1097,10,4,anthropic|google|microsoft|openai
+North Korea,North Korea,2023-09-07,2026-09-08,1097,11,4,anthropic|google|microsoft|openai
 Myanmar,Myanmar,2023-10-01,2024-02-14,136,2,1,meta
 Ukraine,Ukraine,2023-10-01,2026-08-22,1056,3,1,meta
 Bangladesh,Bangladesh,2024-01-01,2026-03-19,808,3,1,meta

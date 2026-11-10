@@ -100,3 +100,10 @@ ASIGINT,ASIGINT (SIO SPA),Italy,asigint,high,"Italian surveillance-for-hire; sub
 BINDECY,Bindecy,Israel,bindecy,high,"Israel-based spyware vendor; acquired Merlinx/Equus Technologies"
 SURFILTER,Surfilter Network Technology,China,surfilter,high,"Chinese network-traffic-interception vendor"
 SINOVATIO,Sinovatio (ex-ZTESec),China,sinovatio,high,"Chinese network-traffic-analysis vendor; formerly ZTESec, spun off from ZTE"
+GTG-1002,GTG-1002,China,gtg-1002,high,"Anthropic Nov 2025 AI-orchestrated espionage campaign; Chinese state-sponsored"
+APT45,APT45,North Korea,apt45,high,"a.k.a. Andariel / Onyx Sleet / Stonefly (DPRK)"
+APT45,APT45,North Korea,andariel,medium,alias
+APT45,APT45,North Korea,onyx sleet,medium,alias
+APT27,APT27,China,apt27,high,"a.k.a. Emissary Panda / LuckyMouse / Iron Tiger"
+APT27,APT27,China,emissary panda,medium,alias
+APT27,APT27,China,luckymouse,medium,alias

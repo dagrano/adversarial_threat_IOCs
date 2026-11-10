@@ -9,6 +9,9 @@
       "reports": [
         {"date": "2025-03-01", "title": "Detecting and Countering Malicious Uses of Claude: March 2025", "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025", "status": "ingested"},
         {"date": "2025-08-27", "title": "Detecting and countering misuse of AI: August 2025", "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025", "status": "ingested"},
+        {"date": "2025-11-13", "title": "Disrupting the first reported AI-orchestrated cyber espionage campaign", "url": "https://www.anthropic.com/news/disrupting-AI-espionage", "status": "ingested"},
+        {"date": "2026-02-23", "title": "Detecting and preventing distillation attacks", "url": "https://www.anthropic.com/research/detecting-preventing-distillation-attacks", "status": "out_of_scope", "note": "Model-protection safeguards research, not adversarial-threat-actor reporting; no indicators to ingest."},
+        {"date": "2026-06-03", "title": "What we learned mapping a year's worth of AI-enabled cyber threats", "url": "https://www.anthropic.com/news/what-we-learned-mapping-a-years-worth-of-ai-enabled-cyber-threats", "status": "out_of_scope", "note": "Retrospective synthesis of previously reported operations; no new named actor or discrete indicators."},
         {"date": "2026-09-10", "title": "Detecting and countering misuse of AI: September 2026", "url": "https://www.anthropic.com/threat-intelligence-report-september-2026", "status": "ingested"}
       ]
     },
@@ -23,7 +26,9 @@
         {"date": "2024-10-09", "title": "Influence and cyber operations: an update (October 2024)", "url": "https://cdn.openai.com/threat-intelligence-reports/influence-and-cyber-operations-an-update_October-2024.pdf", "status": "ingested"},
         {"date": "2025-02-21", "title": "Disrupting malicious uses of our models: an update (February 2025)", "url": "https://cdn.openai.com/threat-intelligence-reports/disrupting-malicious-uses-of-our-models-february-2025-update.pdf", "status": "ingested"},
         {"date": "2025-06-05", "title": "Disrupting malicious uses of AI: June 2025", "url": "https://cdn.openai.com/threat-intelligence-reports/5f73af09-a3a3-4a55-992e-069237681620/disrupting-malicious-uses-of-ai-june-2025.pdf", "status": "ingested"},
-        {"date": "2025-10-07", "title": "Disrupting malicious uses of AI: October 2025", "url": "https://cdn.openai.com/threat-intelligence-reports/7d662b68-952f-4dfd-a2f2-fe55b041cc4a/disrupting-malicious-uses-of-ai-october-2025.pdf", "status": "ingested"}
+        {"date": "2025-10-07", "title": "Disrupting malicious uses of AI: October 2025", "url": "https://cdn.openai.com/threat-intelligence-reports/7d662b68-952f-4dfd-a2f2-fe55b041cc4a/disrupting-malicious-uses-of-ai-october-2025.pdf", "status": "ingested"},
+        {"date": "2026-02-25", "title": "Disrupting malicious uses of AI (February 2026)", "url": "https://openai.com/index/disrupting-malicious-ai-uses/", "status": "ingested", "note": "Incl. PRC attempt to discredit Japan PM Takaichi and dissident-harassment content; extracted as actor/TTP rows from OpenAI + secondary coverage - spot-check against source."},
+        {"date": "2026-06-01", "title": "Disrupting malicious uses of AI (June 2026): PRC influence ops targeting US AI/tech-policy debate", "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs/", "status": "ingested", "note": "Tech and Tariffs + ChatGPT-compromise clusters."}
       ]
     },
     "meta": {
@@ -61,6 +66,7 @@
       "reports": [
         {"date": "2025-01-29", "title": "Adversarial Misuse of Generative AI (GTIG)", "url": "https://services.google.com/fh/files/misc/adversarial-misuse-generative-ai.pdf", "status": "ingested"},
         {"date": "2026-02-12", "title": "GTIG AI Threat Tracker", "url": "https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use", "status": "ingested"},
+        {"date": "2026-05-11", "title": "GTIG AI Threat Tracker: Adversaries Leverage AI for Vulnerability Exploitation, Augmented Operations, and Initial Access", "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access", "status": "ingested"},
         {"date": "2026-09-08", "title": "GTIG AI Threat Tracker: From Prompting to Autonomy - The Evolution of Adversarial AI", "url": "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai", "status": "ingested"}
       ]
     },
